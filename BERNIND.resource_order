@@ -1,0 +1,12 @@
+{
+  "FolderOrderSettings":[
+    {"name":"group1","order":2,"path":"folders/group1.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"Font1","order":3,"path":"fonts/Font1/Font1.yy",},
+    {"name":"Note1","order":3,"path":"notes/Note1/Note1.yy",},
+    {"name":"Object1","order":2,"path":"objects/Object1/Object1.yy",},
+    {"name":"Object3","order":1,"path":"objects/Object3/Object3.yy",},
+    {"name":"Sprite15","order":4,"path":"sprites/Sprite15/Sprite15.yy",},
+  ],
+}
