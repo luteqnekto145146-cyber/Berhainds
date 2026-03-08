@@ -5,6 +5,7 @@
     {"name":"MENU","order":7,"path":"folders/MENU.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Note3","order":13,"path":"notes/Note3/Note3.yy",},
     {"name":"зщщщзщ","order":10,"path":"notes/зщщщзщ/зщщщзщ.yy",},
     {"name":"beg_terrei","order":3,"path":"objects/beg_terrei/beg_terrei.yy",},
     {"name":"cont","order":2,"path":"objects/cont/cont.yy",},

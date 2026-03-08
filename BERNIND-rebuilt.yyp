@@ -24,6 +24,7 @@
   "name":"BERNIND-rebuilt",
   "resources":[
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
+    {"id":{"name":"Note3","path":"notes/Note3/Note3.yy",},},
     {"id":{"name":"зщщщзщ","path":"notes/зщщщзщ/зщщщзщ.yy",},},
     {"id":{"name":"beg_terrei","path":"objects/beg_terrei/beg_terrei.yy",},},
     {"id":{"name":"cont","path":"objects/cont/cont.yy",},},
