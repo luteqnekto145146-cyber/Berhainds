@@ -10,8 +10,8 @@
   "name":"settin",
   "overriddenProperties":[],
   "parent":{
-    "name":"Меню",
-    "path":"folders/Меню.yy",
+    "name":"MENU",
+    "path":"folders/MENU.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite14",
-    "path":"sprites/Sprite14/Sprite14.yy",
+    "name":"Sprite9",
+    "path":"sprites/Sprite9/Sprite9.yy",
   },
   "spriteMaskId":null,
   "visible":true,

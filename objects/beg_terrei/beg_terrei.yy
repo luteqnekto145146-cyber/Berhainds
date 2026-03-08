@@ -8,8 +8,8 @@
   "name":"beg_terrei",
   "overriddenProperties":[],
   "parent":{
-    "name":"Terrei",
-    "path":"folders/Глава1/Terrei.yy",
+    "name":"terrei",
+    "path":"folders/glava1/terrei.yy",
   },
   "parentObjectId":null,
   "persistent":false,

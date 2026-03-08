@@ -10,8 +10,8 @@
   "name":"ex",
   "overriddenProperties":[],
   "parent":{
-    "name":"Меню",
-    "path":"folders/Меню.yy",
+    "name":"MENU",
+    "path":"folders/MENU.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite7",
-    "path":"sprites/Sprite7/Sprite7.yy",
+    "name":"Sprite10",
+    "path":"sprites/Sprite10/Sprite10.yy",
   },
   "spriteMaskId":null,
   "visible":true,

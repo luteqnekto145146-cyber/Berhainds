@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Monsters",
-    "path":"folders/Глава2/Monsters.yy",
+    "name":"BERNIND-rebuilt",
+    "path":"BERNIND-rebuilt.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

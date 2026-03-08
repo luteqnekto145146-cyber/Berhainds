@@ -12,15 +12,12 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"BERNIND",
-    "path":"BERNIND.yyp",
+    "name":"BERNIND-rebuilt",
+    "path":"BERNIND-rebuilt.yyp",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
-  "spriteId":{
-    "name":"Sprite12",
-    "path":"sprites/Sprite12/Sprite12.yy",
-  },
+  "spriteId":null,
   "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",

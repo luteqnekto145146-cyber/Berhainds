@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Menu_glav",
-    "path":"folders/Menu_glav.yy",
+    "name":"MENU",
+    "path":"folders/MENU.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

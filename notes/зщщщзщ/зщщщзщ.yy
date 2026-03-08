@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"зщщщзщ",
+  "name":"зщщщзщ",
+  "parent":{
+    "name":"BERNIND-rebuilt",
+    "path":"BERNIND-rebuilt.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

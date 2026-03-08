@@ -9,8 +9,8 @@
   "name":"fade",
   "overriddenProperties":[],
   "parent":{
-    "name":"Переходы",
-    "path":"folders/Переходы.yy",
+    "name":"MENU",
+    "path":"folders/MENU.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite13",
-    "path":"sprites/Sprite13/Sprite13.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

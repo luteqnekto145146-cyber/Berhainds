@@ -10,8 +10,8 @@
   "name":"start",
   "overriddenProperties":[],
   "parent":{
-    "name":"Меню",
-    "path":"folders/Меню.yy",
+    "name":"BERNIND-rebuilt",
+    "path":"BERNIND-rebuilt.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

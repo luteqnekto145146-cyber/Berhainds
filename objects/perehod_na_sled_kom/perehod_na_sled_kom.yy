@@ -9,8 +9,8 @@
   "name":"perehod_na_sled_kom",
   "overriddenProperties":[],
   "parent":{
-    "name":"BERNIND",
-    "path":"BERNIND.yyp",
+    "name":"MENU",
+    "path":"folders/MENU.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Sprite12",
-    "path":"sprites/Sprite12/Sprite12.yy",
+    "name":"Sprite13",
+    "path":"sprites/Sprite13/Sprite13.yy",
   },
   "spriteMaskId":null,
   "visible":true,

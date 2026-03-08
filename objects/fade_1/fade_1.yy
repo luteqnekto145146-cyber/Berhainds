@@ -9,8 +9,8 @@
   "name":"fade_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Переходы",
-    "path":"folders/Переходы.yy",
+    "name":"MENU",
+    "path":"folders/MENU.yy",
   },
   "parentObjectId":null,
   "persistent":false,

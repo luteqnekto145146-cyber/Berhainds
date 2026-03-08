@@ -47,8 +47,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Terrei",
-    "path":"folders/Глава1/Terrei.yy",
+    "name":"terrei",
+    "path":"folders/glava1/terrei.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -22,8 +22,8 @@
   ],
   "name":"Room1",
   "parent":{
-    "name":"Menu_glav",
-    "path":"folders/Menu_glav.yy",
+    "name":"MENU",
+    "path":"folders/MENU.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
