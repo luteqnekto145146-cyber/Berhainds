@@ -5,7 +5,6 @@
     {"name":"MENU","order":7,"path":"folders/MENU.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"Note3","order":13,"path":"notes/Note3/Note3.yy",},
     {"name":"зщщщзщ","order":10,"path":"notes/зщщщзщ/зщщщзщ.yy",},
     {"name":"beg_terrei","order":3,"path":"objects/beg_terrei/beg_terrei.yy",},
     {"name":"cont","order":2,"path":"objects/cont/cont.yy",},
@@ -28,6 +27,8 @@
     {"name":"Sprite15","order":11,"path":"sprites/Sprite15/Sprite15.yy",},
     {"name":"Sprite16","order":12,"path":"sprites/Sprite16/Sprite16.yy",},
     {"name":"Sprite17","order":15,"path":"sprites/Sprite17/Sprite17.yy",},
+    {"name":"Sprite18","order":14,"path":"sprites/Sprite18/Sprite18.yy",},
+    {"name":"Sprite19","order":15,"path":"sprites/Sprite19/Sprite19.yy",},
     {"name":"Sprite8","order":13,"path":"sprites/Sprite8/Sprite8.yy",},
     {"name":"Sprite9","order":14,"path":"sprites/Sprite9/Sprite9.yy",},
   ],

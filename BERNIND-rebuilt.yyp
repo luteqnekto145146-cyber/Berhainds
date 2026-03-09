@@ -24,7 +24,6 @@
   "name":"BERNIND-rebuilt",
   "resources":[
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
-    {"id":{"name":"Note3","path":"notes/Note3/Note3.yy",},},
     {"id":{"name":"зщщщзщ","path":"notes/зщщщзщ/зщщщзщ.yy",},},
     {"id":{"name":"beg_terrei","path":"objects/beg_terrei/beg_terrei.yy",},},
     {"id":{"name":"cont","path":"objects/cont/cont.yy",},},
@@ -51,6 +50,8 @@
     {"id":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},},
     {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},},
     {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},},
+    {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},},
+    {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
     {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},},
     {"id":{"name":"Sprite9","path":"sprites/Sprite9/Sprite9.yy",},},
