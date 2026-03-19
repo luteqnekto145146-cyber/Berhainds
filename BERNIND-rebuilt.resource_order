@@ -2,9 +2,9 @@
   "FolderOrderSettings":[
     {"name":"glava1","order":1,"path":"folders/glava1.yy",},
     {"name":"monster","order":1,"path":"folders/glava1/monster.yy",},
+    {"name":"artilerrei","order":2,"path":"folders/glava1/monster/artilerrei.yy",},
     {"name":"kamikadze","order":1,"path":"folders/glava1/monster/kamikadze.yy",},
     {"name":"MENU","order":7,"path":"folders/MENU.yy",},
-    {"name":"artilerrei","order":2,"path":"folders/glava1/monster/artilerrei.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"зщщщзщ","order":10,"path":"notes/зщщщзщ/зщщщзщ.yy",},
