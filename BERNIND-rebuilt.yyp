@@ -12,11 +12,11 @@
   "Folders":[
     {"$GMFolder":"","%Name":"glava1","folderPath":"folders/glava1.yy","name":"glava1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"monster","folderPath":"folders/glava1/monster.yy","name":"monster","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"artilerrei","folderPath":"folders/glava1/monster/artilerrei.yy","name":"artilerrei","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"kamikadze","folderPath":"folders/glava1/monster/kamikadze.yy","name":"kamikadze","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"magic","folderPath":"folders/glava1/monster/magic.yy","name":"magic","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"terrei","folderPath":"folders/glava1/terrei.yy","name":"terrei","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"MENU","folderPath":"folders/MENU.yy","name":"MENU","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"artilerrei","folderPath":"folders/glava1/monster/artilerrei.yy","name":"artilerrei","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
