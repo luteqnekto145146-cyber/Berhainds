@@ -8,7 +8,15 @@ if(position_meeting(mouse_x, mouse_y, id)){	/// @DnDAction : YoYo Games.Common
 	/// @DnDParent : 6030B280
 	/// @DnDArgument : "expr" "base_scale * 1.1"
 	/// @DnDArgument : "var" "target_scale"
-	target_scale = base_scale * 1.1;}
+	target_scale = base_scale * 1.1;
+
+	/// @DnDAction : YoYo Games.Instances.Color_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 7D773432
+	/// @DnDParent : 6030B280
+	/// @DnDArgument : "colour" "$FF7F7F7F"
+	image_blend = $FF7F7F7F & $ffffff;
+	image_alpha = ($FF7F7F7F >> 24) / $ff;}
 
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1
