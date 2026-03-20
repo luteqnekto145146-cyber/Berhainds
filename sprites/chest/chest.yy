@@ -1,8 +1,8 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Sprite21",
+  "%Name":"chest",
   "bboxMode":0,
-  "bbox_bottom":47,
+  "bbox_bottom":46,
   "bbox_left":17,
   "bbox_right":47,
   "bbox_top":29,
@@ -14,26 +14,26 @@
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"0af0aa35-4d74-4c97-bf92-faecc6d7c790","name":"0af0aa35-4d74-4c97-bf92-faecc6d7c790","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
-  "gridX":0,
-  "gridY":0,
+  "gridX":6,
+  "gridY":12,
   "height":64,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"a0154bd5-1df9-4329-82d1-f14f31a52a02","blendMode":0,"displayName":"default","isLocked":false,"name":"a0154bd5-1df9-4329-82d1-f14f31a52a02","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Sprite21",
+  "name":"chest",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BERNIND-rebuilt",
-    "path":"BERNIND-rebuilt.yyp",
+    "name":"veshi",
+    "path":"folders/glava1/veshi.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Sprite21",
+    "%Name":"chest",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Sprite21",
+    "name":"chest",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0af0aa35-4d74-4c97-bf92-faecc6d7c790","path":"sprites/Sprite21/Sprite21.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0af0aa35-4d74-4c97-bf92-faecc6d7c790","path":"sprites/chest/chest.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"7b04fa2a-0ab1-4eb5-ace6-f12081385b9b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

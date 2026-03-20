@@ -5,6 +5,7 @@
     {"name":"artilerrei","order":2,"path":"folders/glava1/monster/artilerrei.yy",},
     {"name":"kamikadze","order":1,"path":"folders/glava1/monster/kamikadze.yy",},
     {"name":"MENU","order":7,"path":"folders/MENU.yy",},
+    {"name":"veshi","order":2,"path":"folders/glava1/veshi.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"зщщщзщ","order":10,"path":"notes/зщщщзщ/зщщщзщ.yy",},
@@ -30,7 +31,6 @@
     {"name":"Sprite16","order":12,"path":"sprites/Sprite16/Sprite16.yy",},
     {"name":"Sprite17","order":14,"path":"sprites/Sprite17/Sprite17.yy",},
     {"name":"Sprite20","order":13,"path":"sprites/Sprite20/Sprite20.yy",},
-    {"name":"Sprite21","order":15,"path":"sprites/Sprite21/Sprite21.yy",},
     {"name":"Sprite8","order":13,"path":"sprites/Sprite8/Sprite8.yy",},
     {"name":"Sprite9","order":14,"path":"sprites/Sprite9/Sprite9.yy",},
     {"name":"White_mag","order":2,"path":"sprites/White_mag/White_mag.yy",},
