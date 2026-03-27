@@ -22,6 +22,7 @@
     {"name":"Object9","order":9,"path":"objects/Object9/Object9.yy",},
     {"name":"perehod_na_sled_kom","order":3,"path":"objects/perehod_na_sled_kom/perehod_na_sled_kom.yy",},
     {"name":"settin","order":8,"path":"objects/settin/settin.yy",},
+    {"name":"start","order":15,"path":"objects/start/start.yy",},
     {"name":"Room1","order":4,"path":"rooms/Room1/Room1.yy",},
     {"name":"Settings_Menu","order":5,"path":"rooms/Settings_Menu/Settings_Menu.yy",},
     {"name":"ANM_Beg_Terrei","order":1,"path":"sprites/ANM_Beg_Terrei/ANM_Beg_Terrei.yy",},
