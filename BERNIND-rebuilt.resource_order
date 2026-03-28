@@ -49,6 +49,8 @@
     {"name":"Sprite20","order":13,"path":"sprites/Sprite20/Sprite20.yy",},
     {"name":"Sprite29","order":15,"path":"sprites/Sprite29/Sprite29.yy",},
     {"name":"Sprite38","order":17,"path":"sprites/Sprite38/Sprite38.yy",},
+    {"name":"Sprite51","order":30,"path":"sprites/Sprite51/Sprite51.yy",},
+    {"name":"Sprite52","order":31,"path":"sprites/Sprite52/Sprite52.yy",},
     {"name":"Sprite8","order":13,"path":"sprites/Sprite8/Sprite8.yy",},
     {"name":"Sprite9","order":14,"path":"sprites/Sprite9/Sprite9.yy",},
     {"name":"unforgettable","order":18,"path":"sprites/unforgettable/unforgettable.yy",},
