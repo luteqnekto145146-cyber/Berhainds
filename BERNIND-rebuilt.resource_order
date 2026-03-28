@@ -3,6 +3,7 @@
     {"name":"glava1","order":1,"path":"folders/glava1.yy",},
     {"name":"monster","order":1,"path":"folders/glava1/monster.yy",},
     {"name":"artilerrei","order":2,"path":"folders/glava1/monster/artilerrei.yy",},
+    {"name":"blishni_boi","order":3,"path":"folders/glava1/monster/blishni_boi.yy",},
     {"name":"kamikadze","order":1,"path":"folders/glava1/monster/kamikadze.yy",},
     {"name":"oryshie","order":3,"path":"folders/glava1/oryshie.yy",},
     {"name":"Suriken","order":1,"path":"folders/glava1/oryshie/Suriken.yy",},
@@ -11,7 +12,6 @@
     {"name":"veshi","order":2,"path":"folders/glava1/veshi.yy",},
     {"name":"flower_pot","order":5,"path":"folders/glava1/veshi/flower_pot.yy",},
     {"name":"MENU","order":7,"path":"folders/MENU.yy",},
-    {"name":"blishni_boi","order":3,"path":"folders/glava1/monster/blishni_boi.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"зщщщзщ","order":10,"path":"notes/зщщщзщ/зщщщзщ.yy",},
@@ -24,6 +24,7 @@
     {"name":"perehod_na_sled_kom","order":3,"path":"objects/perehod_na_sled_kom/perehod_na_sled_kom.yy",},
     {"name":"settin","order":8,"path":"objects/settin/settin.yy",},
     {"name":"Room1","order":4,"path":"rooms/Room1/Room1.yy",},
+    {"name":"Room4","order":29,"path":"rooms/Room4/Room4.yy",},
     {"name":"Settings_Menu","order":5,"path":"rooms/Settings_Menu/Settings_Menu.yy",},
     {"name":"ANM_Beg_Terrei","order":1,"path":"sprites/ANM_Beg_Terrei/ANM_Beg_Terrei.yy",},
     {"name":"ANM_Beg_TerrLEFT","order":2,"path":"sprites/ANM_Beg_TerrLEFT/ANM_Beg_TerrLEFT.yy",},
