@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Sprite39",
+  "%Name":"bi_strash_mosta",
   "bboxMode":0,
-  "bbox_bottom":54,
-  "bbox_left":12,
-  "bbox_right":59,
+  "bbox_bottom":52,
+  "bbox_left":4,
+  "bbox_right":54,
   "bbox_top":11,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -21,19 +21,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"61ae0742-aaa5-4c0d-844b-8157dbb6e7e8","blendMode":0,"displayName":"default","isLocked":false,"name":"61ae0742-aaa5-4c0d-844b-8157dbb6e7e8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Sprite39",
+  "name":"bi_strash_mosta",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BERNIND-rebuilt",
-    "path":"BERNIND-rebuilt.yyp",
+    "name":"blishni_boi",
+    "path":"folders/glava1/monster/blishni_boi.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Sprite39",
+    "%Name":"bi_strash_mosta",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Sprite39",
+    "name":"bi_strash_mosta",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0bdd5166-2ec1-4b0a-b0e6-6f9e259f7736","path":"sprites/Sprite39/Sprite39.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0bdd5166-2ec1-4b0a-b0e6-6f9e259f7736","path":"sprites/bi_strash_mosta/bi_strash_mosta.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"f1b4aff1-e5e9-4f5f-9b80-033ddbd710f0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
