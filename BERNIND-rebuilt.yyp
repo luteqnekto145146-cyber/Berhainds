@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":1,
+  "defaultScriptType":2,
   "Folders":[
     {"$GMFolder":"","%Name":"glava1","folderPath":"folders/glava1.yy","name":"glava1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"monster","folderPath":"folders/glava1/monster.yy","name":"monster","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.14.4.221",
   },
   "name":"BERNIND-rebuilt",
   "resources":[
