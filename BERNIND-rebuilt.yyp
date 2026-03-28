@@ -45,11 +45,13 @@
     {"id":{"name":"perehod_na_sled_kom","path":"objects/perehod_na_sled_kom/perehod_na_sled_kom.yy",},},
     {"id":{"name":"settin","path":"objects/settin/settin.yy",},},
     {"id":{"name":"start","path":"objects/start/start.yy",},},
+    {"id":{"name":"strleka","path":"objects/strleka/strleka.yy",},},
     {"id":{"name":"menu_i","path":"rooms/menu_i/menu_i.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Settings_Menu","path":"rooms/Settings_Menu/Settings_Menu.yy",},},
     {"id":{"name":"ANM_Beg_Terrei","path":"sprites/ANM_Beg_Terrei/ANM_Beg_Terrei.yy",},},
     {"id":{"name":"ANM_Beg_TerrLEFT","path":"sprites/ANM_Beg_TerrLEFT/ANM_Beg_TerrLEFT.yy",},},
+    {"id":{"name":"backeryn","path":"sprites/backeryn/backeryn.yy",},},
     {"id":{"name":"beg_terrei_pered","path":"sprites/beg_terrei_pered/beg_terrei_pered.yy",},},
     {"id":{"name":"beg_Terrei_zad","path":"sprites/beg_Terrei_zad/beg_Terrei_zad.yy",},},
     {"id":{"name":"big_2hends_sword","path":"sprites/big_2hends_sword/big_2hends_sword.yy",},},
@@ -94,8 +96,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"menu_i","path":"rooms/menu_i/menu_i.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Settings_Menu","path":"rooms/Settings_Menu/Settings_Menu.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
