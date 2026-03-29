@@ -3,6 +3,7 @@
     {"name":"glava1","order":1,"path":"folders/glava1.yy",},
     {"name":"monster","order":1,"path":"folders/glava1/monster.yy",},
     {"name":"artilerrei","order":2,"path":"folders/glava1/monster/artilerrei.yy",},
+    {"name":"blishni_boi","order":3,"path":"folders/glava1/monster/blishni_boi.yy",},
     {"name":"kamikadze","order":1,"path":"folders/glava1/monster/kamikadze.yy",},
     {"name":"oryshie","order":3,"path":"folders/glava1/oryshie.yy",},
     {"name":"Suriken","order":1,"path":"folders/glava1/oryshie/Suriken.yy",},
@@ -11,7 +12,6 @@
     {"name":"veshi","order":2,"path":"folders/glava1/veshi.yy",},
     {"name":"flower_pot","order":5,"path":"folders/glava1/veshi/flower_pot.yy",},
     {"name":"MENU","order":7,"path":"folders/MENU.yy",},
-    {"name":"blishni_boi","order":3,"path":"folders/glava1/monster/blishni_boi.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"зщщщзщ","order":10,"path":"notes/зщщщзщ/зщщщзщ.yy",},

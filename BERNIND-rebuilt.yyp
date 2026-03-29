@@ -13,6 +13,7 @@
     {"$GMFolder":"","%Name":"glava1","folderPath":"folders/glava1.yy","name":"glava1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"monster","folderPath":"folders/glava1/monster.yy","name":"monster","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"artilerrei","folderPath":"folders/glava1/monster/artilerrei.yy","name":"artilerrei","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"blishni_boi","folderPath":"folders/glava1/monster/blishni_boi.yy","name":"blishni_boi","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"kamikadze","folderPath":"folders/glava1/monster/kamikadze.yy","name":"kamikadze","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"magic","folderPath":"folders/glava1/monster/magic.yy","name":"magic","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"oryshie","folderPath":"folders/glava1/oryshie.yy","name":"oryshie","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -24,14 +25,13 @@
     {"$GMFolder":"","%Name":"veshi","folderPath":"folders/glava1/veshi.yy","name":"veshi","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"flower_pot","folderPath":"folders/glava1/veshi/flower_pot.yy","name":"flower_pot","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"MENU","folderPath":"folders/MENU.yy","name":"MENU","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"blishni_boi","folderPath":"folders/glava1/monster/blishni_boi.yy","name":"blishni_boi","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.14.4.221",
   },
   "name":"BERNIND-rebuilt",
   "resources":[
