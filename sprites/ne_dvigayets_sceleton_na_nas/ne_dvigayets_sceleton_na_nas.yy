@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"sceleton",
+  "%Name":"ne_dvigayets_sceleton_na_nas",
   "bboxMode":0,
   "bbox_bottom":45,
   "bbox_left":23,
@@ -21,19 +21,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"f3ee40f2-35e5-4cf5-b1b5-a6aa6bcaaa00","blendMode":0,"displayName":"default","isLocked":false,"name":"f3ee40f2-35e5-4cf5-b1b5-a6aa6bcaaa00","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"sceleton",
+  "name":"ne_dvigayets_sceleton_na_nas",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BERNIND-rebuilt",
-    "path":"BERNIND-rebuilt.yyp",
+    "name":"sceleton",
+    "path":"folders/glava1/monster/blishni_boi/sceleton.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"sceleton",
+    "%Name":"ne_dvigayets_sceleton_na_nas",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"sceleton",
+    "name":"ne_dvigayets_sceleton_na_nas",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1fb4ecf8-2d33-4c51-87c4-0d29897a04a2","path":"sprites/sceleton/sceleton.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1fb4ecf8-2d33-4c51-87c4-0d29897a04a2","path":"sprites/ne_dvigayets_sceleton_na_nas/ne_dvigayets_sceleton_na_nas.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"c568e29d-7957-43e9-ac72-3ff12f5c2394","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
