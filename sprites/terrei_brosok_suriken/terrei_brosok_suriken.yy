@@ -3,8 +3,8 @@
   "%Name":"terrei_brosok_suriken",
   "bboxMode":0,
   "bbox_bottom":46,
-  "bbox_left":19,
-  "bbox_right":45,
+  "bbox_left":25,
+  "bbox_right":44,
   "bbox_top":9,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -14,11 +14,13 @@
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"e66860c6-68ca-4dff-9f55-89b3d9012db3","name":"e66860c6-68ca-4dff-9f55-89b3d9012db3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"5de2af09-5d9c-49ad-aed0-6ffa93326835","name":"5de2af09-5d9c-49ad-aed0-6ffa93326835","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2ea9caf7-9af0-41f7-af13-bd422f282d88","name":"2ea9caf7-9af0-41f7-af13-bd422f282d88","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"75f86b63-8ab6-4653-9936-7bc346e8f8dd","name":"75f86b63-8ab6-4653-9936-7bc346e8f8dd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"63b63f45-2446-4ac9-a963-1ae57e462643","name":"63b63f45-2446-4ac9-a963-1ae57e462643","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"2a6bea36-1715-44df-a2ad-eed8194473f1","name":"2a6bea36-1715-44df-a2ad-eed8194473f1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"03f1b97d-e5d2-4b29-b061-1dfec81ce83c","name":"03f1b97d-e5d2-4b29-b061-1dfec81ce83c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"c4aff39c-7879-44c6-ad07-50e77e79ab72","name":"c4aff39c-7879-44c6-ad07-50e77e79ab72","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b404c753-773e-4b6e-95d5-a7c8244ff072","name":"b404c753-773e-4b6e-95d5-a7c8244ff072","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a1791432-96fe-4eec-8f4e-233dc5788bbd","name":"a1791432-96fe-4eec-8f4e-233dc5788bbd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -55,7 +57,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":7.0,
+    "length":9.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -81,20 +83,26 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5de2af09-5d9c-49ad-aed0-6ffa93326835","path":"sprites/terrei_brosok_suriken/terrei_brosok_suriken.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"5a86da8f-7e5a-4c51-b0eb-484f0193d6d8","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2ea9caf7-9af0-41f7-af13-bd422f282d88","path":"sprites/terrei_brosok_suriken/terrei_brosok_suriken.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"576fb02b-adfb-4ee7-a196-dd894cc4d9f9","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"75f86b63-8ab6-4653-9936-7bc346e8f8dd","path":"sprites/terrei_brosok_suriken/terrei_brosok_suriken.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"45d90046-57e3-4f2e-b48e-9de6357bf33f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"45d90046-57e3-4f2e-b48e-9de6357bf33f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"63b63f45-2446-4ac9-a963-1ae57e462643","path":"sprites/terrei_brosok_suriken/terrei_brosok_suriken.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9e8e3430-a3b7-4fa7-8819-7c3a25bdc17a","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2a6bea36-1715-44df-a2ad-eed8194473f1","path":"sprites/terrei_brosok_suriken/terrei_brosok_suriken.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"91473f85-64b7-4447-8385-f744538d30ab","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"9e8e3430-a3b7-4fa7-8819-7c3a25bdc17a","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"03f1b97d-e5d2-4b29-b061-1dfec81ce83c","path":"sprites/terrei_brosok_suriken/terrei_brosok_suriken.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"91c7c1bf-ee00-4075-bacc-f97c65d280e3","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c4aff39c-7879-44c6-ad07-50e77e79ab72","path":"sprites/terrei_brosok_suriken/terrei_brosok_suriken.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"0333c8bb-4700-409b-a628-380a5c52e30d","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b404c753-773e-4b6e-95d5-a7c8244ff072","path":"sprites/terrei_brosok_suriken/terrei_brosok_suriken.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7759515f-dac8-4db0-bf6c-e3b35684906d","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a1791432-96fe-4eec-8f4e-233dc5788bbd","path":"sprites/terrei_brosok_suriken/terrei_brosok_suriken.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"56fbe9ac-33c2-4b14-8e0c-6ff841c1eed9","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
