@@ -31,8 +31,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BERNIND-rebuilt",
-    "path":"BERNIND-rebuilt.yyp",
+    "name":"fon_menu",
+    "path":"folders/MENU/fon_menu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

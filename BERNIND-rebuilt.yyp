@@ -26,6 +26,7 @@
     {"$GMFolder":"","%Name":"veshi","folderPath":"folders/glava1/veshi.yy","name":"veshi","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"flower_pot","folderPath":"folders/glava1/veshi/flower_pot.yy","name":"flower_pot","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"MENU","folderPath":"folders/MENU.yy","name":"MENU","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"fon_menu","folderPath":"folders/MENU/fon_menu.yy","name":"fon_menu","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],

@@ -6,8 +6,8 @@
   "name":"Object9",
   "overriddenProperties":[],
   "parent":{
-    "name":"BERNIND-rebuilt",
-    "path":"BERNIND-rebuilt.yyp",
+    "name":"fon_menu",
+    "path":"folders/MENU/fon_menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
