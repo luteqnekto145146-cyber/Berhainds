@@ -41,6 +41,7 @@
     {"name":"candle","order":1,"path":"sprites/candle/candle.yy",},
     {"name":"flower_pot_V2","order":1,"path":"sprites/flower_pot_V2/flower_pot_V2.yy",},
     {"name":"green_mag","order":1,"path":"sprites/green_mag/green_mag.yy",},
+    {"name":"idet_na_nas_sceleton","order":15,"path":"sprites/idet_na_nas_sceleton/idet_na_nas_sceleton.yy",},
     {"name":"idet_ot_nas_zombie","order":1,"path":"sprites/idet_ot_nas_zombie/idet_ot_nas_zombie.yy",},
     {"name":"idet_v_levo_zombie","order":2,"path":"sprites/idet_v_levo_zombie/idet_v_levo_zombie.yy",},
     {"name":"idet_v_pravo_zombie","order":3,"path":"sprites/idet_v_pravo_zombie/idet_v_pravo_zombie.yy",},

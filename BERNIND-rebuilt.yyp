@@ -69,6 +69,7 @@
     {"id":{"name":"Fon_Xram","path":"sprites/Fon_Xram/Fon_Xram.yy",},},
     {"id":{"name":"golem","path":"sprites/golem/golem.yy",},},
     {"id":{"name":"green_mag","path":"sprites/green_mag/green_mag.yy",},},
+    {"id":{"name":"idet_na_nas_sceleton","path":"sprites/idet_na_nas_sceleton/idet_na_nas_sceleton.yy",},},
     {"id":{"name":"idet_na_nas_zombie","path":"sprites/idet_na_nas_zombie/idet_na_nas_zombie.yy",},},
     {"id":{"name":"idet_ot_nas_zombie","path":"sprites/idet_ot_nas_zombie/idet_ot_nas_zombie.yy",},},
     {"id":{"name":"idet_v_levo_zombie","path":"sprites/idet_v_levo_zombie/idet_v_levo_zombie.yy",},},
