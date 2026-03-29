@@ -48,6 +48,7 @@
     {"name":"ne_dvigayetsa_zombie_ot_nas","order":5,"path":"sprites/ne_dvigayetsa_zombie_ot_nas/ne_dvigayetsa_zombie_ot_nas.yy",},
     {"name":"ne_dvigayetsa_zombie_v_levo","order":6,"path":"sprites/ne_dvigayetsa_zombie_v_levo/ne_dvigayetsa_zombie_v_levo.yy",},
     {"name":"ne_dvigayetsa_zombie_v_pravo","order":7,"path":"sprites/ne_dvigayetsa_zombie_v_pravo/ne_dvigayetsa_zombie_v_pravo.yy",},
+    {"name":"sceleton","order":15,"path":"sprites/sceleton/sceleton.yy",},
     {"name":"skibidishop","order":9,"path":"sprites/skibidishop/skibidishop.yy",},
     {"name":"spr_eihgtzubshatei_medni_suriken","order":1,"path":"sprites/spr_eihgtzubshatei_medni_suriken/spr_eihgtzubshatei_medni_suriken.yy",},
     {"name":"spr_fourzubchati_Mettal_suriken","order":4,"path":"sprites/spr_fourzubchati_Mettal_suriken/spr_fourzubchati_Mettal_suriken.yy",},
