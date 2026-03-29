@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BERNIND-rebuilt",
-    "path":"BERNIND-rebuilt.yyp",
+    "name":"zombi",
+    "path":"folders/glava1/monster/blishni_boi/zombi.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
