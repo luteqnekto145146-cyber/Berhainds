@@ -1,3 +1,11 @@
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 07D256EF
+/// @DnDArgument : "var" "sprite_index"
+/// @DnDArgument : "not" "1"
+/// @DnDArgument : "value" "terrei_brosok_suriken"
+if(!(sprite_index == terrei_brosok_suriken)){}
+
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
 /// @DnDHash : 4D7500B5
@@ -33,6 +41,14 @@ var l4D7500B5_0;l4D7500B5_0 = keyboard_check(ord("W"));if (l4D7500B5_0){	///
 	/// @DnDHash : 00EC05EB
 	/// @DnDParent : 4D7500B5
 	image_speed = 1;}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 419D14D0
+/// @DnDArgument : "var" "sprite_index"
+/// @DnDArgument : "not" "1"
+/// @DnDArgument : "value" "terrei_brosok_suriken"
+if(!(sprite_index == terrei_brosok_suriken)){}
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
@@ -70,6 +86,14 @@ var l0FA922D7_0;l0FA922D7_0 = keyboard_check(ord("D"));if (l0FA922D7_0){	///
 	/// @DnDParent : 0FA922D7
 	image_speed = 1;}
 
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 62C17635
+/// @DnDArgument : "var" "sprite_index"
+/// @DnDArgument : "not" "1"
+/// @DnDArgument : "value" "terrei_brosok_suriken"
+if(!(sprite_index == terrei_brosok_suriken)){}
+
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
 /// @DnDHash : 18F5A694
@@ -106,6 +130,14 @@ var l18F5A694_0;l18F5A694_0 = keyboard_check(ord("S"));if (l18F5A694_0){	///
 	/// @DnDParent : 18F5A694
 	image_speed = 1;}
 
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 17E9C070
+/// @DnDArgument : "var" "sprite_index"
+/// @DnDArgument : "not" "1"
+/// @DnDArgument : "value" "terrei_brosok_suriken"
+if(!(sprite_index == terrei_brosok_suriken)){}
+
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
 /// @DnDHash : 043299E8
@@ -141,6 +173,14 @@ var l043299E8_0;l043299E8_0 = keyboard_check(ord("A"));if (l043299E8_0){	///
 	/// @DnDHash : 7ED51B51
 	/// @DnDParent : 043299E8
 	image_speed = 1;}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 29C5728A
+/// @DnDArgument : "var" "sprite_index"
+/// @DnDArgument : "not" "1"
+/// @DnDArgument : "value" "terrei_brosok_suriken"
+if(!(sprite_index == terrei_brosok_suriken)){}
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Released
 /// @DnDVersion : 1
@@ -185,6 +225,14 @@ var l04CFAE1E_0;l04CFAE1E_0 = keyboard_check_released(ord("D"));if (l04CFAE1E_
 	/// @DnDArgument : "speed" "0"
 	image_speed = 0;}
 
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 23D0452F
+/// @DnDArgument : "var" "sprite_index"
+/// @DnDArgument : "not" "1"
+/// @DnDArgument : "value" "terrei_brosok_suriken"
+if(!(sprite_index == terrei_brosok_suriken)){}
+
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Released
 /// @DnDVersion : 1
 /// @DnDHash : 5C01172F
@@ -228,6 +276,14 @@ var l5C01172F_0;l5C01172F_0 = keyboard_check_released(ord("S"));if (l5C01172F_
 	/// @DnDArgument : "speed" "0"
 	image_speed = 0;}
 
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5766901F
+/// @DnDArgument : "var" "sprite_index"
+/// @DnDArgument : "not" "1"
+/// @DnDArgument : "value" "terrei_brosok_suriken"
+if(!(sprite_index == terrei_brosok_suriken)){}
+
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Released
 /// @DnDVersion : 1
 /// @DnDHash : 50683315
@@ -270,6 +326,14 @@ var l50683315_0;l50683315_0 = keyboard_check_released(ord("W"));if (l50683315_
 	/// @DnDParent : 50683315
 	/// @DnDArgument : "speed" "0"
 	image_speed = 0;}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 13485E8A
+/// @DnDArgument : "var" "sprite_index"
+/// @DnDArgument : "not" "1"
+/// @DnDArgument : "value" "terrei_brosok_suriken"
+if(!(sprite_index == terrei_brosok_suriken)){}
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Released
 /// @DnDVersion : 1
