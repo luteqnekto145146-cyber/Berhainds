@@ -70,6 +70,7 @@
     {"name":"unforgettable","order":1,"path":"sprites/unforgettable/unforgettable.yy",},
     {"name":"watch","order":2,"path":"sprites/watch/watch.yy",},
     {"name":"White_mag","order":2,"path":"sprites/White_mag/White_mag.yy",},
+    {"name":"zombie_die","order":8,"path":"sprites/zombie_die/zombie_die.yy",},
     {"name":"TileSet1","order":1,"path":"tilesets/TileSet1/TileSet1.yy",},
   ],
 }
