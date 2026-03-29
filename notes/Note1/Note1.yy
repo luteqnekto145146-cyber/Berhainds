@@ -3,8 +3,8 @@
   "%Name":"Note1",
   "name":"Note1",
   "parent":{
-    "name":"BERNIND-rebuilt",
-    "path":"BERNIND-rebuilt.yyp",
+    "name":"veshi",
+    "path":"folders/glava1/veshi.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",
