@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object9",
+  "%Name":"Object11",
   "eventList":[],
   "managed":true,
-  "name":"Object9",
+  "name":"Object11",
   "overriddenProperties":[],
   "parent":{
     "name":"BERNIND-rebuilt",
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite14",
-    "path":"sprites/Sprite14/Sprite14.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
