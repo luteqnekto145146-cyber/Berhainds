@@ -3,9 +3,10 @@
   "%Name":"TileSet1",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":13,
+    "SerialiseWidth":13,
+    "TileCompressedData":[-169,0,],
+    "TileDataFormat":1,
   },
   "name":"TileSet1",
   "out_columns":1,
@@ -17,7 +18,10 @@
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite60",
+    "path":"sprites/Sprite60/Sprite60.yy",
+  },
   "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",
