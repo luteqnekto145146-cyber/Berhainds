@@ -34,10 +34,11 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.221",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"BERNIND-rebuilt",
   "resources":[
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
     {"id":{"name":"зщщщзщ","path":"notes/зщщщзщ/зщщщзщ.yy",},},
     {"id":{"name":"beg_terrei","path":"objects/beg_terrei/beg_terrei.yy",},},
@@ -112,6 +113,7 @@
     {"id":{"name":"Sprite38","path":"sprites/Sprite38/Sprite38.yy",},},
     {"id":{"name":"Sprite52","path":"sprites/Sprite52/Sprite52.yy",},},
     {"id":{"name":"Sprite60","path":"sprites/Sprite60/Sprite60.yy",},},
+    {"id":{"name":"Sprite65","path":"sprites/Sprite65/Sprite65.yy",},},
     {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},},
     {"id":{"name":"Sprite9","path":"sprites/Sprite9/Sprite9.yy",},},
     {"id":{"name":"sproite","path":"sprites/sproite/sproite.yy",},},
