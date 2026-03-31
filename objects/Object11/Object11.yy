@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"Object11",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Object11",
   "overriddenProperties":[],
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sproite",
+    "path":"sprites/sproite/sproite.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
