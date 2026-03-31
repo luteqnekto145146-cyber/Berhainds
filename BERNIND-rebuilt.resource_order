@@ -35,7 +35,6 @@
     {"name":"menu_i","order":3,"path":"rooms/menu_i/menu_i.yy",},
     {"name":"Room1","order":7,"path":"rooms/Room1/Room1.yy",},
     {"name":"Settings_Menu","order":8,"path":"rooms/Settings_Menu/Settings_Menu.yy",},
-    {"name":"Sound1","order":37,"path":"sounds/Sound1/Sound1.yy",},
     {"name":"ANM_Beg_Terrei","order":1,"path":"sprites/ANM_Beg_Terrei/ANM_Beg_Terrei.yy",},
     {"name":"ANM_Beg_TerrLEFT","order":2,"path":"sprites/ANM_Beg_TerrLEFT/ANM_Beg_TerrLEFT.yy",},
     {"name":"backeryn","order":2,"path":"sprites/backeryn/backeryn.yy",},
