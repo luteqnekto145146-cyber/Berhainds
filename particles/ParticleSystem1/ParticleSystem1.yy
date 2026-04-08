@@ -13,8 +13,8 @@
   ],
   "name":"ParticleSystem1",
   "parent":{
-    "name":"BERNIND-rebuilt",
-    "path":"BERNIND-rebuilt.yyp",
+    "name":"necorter",
+    "path":"folders/necorter.yy",
   },
   "resourceType":"GMParticleSystem",
   "resourceVersion":"2.0",

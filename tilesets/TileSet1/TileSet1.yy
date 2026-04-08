@@ -13,8 +13,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"BERNIND-rebuilt",
-    "path":"BERNIND-rebuilt.yyp",
+    "name":"necorter",
+    "path":"folders/necorter.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

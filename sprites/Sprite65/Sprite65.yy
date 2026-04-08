@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BERNIND-rebuilt",
-    "path":"BERNIND-rebuilt.yyp",
+    "name":"necorter",
+    "path":"folders/necorter.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

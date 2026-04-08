@@ -191,8 +191,8 @@
   "maintainGms1Font":false,
   "name":"Font1",
   "parent":{
-    "name":"BERNIND-rebuilt",
-    "path":"BERNIND-rebuilt.yyp",
+    "name":"necorter",
+    "path":"folders/necorter.yy",
   },
   "pointRounding":0,
   "ranges":[

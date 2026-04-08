@@ -14,8 +14,8 @@
   ],
   "name":"room_cod_most",
   "parent":{
-    "name":"BERNIND-rebuilt",
-    "path":"BERNIND-rebuilt.yyp",
+    "name":"necorter",
+    "path":"folders/necorter.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

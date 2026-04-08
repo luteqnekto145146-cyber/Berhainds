@@ -3,8 +3,8 @@
   "%Name":"зщщщзщ",
   "name":"зщщщзщ",
   "parent":{
-    "name":"BERNIND-rebuilt",
-    "path":"BERNIND-rebuilt.yyp",
+    "name":"necorter",
+    "path":"folders/necorter.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",
