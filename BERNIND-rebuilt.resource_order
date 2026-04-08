@@ -14,6 +14,7 @@
     {"name":"flower_pot","order":3,"path":"folders/glava1/veshi/flower_pot.yy",},
     {"name":"MENU","order":3,"path":"folders/MENU.yy",},
     {"name":"fon_menu","order":18,"path":"folders/MENU/fon_menu.yy",},
+    {"name":"necorter","order":44,"path":"folders/necorter.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"Font1","order":39,"path":"fonts/Font1/Font1.yy",},
