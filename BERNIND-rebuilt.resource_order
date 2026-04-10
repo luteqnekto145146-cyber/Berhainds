@@ -84,6 +84,8 @@
     {"name":"Sprite66","order":16,"path":"sprites/Sprite66/Sprite66.yy",},
     {"name":"Sprite67","order":14,"path":"sprites/Sprite67/Sprite67.yy",},
     {"name":"Sprite68","order":23,"path":"sprites/Sprite68/Sprite68.yy",},
+    {"name":"Sprite69","order":45,"path":"sprites/Sprite69/Sprite69.yy",},
+    {"name":"Sprite70","order":48,"path":"sprites/Sprite70/Sprite70.yy",},
     {"name":"Sprite8","order":16,"path":"sprites/Sprite8/Sprite8.yy",},
     {"name":"Sprite9","order":17,"path":"sprites/Sprite9/Sprite9.yy",},
     {"name":"sproite","order":20,"path":"sprites/sproite/sproite.yy",},
@@ -93,5 +95,7 @@
     {"name":"White_mag","order":2,"path":"sprites/White_mag/White_mag.yy",},
     {"name":"zombie_die","order":8,"path":"sprites/zombie_die/zombie_die.yy",},
     {"name":"TileSet1","order":21,"path":"tilesets/TileSet1/TileSet1.yy",},
+    {"name":"TileSet2","order":46,"path":"tilesets/TileSet2/TileSet2.yy",},
+    {"name":"TileSet3","order":47,"path":"tilesets/TileSet3/TileSet3.yy",},
   ],
 }
