@@ -6,8 +6,8 @@
   "name":"Object14",
   "overriddenProperties":[],
   "parent":{
-    "name":"BERNIND-rebuilt",
-    "path":"BERNIND-rebuilt.yyp",
+    "name":"necorter",
+    "path":"folders/necorter.yy",
   },
   "parentObjectId":null,
   "persistent":false,
