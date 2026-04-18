@@ -47,6 +47,7 @@
     {"name":"beg_terrei_pered","order":3,"path":"sprites/beg_terrei_pered/beg_terrei_pered.yy",},
     {"name":"Black_mag","order":3,"path":"sprites/Black_mag/Black_mag.yy",},
     {"name":"candle","order":4,"path":"sprites/candle/candle.yy",},
+    {"name":"ESCAPE_POD","order":5,"path":"sprites/ESCAPE_POD/ESCAPE_POD.yy",},
     {"name":"flower_pot_V2","order":1,"path":"sprites/flower_pot_V2/flower_pot_V2.yy",},
     {"name":"Fon_Xram","order":1,"path":"sprites/Fon_Xram/Fon_Xram.yy",},
     {"name":"green_mag","order":1,"path":"sprites/green_mag/green_mag.yy",},

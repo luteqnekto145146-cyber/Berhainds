@@ -74,6 +74,7 @@
     {"id":{"name":"Blue_mag","path":"sprites/Blue_mag/Blue_mag.yy",},},
     {"id":{"name":"candle","path":"sprites/candle/candle.yy",},},
     {"id":{"name":"chest","path":"sprites/chest/chest.yy",},},
+    {"id":{"name":"ESCAPE_POD","path":"sprites/ESCAPE_POD/ESCAPE_POD.yy",},},
     {"id":{"name":"flower_pot_V1","path":"sprites/flower_pot_V1/flower_pot_V1.yy",},},
     {"id":{"name":"flower_pot_V2","path":"sprites/flower_pot_V2/flower_pot_V2.yy",},},
     {"id":{"name":"Fon_Xram","path":"sprites/Fon_Xram/Fon_Xram.yy",},},
