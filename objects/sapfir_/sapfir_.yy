@@ -9,8 +9,8 @@
   "name":"sapfir_",
   "overriddenProperties":[],
   "parent":{
-    "name":"BERNIND-rebuilt",
-    "path":"BERNIND-rebuilt.yyp",
+    "name":"necorter",
+    "path":"folders/necorter.yy",
   },
   "parentObjectId":null,
   "persistent":false,

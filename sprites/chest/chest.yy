@@ -1,11 +1,11 @@
 {
   "$GMSprite":"v2",
   "%Name":"chest",
-  "bboxMode":0,
-  "bbox_bottom":46,
-  "bbox_left":17,
-  "bbox_right":47,
-  "bbox_top":29,
+  "bboxMode":2,
+  "bbox_bottom":17,
+  "bbox_left":0,
+  "bbox_right":30,
+  "bbox_top":14,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -16,7 +16,7 @@
   ],
   "gridX":6,
   "gridY":12,
-  "height":64,
+  "height":18,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"a0154bd5-1df9-4329-82d1-f14f31a52a02","blendMode":0,"displayName":"default","isLocked":false,"name":"a0154bd5-1df9-4329-82d1-f14f31a52a02","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":31,
 }
