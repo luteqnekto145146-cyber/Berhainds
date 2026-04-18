@@ -4,3 +4,4 @@ c = 5;
 
 d = a + b + c
 
+show_message(d)

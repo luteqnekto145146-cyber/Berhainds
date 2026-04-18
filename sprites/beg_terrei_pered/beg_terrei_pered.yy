@@ -1,7 +1,7 @@
 {
   "$GMSprite":"v2",
   "%Name":"beg_terrei_pered",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":47,
   "bbox_left":26,
   "bbox_right":42,

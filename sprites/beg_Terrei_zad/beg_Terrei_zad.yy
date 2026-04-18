@@ -1,7 +1,7 @@
 {
   "$GMSprite":"v2",
   "%Name":"beg_Terrei_zad",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":46,
   "bbox_left":23,
   "bbox_right":38,
