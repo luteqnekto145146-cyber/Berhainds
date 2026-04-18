@@ -3,7 +3,7 @@
   "%Name":"ESCAPE_POD",
   "bboxMode":0,
   "bbox_bottom":63,
-  "bbox_left":8,
+  "bbox_left":1,
   "bbox_right":63,
   "bbox_top":5,
   "collisionKind":1,
@@ -13,6 +13,8 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"09d5fff5-2fb2-4cbf-a519-364fc5b6d6b7","name":"09d5fff5-2fb2-4cbf-a519-364fc5b6d6b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6ad7cfb0-3074-4af8-9820-618417295d3e","name":"6ad7cfb0-3074-4af8-9820-618417295d3e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"93108657-438e-4514-ac53-82f5f3bc7185","name":"93108657-438e-4514-ac53-82f5f3bc7185","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -49,7 +51,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":3.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -71,6 +73,12 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"09d5fff5-2fb2-4cbf-a519-364fc5b6d6b7","path":"sprites/ESCAPE_POD/ESCAPE_POD.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"e77240e4-d5ca-4553-9a15-f25fd189ebd5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6ad7cfb0-3074-4af8-9820-618417295d3e","path":"sprites/ESCAPE_POD/ESCAPE_POD.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e8b1abe3-7f06-45bd-ab84-eee51a7f288b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"93108657-438e-4514-ac53-82f5f3bc7185","path":"sprites/ESCAPE_POD/ESCAPE_POD.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8d2e3189-fec7-40ff-a5da-4f58f7ed128b","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
