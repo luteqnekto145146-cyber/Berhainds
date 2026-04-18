@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"beg_terrei_pered",
-    "path":"sprites/beg_terrei_pered/beg_terrei_pered.yy",
+    "name":"spr_terrei_bezdeitv",
+    "path":"sprites/spr_terrei_bezdeitv/spr_terrei_bezdeitv.yy",
   },
   "spriteMaskId":null,
   "visible":true,

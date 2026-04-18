@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"Object14",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Object14",
   "overriddenProperties":[],
@@ -32,5 +34,5 @@
     "path":"sprites/Sprite75/Sprite75.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

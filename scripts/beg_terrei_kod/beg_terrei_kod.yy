@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"beg_terrei_kod",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"beg_terrei_kod",
+  "parent":{
+    "name":"necorter",
+    "path":"folders/necorter.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
