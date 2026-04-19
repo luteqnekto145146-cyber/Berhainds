@@ -10,8 +10,8 @@
   "name":"start",
   "overriddenProperties":[],
   "parent":{
-    "name":"MENU",
-    "path":"folders/MENU.yy",
+    "name":"knopki",
+    "path":"folders/MENU/knopki.yy",
   },
   "parentObjectId":null,
   "persistent":false,

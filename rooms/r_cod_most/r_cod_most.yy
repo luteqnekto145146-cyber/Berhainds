@@ -14,8 +14,8 @@
   ],
   "name":"r_cod_most",
   "parent":{
-    "name":"necorter",
-    "path":"folders/necorter.yy",
+    "name":"rooms",
+    "path":"folders/MENU/rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
