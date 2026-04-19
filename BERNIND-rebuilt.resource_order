@@ -13,8 +13,8 @@
     {"name":"flower_pot","order":2,"path":"folders/glava1/veshi/flower_pot.yy",},
     {"name":"MENU","order":1,"path":"folders/MENU.yy",},
     {"name":"fon_menu","order":17,"path":"folders/MENU/fon_menu.yy",},
-    {"name":"necorter","order":2,"path":"folders/necorter.yy",},
     {"name":"wall","order":18,"path":"folders/MENU/wall.yy",},
+    {"name":"necorter","order":2,"path":"folders/necorter.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"Note3","order":9,"path":"notes/Note3/Note3.yy",},
@@ -106,6 +106,7 @@
     {"name":"Sprite77","order":41,"path":"sprites/Sprite77/Sprite77.yy",},
     {"name":"Sprite8","order":15,"path":"sprites/Sprite8/Sprite8.yy",},
     {"name":"Sprite80","order":42,"path":"sprites/Sprite80/Sprite80.yy",},
+    {"name":"Sprite83","order":10,"path":"sprites/Sprite83/Sprite83.yy",},
     {"name":"Sprite9","order":16,"path":"sprites/Sprite9/Sprite9.yy",},
     {"name":"sproite","order":20,"path":"sprites/sproite/sproite.yy",},
     {"name":"terrei_1024","order":43,"path":"sprites/terrei_1024/terrei_1024.yy",},
