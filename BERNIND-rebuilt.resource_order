@@ -110,6 +110,9 @@
     {"name":"Sprite8","order":6,"path":"sprites/Sprite8/Sprite8.yy",},
     {"name":"Sprite80","order":42,"path":"sprites/Sprite80/Sprite80.yy",},
     {"name":"Sprite84","order":10,"path":"sprites/Sprite84/Sprite84.yy",},
+    {"name":"Sprite85","order":11,"path":"sprites/Sprite85/Sprite85.yy",},
+    {"name":"Sprite86_1","order":16,"path":"sprites/Sprite86_1/Sprite86_1.yy",},
+    {"name":"Sprite86","order":14,"path":"sprites/Sprite86/Sprite86.yy",},
     {"name":"Sprite9","order":7,"path":"sprites/Sprite9/Sprite9.yy",},
     {"name":"sproite","order":20,"path":"sprites/sproite/sproite.yy",},
     {"name":"terrei_1024","order":43,"path":"sprites/terrei_1024/terrei_1024.yy",},
@@ -118,5 +121,8 @@
     {"name":"TileSet3","order":38,"path":"tilesets/TileSet3/TileSet3.yy",},
     {"name":"TileSet4","order":26,"path":"tilesets/TileSet4/TileSet4.yy",},
     {"name":"TileSet5","order":25,"path":"tilesets/TileSet5/TileSet5.yy",},
+    {"name":"TileSet6","order":12,"path":"tilesets/TileSet6/TileSet6.yy",},
+    {"name":"TileSet7","order":13,"path":"tilesets/TileSet7/TileSet7.yy",},
+    {"name":"TileSet8","order":15,"path":"tilesets/TileSet8/TileSet8.yy",},
   ],
 }
