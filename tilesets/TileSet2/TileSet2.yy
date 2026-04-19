@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Sprite69",
-    "path":"sprites/Sprite69/Sprite69.yy",
+    "name":"spr_trava_V2",
+    "path":"sprites/spr_trava_V2/spr_trava_V2.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
-  "eventList":[],
+  "%Name":"obj_Terre1024",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_wall",
+  "name":"obj_Terre1024",
   "overriddenProperties":[],
   "parent":{
-    "name":"wall",
-    "path":"folders/MENU/wall.yy",
+    "name":"necorter",
+    "path":"folders/necorter.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"sproite",
+    "path":"sprites/sproite/sproite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

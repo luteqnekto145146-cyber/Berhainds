@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"prim_Note1",
+  "name":"prim_Note1",
+  "parent":{
+    "name":"veshi",
+    "path":"folders/glava1/veshi.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

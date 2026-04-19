@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_beg_terrei_kod",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_beg_terrei_kod",
+  "parent":{
+    "name":"terrei",
+    "path":"folders/glava1/terrei.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

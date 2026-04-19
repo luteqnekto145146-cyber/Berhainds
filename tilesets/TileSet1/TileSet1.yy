@@ -19,8 +19,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Sprite60",
-    "path":"sprites/Sprite60/Sprite60.yy",
+    "name":"spr_trava_V1",
+    "path":"sprites/spr_trava_V1/spr_trava_V1.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

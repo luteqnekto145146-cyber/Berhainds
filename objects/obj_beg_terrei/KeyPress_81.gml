@@ -38,7 +38,7 @@ if(can_shoot == true){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "objectid" "sapfir_"
 	/// @DnDSaveInfo : "objectid" "sapfir_"
-	var new_shur = instance_create_layer(x + 0+(20*image_xscale), y + 0-10, "Instances", sapfir_);
+	var new_shur = instance_create_layer(x + 0+(20*image_xscale), y + 0-10, "Instances", obj_sapfir_suriken);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
@@ -56,7 +56,7 @@ if(can_shoot == true){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDParent : 5ECA4CB8
 	/// @DnDArgument : "expr" "10"
 	/// @DnDArgument : "var" "new_shur.speed"
-	with(sapfir_) {
+	with(obj_sapfir_suriken) {
 	new_shur.speed = 10;
 	
 	}}
@@ -67,7 +67,7 @@ if(can_shoot == true){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDApplyTo : {sapfir_}
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "canwalk"
-with(sapfir_) {
+with(obj_sapfir_suriken) {
 canwalk = false;
 
 }

@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
-  "eventList":[],
+  "%Name":"obj_sapfir_suriken",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_wall",
+  "name":"obj_sapfir_suriken",
   "overriddenProperties":[],
   "parent":{
-    "name":"wall",
-    "path":"folders/MENU/wall.yy",
+    "name":"necorter",
+    "path":"folders/necorter.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"spr_small_sapfir_suriken",
+    "path":"sprites/spr_small_sapfir_suriken/spr_small_sapfir_suriken.yy",
   },
   "spriteMaskId":null,
   "visible":true,
