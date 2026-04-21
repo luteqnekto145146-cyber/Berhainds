@@ -19,6 +19,7 @@
     {"name":"tropa","order":8,"path":"folders/MENU/tropa.yy",},
     {"name":"wall","order":5,"path":"folders/MENU/wall.yy",},
     {"name":"necorter","order":2,"path":"folders/necorter.yy",},
+    {"name":"группа1","order":10,"path":"folders/группа1.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"Note3","order":9,"path":"notes/Note3/Note3.yy",},

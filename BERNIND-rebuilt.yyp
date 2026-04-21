@@ -34,6 +34,7 @@
     {"$GMFolder":"","%Name":"tropa","folderPath":"folders/MENU/tropa.yy","name":"tropa","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"wall","folderPath":"folders/MENU/wall.yy","name":"wall","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"necorter","folderPath":"folders/necorter.yy","name":"necorter","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"группа1","folderPath":"folders/группа1.yy","name":"группа1","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
