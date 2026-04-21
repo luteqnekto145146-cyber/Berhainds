@@ -16,14 +16,14 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"BERNIND-rebuilt",
-    "path":"BERNIND-rebuilt.yyp",
+    "name":"tropa",
+    "path":"folders/MENU/tropa.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Sprite85",
-    "path":"sprites/Sprite85/Sprite85.yy",
+    "name":"spr_tropa",
+    "path":"sprites/spr_tropa/spr_tropa.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
