@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"MENU",
-    "path":"folders/MENU.yy",
+    "name":"knopki",
+    "path":"folders/MENU/knopki.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
