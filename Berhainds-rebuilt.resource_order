@@ -9,6 +9,7 @@
     {"name":"fon_menu","order":26,"path":"folders/menu/fon_menu.yy",},
     {"name":"knopki","order":27,"path":"folders/menu/knopki.yy",},
     {"name":"rooms","order":28,"path":"folders/menu/rooms.yy",},
+    {"name":"That_is_poop","order":5,"path":"folders/That_is_poop.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"shrift_Font1","order":15,"path":"fonts/shrift_Font1/shrift_Font1.yy",},

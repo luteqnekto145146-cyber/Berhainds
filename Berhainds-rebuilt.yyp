@@ -20,6 +20,7 @@
     {"$GMFolder":"","%Name":"fon_menu","folderPath":"folders/menu/fon_menu.yy","name":"fon_menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"knopki","folderPath":"folders/menu/knopki.yy","name":"knopki","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"rooms","folderPath":"folders/menu/rooms.yy","name":"rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"That_is_poop","folderPath":"folders/That_is_poop.yy","name":"That_is_poop","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
