@@ -8,8 +8,8 @@
   "name":"obj_Terre1024",
   "overriddenProperties":[],
   "parent":{
-    "name":"necorter",
-    "path":"folders/necorter.yy",
+    "name":"terrei",
+    "path":"folders/glava1/terrei.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sproite",
-    "path":"sprites/sproite/sproite.yy",
+    "name":"spr_terrei1024",
+    "path":"sprites/spr_terrei1024/spr_terrei1024.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -12,14 +12,14 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"tropa",
-    "path":"folders/MENU/tropa.yy",
+    "name":"tecstyrs",
+    "path":"folders/glava1/tecstyrs.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_trpa_v_niz",
-    "path":"sprites/spr_trpa_v_niz/spr_trpa_v_niz.yy",
+    "name":"Sprite86",
+    "path":"sprites/Sprite86/Sprite86.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

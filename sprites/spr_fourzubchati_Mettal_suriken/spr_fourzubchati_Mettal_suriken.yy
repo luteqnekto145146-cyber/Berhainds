@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Suriken",
-    "path":"folders/glava1/oryshie/Suriken.yy",
+    "name":"oryshie",
+    "path":"folders/glava1/oryshie.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

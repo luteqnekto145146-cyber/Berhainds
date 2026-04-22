@@ -222,7 +222,7 @@
   "name":"Room1",
   "parent":{
     "name":"rooms",
-    "path":"folders/MENU/rooms.yy",
+    "path":"folders/menu/rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

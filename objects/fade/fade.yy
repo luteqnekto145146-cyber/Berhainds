@@ -9,8 +9,8 @@
   "name":"fade",
   "overriddenProperties":[],
   "parent":{
-    "name":"MENU",
-    "path":"folders/MENU.yy",
+    "name":"menu",
+    "path":"folders/menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,

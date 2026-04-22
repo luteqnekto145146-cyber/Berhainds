@@ -2,6 +2,6 @@
 /// @DnDVersion : 1
 /// @DnDHash : 04043EA1
 /// @DnDApplyTo : {obj_knopka_exet}
-/// @DnDArgument : "room" "menu_i"
-/// @DnDSaveInfo : "room" "menu_i"
-with(obj_knopka_exet) room_goto(menu_i);
+/// @DnDArgument : "room" "pauze"
+/// @DnDSaveInfo : "room" "pauze"
+with(obj_knopka_exet) room_goto(pauze);

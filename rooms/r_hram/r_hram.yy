@@ -80,7 +80,7 @@
   "name":"r_hram",
   "parent":{
     "name":"rooms",
-    "path":"folders/MENU/rooms.yy",
+    "path":"folders/menu/rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

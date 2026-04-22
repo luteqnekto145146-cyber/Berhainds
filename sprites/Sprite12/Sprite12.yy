@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"knopki",
-    "path":"folders/MENU/knopki.yy",
+    "path":"folders/menu/knopki.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

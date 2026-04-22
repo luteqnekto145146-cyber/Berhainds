@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"fon_menu",
-    "path":"folders/MENU/fon_menu.yy",
+    "path":"folders/menu/fon_menu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"necorter",
-    "path":"folders/necorter.yy",
+    "name":"fon_menu",
+    "path":"folders/menu/fon_menu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

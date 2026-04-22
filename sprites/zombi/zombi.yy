@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BERNIND-rebuilt",
-    "path":"BERNIND-rebuilt.yyp",
+    "name":"menu",
+    "path":"folders/menu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

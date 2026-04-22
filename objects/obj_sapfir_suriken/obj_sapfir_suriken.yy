@@ -9,8 +9,8 @@
   "name":"obj_sapfir_suriken",
   "overriddenProperties":[],
   "parent":{
-    "name":"necorter",
-    "path":"folders/necorter.yy",
+    "name":"oryshie",
+    "path":"folders/glava1/oryshie.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -3,8 +3,8 @@
   "%Name":"Note3",
   "name":"Note3",
   "parent":{
-    "name":"BERNIND-rebuilt",
-    "path":"BERNIND-rebuilt.yyp",
+    "name":"menu",
+    "path":"folders/menu.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"knopki",
-    "path":"folders/MENU/knopki.yy",
+    "path":"folders/menu/knopki.yy",
   },
   "parentObjectId":null,
   "persistent":false,

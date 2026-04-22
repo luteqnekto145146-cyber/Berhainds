@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"wall",
-    "path":"folders/MENU/wall.yy",
+    "name":"tecstyrs",
+    "path":"folders/glava1/tecstyrs.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

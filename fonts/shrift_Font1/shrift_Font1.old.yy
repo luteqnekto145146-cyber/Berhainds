@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"Font1",
+  "%Name":"shrift_Font1",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":14,
@@ -189,10 +189,10 @@
   "last":0,
   "lineHeight":18,
   "maintainGms1Font":false,
-  "name":"Font1",
+  "name":"shrift_Font1",
   "parent":{
-    "name":"necorter",
-    "path":"folders/necorter.yy",
+    "name":"Berhainds-rebuilt",
+    "path":"Berhainds-rebuilt.yyp",
   },
   "pointRounding":0,
   "ranges":[

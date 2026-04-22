@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"flower_pot",
-    "path":"folders/glava1/veshi/flower_pot.yy",
+    "name":"veshi",
+    "path":"folders/glava1/veshi.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
