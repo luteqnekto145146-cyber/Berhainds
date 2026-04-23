@@ -126,6 +126,7 @@
     {"name":"Sprite86_1","order":16,"path":"sprites/Sprite86_1/Sprite86_1.yy",},
     {"name":"Sprite86","order":15,"path":"sprites/Sprite86/Sprite86.yy",},
     {"name":"Sprite9","order":9,"path":"sprites/Sprite9/Sprite9.yy",},
+    {"name":"Sprite95","order":6,"path":"sprites/Sprite95/Sprite95.yy",},
     {"name":"terrei_1024","order":24,"path":"sprites/terrei_1024/terrei_1024.yy",},
     {"name":"zombi","order":25,"path":"sprites/zombi/zombi.yy",},
     {"name":"TileSet1","order":17,"path":"tilesets/TileSet1/TileSet1.yy",},
