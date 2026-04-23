@@ -10,8 +10,8 @@
   "name":"obj_glav_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"Berhainds-rebuilt",
-    "path":"Berhainds-rebuilt.yyp",
+    "name":"That_is_poop",
+    "path":"folders/That_is_poop.yy",
   },
   "parentObjectId":null,
   "persistent":false,
