@@ -4,4 +4,4 @@
 /// @DnDApplyTo : {obj_knopka_exet}
 /// @DnDArgument : "room" "pauze"
 /// @DnDSaveInfo : "room" "pauze"
-with(obj_knopka_exet) room_goto(pauze);
+with(obj_knopka_exet) room_goto(r_pauze);

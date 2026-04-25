@@ -1,15 +1,15 @@
 {
   "$GMRoom":"v1",
-  "%Name":"pauze",
+  "%Name":"r_pauze",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_2927081E","path":"rooms/pauze/pauze.yy",},
-    {"name":"inst_74F870FB","path":"rooms/pauze/pauze.yy",},
-    {"name":"inst_21E77C5E","path":"rooms/pauze/pauze.yy",},
-    {"name":"inst_7E980A6","path":"rooms/pauze/pauze.yy",},
+    {"name":"inst_2927081E","path":"rooms/r_pauze/r_pauze.yy",},
+    {"name":"inst_74F870FB","path":"rooms/r_pauze/r_pauze.yy",},
+    {"name":"inst_21E77C5E","path":"rooms/r_pauze/r_pauze.yy",},
+    {"name":"inst_7E980A6","path":"rooms/r_pauze/r_pauze.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -21,7 +21,7 @@
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"pauze",
+  "name":"r_pauze",
   "parent":{
     "name":"rooms",
     "path":"folders/menu/rooms.yy",

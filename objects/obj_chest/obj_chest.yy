@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"chest",
-    "path":"folders/glava1/veshi/fram/chest.yy",
+    "path":"folders/glava1/veshi/Hram/chest.yy",
   },
   "parentObjectId":null,
   "persistent":false,

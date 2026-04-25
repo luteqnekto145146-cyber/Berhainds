@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"chest",
-    "path":"folders/glava1/veshi/fram/chest.yy",
+    "path":"folders/glava1/veshi/Hram/chest.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
