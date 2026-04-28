@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"That_is_poop",
-    "path":"folders/That_is_poop.yy",
+    "path":"folders/Серёга/That_is_poop.yy",
   },
   "parentObjectId":null,
   "persistent":false,

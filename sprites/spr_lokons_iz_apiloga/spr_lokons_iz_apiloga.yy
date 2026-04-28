@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"That_is_poop",
-    "path":"folders/That_is_poop.yy",
+    "path":"folders/Серёга/That_is_poop.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

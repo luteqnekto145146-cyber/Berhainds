@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"flower_pot",
-    "path":"folders/glava1/veshi/fram/flower_pot.yy",
+    "path":"folders/glava1/veshi/Hram/flower_pot.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
