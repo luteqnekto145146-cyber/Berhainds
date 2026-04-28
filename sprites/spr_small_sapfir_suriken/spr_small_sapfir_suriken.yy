@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"oryshie",
-    "path":"folders/glava1/oryshie.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

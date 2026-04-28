@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"terrei",
-    "path":"folders/glava1/terrei.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

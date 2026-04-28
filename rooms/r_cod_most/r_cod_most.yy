@@ -14,8 +14,8 @@
   ],
   "name":"r_cod_most",
   "parent":{
-    "name":"rooms",
-    "path":"folders/MENU/rooms.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{

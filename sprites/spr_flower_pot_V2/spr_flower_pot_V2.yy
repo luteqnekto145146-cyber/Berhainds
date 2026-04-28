@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"flower_pot",
-    "path":"folders/glava1/veshi/Hram/flower_pot.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

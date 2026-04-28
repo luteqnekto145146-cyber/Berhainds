@@ -6,8 +6,8 @@
   "name":"Object9",
   "overriddenProperties":[],
   "parent":{
-    "name":"fon_menu",
-    "path":"folders/menu/fon_menu.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

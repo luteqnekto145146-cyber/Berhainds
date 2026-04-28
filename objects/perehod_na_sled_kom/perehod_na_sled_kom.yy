@@ -9,8 +9,8 @@
   "name":"perehod_na_sled_kom",
   "overriddenProperties":[],
   "parent":{
-    "name":"menu",
-    "path":"folders/menu.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

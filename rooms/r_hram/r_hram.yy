@@ -79,8 +79,8 @@
   ],
   "name":"r_hram",
   "parent":{
-    "name":"rooms",
-    "path":"folders/menu/rooms.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{

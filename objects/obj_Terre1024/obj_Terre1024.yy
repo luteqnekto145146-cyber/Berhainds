@@ -8,8 +8,8 @@
   "name":"obj_Terre1024",
   "overriddenProperties":[],
   "parent":{
-    "name":"terrei",
-    "path":"folders/glava1/terrei.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -10,8 +10,8 @@
   "name":"obj_glav_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"That_is_poop",
-    "path":"folders/Серёга/That_is_poop.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

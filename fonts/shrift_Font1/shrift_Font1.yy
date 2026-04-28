@@ -191,8 +191,8 @@
   "maintainGms1Font":false,
   "name":"shrift_Font1",
   "parent":{
-    "name":"menu",
-    "path":"folders/menu.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "pointRounding":0,
   "ranges":[

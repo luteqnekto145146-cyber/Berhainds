@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_beg_terrei_kod",
   "parent":{
-    "name":"menu",
-    "path":"folders/menu.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

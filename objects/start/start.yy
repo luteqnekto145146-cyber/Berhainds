@@ -10,8 +10,8 @@
   "name":"start",
   "overriddenProperties":[],
   "parent":{
-    "name":"knopki",
-    "path":"folders/menu/knopki.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

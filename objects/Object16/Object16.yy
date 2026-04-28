@@ -9,8 +9,8 @@
   "name":"Object16",
   "overriddenProperties":[],
   "parent":{
-    "name":"menu",
-    "path":"folders/menu.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

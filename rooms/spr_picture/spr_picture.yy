@@ -13,8 +13,8 @@
   ],
   "name":"spr_picture",
   "parent":{
-    "name":"group1",
-    "path":"folders/group1.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{

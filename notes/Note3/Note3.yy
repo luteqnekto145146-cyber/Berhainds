@@ -3,8 +3,8 @@
   "%Name":"Note3",
   "name":"Note3",
   "parent":{
-    "name":"menu",
-    "path":"folders/menu.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

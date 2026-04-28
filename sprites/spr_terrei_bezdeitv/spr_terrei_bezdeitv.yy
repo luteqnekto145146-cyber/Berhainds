@@ -47,8 +47,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"terrei",
-    "path":"folders/glava1/terrei.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
