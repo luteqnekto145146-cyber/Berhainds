@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_dli_proverki","order":1,"path":"objects/obj_dli_proverki/obj_dli_proverki.yy",},
+  ],
 }

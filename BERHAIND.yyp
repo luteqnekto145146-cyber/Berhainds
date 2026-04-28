@@ -14,7 +14,9 @@
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
-  "MetaData":{},
+  "MetaData":{
+    "IDEVersion":"2024.14.4.222",
+  },
   "name":"BERHAIND",
   "resources":[
     {"id":{"name":"shrift_Font1","path":"fonts/shrift_Font1/shrift_Font1.yy",},},
@@ -27,6 +29,7 @@
     {"id":{"name":"fade","path":"objects/fade/fade.yy",},},
     {"id":{"name":"obj_beg_terrei","path":"objects/obj_beg_terrei/obj_beg_terrei.yy",},},
     {"id":{"name":"obj_chest","path":"objects/obj_chest/obj_chest.yy",},},
+    {"id":{"name":"obj_dli_proverki","path":"objects/obj_dli_proverki/obj_dli_proverki.yy",},},
     {"id":{"name":"obj_glav_menu","path":"objects/obj_glav_menu/obj_glav_menu.yy",},},
     {"id":{"name":"obj_knopka_exet","path":"objects/obj_knopka_exet/obj_knopka_exet.yy",},},
     {"id":{"name":"obj_nazad","path":"objects/obj_nazad/obj_nazad.yy",},},
