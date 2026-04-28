@@ -6,8 +6,8 @@
   "name":"obj_wall",
   "overriddenProperties":[],
   "parent":{
-    "name":"wall",
-    "path":"folders/MENU/wall.yy",
+    "name":"veshi",
+    "path":"folders/glava1/veshi.yy",
   },
   "parentObjectId":null,
   "persistent":false,

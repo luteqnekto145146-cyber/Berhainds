@@ -41,8 +41,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"sceleton",
-    "path":"folders/glava1/monster/blishni_boi/sceleton.yy",
+    "name":"monsters",
+    "path":"folders/glava1/monsters.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

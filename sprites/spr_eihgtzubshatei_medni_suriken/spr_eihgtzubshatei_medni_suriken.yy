@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Medni_suriken",
-    "path":"folders/glava1/oryshie/Suriken/Medni_suriken.yy",
+    "name":"oryshie",
+    "path":"folders/glava1/oryshie.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

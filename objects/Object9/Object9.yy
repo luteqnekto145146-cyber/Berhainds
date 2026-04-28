@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"fon_menu",
-    "path":"folders/MENU/fon_menu.yy",
+    "path":"folders/menu/fon_menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,

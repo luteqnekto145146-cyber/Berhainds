@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"necorter",
-    "path":"folders/necorter.yy",
+    "name":"menu",
+    "path":"folders/menu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

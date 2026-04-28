@@ -16,8 +16,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"BERNIND-rebuilt",
-    "path":"BERNIND-rebuilt.yyp",
+    "name":"tecstyrs",
+    "path":"folders/glava1/tecstyrs.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

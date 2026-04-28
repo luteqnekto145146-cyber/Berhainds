@@ -9,8 +9,8 @@
   "name":"Object16",
   "overriddenProperties":[],
   "parent":{
-    "name":"necorter",
-    "path":"folders/necorter.yy",
+    "name":"menu",
+    "path":"folders/menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,

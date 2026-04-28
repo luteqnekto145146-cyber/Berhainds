@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"necorter",
-    "path":"folders/necorter.yy",
+    "name":"veshi",
+    "path":"folders/glava1/veshi.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

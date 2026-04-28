@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"magic",
-    "path":"folders/glava1/monster/magic.yy",
+    "name":"monsters",
+    "path":"folders/glava1/monsters.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

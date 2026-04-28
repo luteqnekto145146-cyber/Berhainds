@@ -10,8 +10,8 @@
   "name":"obj_knopka_exet",
   "overriddenProperties":[],
   "parent":{
-    "name":"knopki_ne_v_menu",
-    "path":"folders/MENU/knopki/knopki_ne_v_menu.yy",
+    "name":"knopki",
+    "path":"folders/menu/knopki.yy",
   },
   "parentObjectId":null,
   "persistent":false,

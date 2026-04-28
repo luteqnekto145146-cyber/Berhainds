@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_beg_terrei_kod",
   "parent":{
-    "name":"terrei",
-    "path":"folders/glava1/terrei.yy",
+    "name":"menu",
+    "path":"folders/menu.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

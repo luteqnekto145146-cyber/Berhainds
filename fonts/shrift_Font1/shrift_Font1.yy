@@ -191,8 +191,8 @@
   "maintainGms1Font":false,
   "name":"shrift_Font1",
   "parent":{
-    "name":"necorter",
-    "path":"folders/necorter.yy",
+    "name":"menu",
+    "path":"folders/menu.yy",
   },
   "pointRounding":0,
   "ranges":[

@@ -3,8 +3,8 @@
   "%Name":"prim_Note1",
   "name":"prim_Note1",
   "parent":{
-    "name":"veshi",
-    "path":"folders/glava1/veshi.yy",
+    "name":"menu",
+    "path":"folders/menu.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

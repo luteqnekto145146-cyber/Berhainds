@@ -8,8 +8,8 @@
   "name":"obj_Object13",
   "overriddenProperties":[],
   "parent":{
-    "name":"necorter",
-    "path":"folders/necorter.yy",
+    "name":"terrei",
+    "path":"folders/glava1/terrei.yy",
   },
   "parentObjectId":null,
   "persistent":false,

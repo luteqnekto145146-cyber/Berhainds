@@ -6,8 +6,8 @@
   "name":"Object1",
   "overriddenProperties":[],
   "parent":{
-    "name":"group1",
-    "path":"folders/group1.yy",
+    "name":"menu",
+    "path":"folders/menu.yy",
   },
   "parentObjectId":null,
   "persistent":true,

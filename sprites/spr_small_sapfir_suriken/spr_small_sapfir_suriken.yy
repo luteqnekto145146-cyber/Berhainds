@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"sapfir_suriken",
-    "path":"folders/glava1/oryshie/Suriken/sapfir_suriken.yy",
+    "name":"oryshie",
+    "path":"folders/glava1/oryshie.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
