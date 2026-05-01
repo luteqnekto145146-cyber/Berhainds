@@ -9,7 +9,9 @@
     "name":"Default",
   },
   "defaultScriptType":1,
-  "Folders":[],
+  "Folders":[
+    {"$GMFolder":"","%Name":"glava1","folderPath":"folders/glava1.yy","name":"glava1","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
@@ -115,6 +117,7 @@
     {"id":{"name":"spr_terrei_bezdeistvie","path":"sprites/spr_terrei_bezdeistvie/spr_terrei_bezdeistvie.yy",},},
     {"id":{"name":"spr_terrei_bezdeitv","path":"sprites/spr_terrei_bezdeitv/spr_terrei_bezdeitv.yy",},},
     {"id":{"name":"spr_terrei_brosok_suriken","path":"sprites/spr_terrei_brosok_suriken/spr_terrei_brosok_suriken.yy",},},
+    {"id":{"name":"spr_terrei_vzroslenie","path":"sprites/spr_terrei_vzroslenie/spr_terrei_vzroslenie.yy",},},
     {"id":{"name":"spr_terrei1024","path":"sprites/spr_terrei1024/spr_terrei1024.yy",},},
     {"id":{"name":"spr_trava_V1","path":"sprites/spr_trava_V1/spr_trava_V1.yy",},},
     {"id":{"name":"spr_trava_V2","path":"sprites/spr_trava_V2/spr_trava_V2.yy",},},

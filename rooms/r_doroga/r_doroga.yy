@@ -221,8 +221,8 @@
   ],
   "name":"r_doroga",
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"glava1",
+    "path":"folders/glava1.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

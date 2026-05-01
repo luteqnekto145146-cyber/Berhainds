@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_beg_terrei_kod",
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"glava1",
+    "path":"folders/glava1.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

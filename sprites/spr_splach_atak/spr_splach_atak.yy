@@ -148,8 +148,8 @@
   "nineSlice":null,
   "origin":3,
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"glava1",
+    "path":"folders/glava1.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

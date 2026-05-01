@@ -16,8 +16,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"glava1",
+    "path":"folders/glava1.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

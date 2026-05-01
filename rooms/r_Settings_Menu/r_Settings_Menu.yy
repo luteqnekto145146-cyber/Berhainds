@@ -17,8 +17,8 @@
   ],
   "name":"r_Settings_Menu",
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"glava1",
+    "path":"folders/glava1.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

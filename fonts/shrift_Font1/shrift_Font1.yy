@@ -191,8 +191,8 @@
   "maintainGms1Font":false,
   "name":"shrift_Font1",
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"glava1",
+    "path":"folders/glava1.yy",
   },
   "pointRounding":0,
   "ranges":[

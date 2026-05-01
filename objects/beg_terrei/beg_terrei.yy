@@ -13,8 +13,8 @@
   "name":"beg_terrei",
   "overriddenProperties":[],
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"glava1",
+    "path":"folders/glava1.yy",
   },
   "parentObjectId":null,
   "persistent":false,

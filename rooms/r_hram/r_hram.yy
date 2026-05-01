@@ -79,8 +79,8 @@
   ],
   "name":"r_hram",
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"glava1",
+    "path":"folders/glava1.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
