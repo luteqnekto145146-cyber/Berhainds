@@ -30,3 +30,9 @@ hdir = 0;
 /// @DnDHash : 56884A6A
 /// @DnDArgument : "var" "vdir"
 vdir = 0;
+
+/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+/// @DnDVersion : 1
+/// @DnDHash : 4A3CFFB1
+/// @DnDArgument : "health" "100"
+__dnd_health = real(100);

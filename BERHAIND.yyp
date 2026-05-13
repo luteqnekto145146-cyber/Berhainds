@@ -8,10 +8,15 @@
     "children":[],
     "name":"Default",
   },
+<<<<<<< HEAD
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"glava1","folderPath":"folders/glava1.yy","name":"glava1","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+=======
+  "defaultScriptType":2,
+  "Folders":[],
+>>>>>>> ca99851b61416d5ac01571970ba8e15e4de70279
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
@@ -175,10 +180,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"r_cod_most","path":"rooms/r_cod_most/r_cod_most.yy",},},
-    {"roomId":{"name":"r_doroga","path":"rooms/r_doroga/r_doroga.yy",},},
-    {"roomId":{"name":"r_hram","path":"rooms/r_hram/r_hram.yy",},},
     {"roomId":{"name":"r_menu_i","path":"rooms/r_menu_i/r_menu_i.yy",},},
+    {"roomId":{"name":"r_cod_most","path":"rooms/r_cod_most/r_cod_most.yy",},},
+    {"roomId":{"name":"r_hram","path":"rooms/r_hram/r_hram.yy",},},
+    {"roomId":{"name":"r_doroga","path":"rooms/r_doroga/r_doroga.yy",},},
     {"roomId":{"name":"r_pauze","path":"rooms/r_pauze/r_pauze.yy",},},
     {"roomId":{"name":"r_Settings_Menu","path":"rooms/r_Settings_Menu/r_Settings_Menu.yy",},},
     {"roomId":{"name":"spr_picture","path":"rooms/spr_picture/spr_picture.yy",},},
