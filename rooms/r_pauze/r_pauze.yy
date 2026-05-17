@@ -24,7 +24,7 @@
   "name":"r_pauze",
   "parent":{
     "name":"rooms",
-    "path":"folders/menu/rooms.yy",
+    "path":"folders/igra/menu/rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

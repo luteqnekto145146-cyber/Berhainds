@@ -17,7 +17,7 @@
   "out_tilevborder":2,
   "parent":{
     "name":"tielsetes",
-    "path":"folders/tielsets/tielsetes.yy",
+    "path":"folders/igra/tielsets/tielsetes.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

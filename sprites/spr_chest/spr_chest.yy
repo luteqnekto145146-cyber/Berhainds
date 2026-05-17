@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"cheast",
-    "path":"folders/glava1/veshi/cheast.yy",
+    "path":"folders/igra/glava1/veshi/cheast.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

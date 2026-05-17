@@ -42,7 +42,7 @@
   "origin":0,
   "parent":{
     "name":"sceleton",
-    "path":"folders/glava1/monsters/blisnie_boi/sceleton.yy",
+    "path":"folders/igra/glava1/monsters/blisnie_boi/sceleton.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

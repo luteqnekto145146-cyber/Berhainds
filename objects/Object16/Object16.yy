@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"nesorter",
-    "path":"folders/glava1/nesorter.yy",
+    "path":"folders/igra/glava1/nesorter.yy",
   },
   "parentObjectId":null,
   "persistent":false,

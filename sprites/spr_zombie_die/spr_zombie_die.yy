@@ -38,7 +38,7 @@
   "origin":0,
   "parent":{
     "name":"zombi",
-    "path":"folders/glava1/monsters/blisnie_boi/zombi.yy",
+    "path":"folders/igra/glava1/monsters/blisnie_boi/zombi.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

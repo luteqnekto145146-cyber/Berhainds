@@ -14,7 +14,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"terrei-velishaishi",
-    "path":"folders/glava1/terrei-velishaishi.yy",
+    "path":"folders/igra/glava1/terrei-velishaishi.yy",
   },
   "parentObjectId":null,
   "persistent":false,

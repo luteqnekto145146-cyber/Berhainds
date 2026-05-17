@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"cheast",
-    "path":"folders/glava1/veshi/cheast.yy",
+    "path":"folders/igra/glava1/veshi/cheast.yy",
   },
   "parentObjectId":null,
   "persistent":false,

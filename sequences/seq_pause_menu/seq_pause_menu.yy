@@ -27,7 +27,7 @@
   "name":"seq_pause_menu",
   "parent":{
     "name":"knopki",
-    "path":"folders/menu/knopki.yy",
+    "path":"folders/igra/menu/knopki.yy",
   },
   "playback":0,
   "playbackSpeed":60.0,

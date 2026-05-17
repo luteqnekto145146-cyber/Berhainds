@@ -222,7 +222,7 @@
   "name":"r_doroga",
   "parent":{
     "name":"rooms",
-    "path":"folders/menu/rooms.yy",
+    "path":"folders/igra/menu/rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

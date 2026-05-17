@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"kamikadze",
-    "path":"folders/glava1/monsters/kamikadze.yy",
+    "path":"folders/igra/glava1/monsters/kamikadze.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

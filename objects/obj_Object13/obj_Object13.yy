@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"objects",
-    "path":"folders/glava1/terrei-velishaishi/objects.yy",
+    "path":"folders/igra/glava1/terrei-velishaishi/objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

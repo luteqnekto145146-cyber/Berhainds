@@ -4,7 +4,7 @@
   "name":"Note3",
   "parent":{
     "name":"soobshenie",
-    "path":"folders/soobshenie.yy",
+    "path":"folders/igra/soobshenie.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

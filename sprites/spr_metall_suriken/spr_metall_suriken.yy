@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"oryshie",
-    "path":"folders/glava1/veshi/oryshie.yy",
+    "path":"folders/igra/glava1/veshi/oryshie.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

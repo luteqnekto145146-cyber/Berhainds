@@ -6,7 +6,7 @@
   "name":"scr_beg_terrei_kod",
   "parent":{
     "name":"nesorter",
-    "path":"folders/glava1/nesorter.yy",
+    "path":"folders/igra/glava1/nesorter.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

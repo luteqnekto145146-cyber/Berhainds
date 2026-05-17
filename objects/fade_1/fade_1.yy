@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Vse_ot_Matvei",
-    "path":"folders/glava1/Vse_ot_Matvei.yy",
+    "path":"folders/igra/glava1/Vse_ot_Matvei.yy",
   },
   "parentObjectId":null,
   "persistent":false,

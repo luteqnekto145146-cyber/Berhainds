@@ -35,7 +35,7 @@
   "origin":0,
   "parent":{
     "name":"sprites",
-    "path":"folders/tielsets/sprites.yy",
+    "path":"folders/igra/tielsets/sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"bi_strash",
-    "path":"folders/glava1/monsters/blisnie_boi/bi_strash.yy",
+    "path":"folders/igra/glava1/monsters/blisnie_boi/bi_strash.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

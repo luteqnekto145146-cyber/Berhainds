@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"nesorter",
-    "path":"folders/glava1/nesorter.yy",
+    "path":"folders/igra/glava1/nesorter.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

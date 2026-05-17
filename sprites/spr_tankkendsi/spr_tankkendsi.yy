@@ -32,7 +32,7 @@
   "origin":0,
   "parent":{
     "name":"arrtileri",
-    "path":"folders/glava1/monsters/arrtileri.yy",
+    "path":"folders/igra/glava1/monsters/arrtileri.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

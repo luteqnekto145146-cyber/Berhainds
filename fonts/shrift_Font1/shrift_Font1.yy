@@ -192,7 +192,7 @@
   "name":"shrift_Font1",
   "parent":{
     "name":"nesorter",
-    "path":"folders/glava1/nesorter.yy",
+    "path":"folders/igra/glava1/nesorter.yy",
   },
   "pointRounding":0,
   "ranges":[

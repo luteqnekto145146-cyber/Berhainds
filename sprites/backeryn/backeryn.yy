@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"fons",
-    "path":"folders/menu/fons.yy",
+    "path":"folders/igra/menu/fons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

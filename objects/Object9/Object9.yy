@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"fons",
-    "path":"folders/menu/fons.yy",
+    "path":"folders/igra/menu/fons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

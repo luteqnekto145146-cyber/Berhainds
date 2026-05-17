@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"objects",
-    "path":"folders/glava1/veshi/oryshie/objects.yy",
+    "path":"folders/igra/glava1/veshi/oryshie/objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

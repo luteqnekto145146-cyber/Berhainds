@@ -4,7 +4,7 @@
   "name":"prim_Note1",
   "parent":{
     "name":"govno_kotoroe_ne_nyshno(ne_ydalit!!!!)",
-    "path":"folders/glava1/govno_kotoroe_ne_nyshno(ne_ydalit!!!!).yy",
+    "path":"folders/igra/glava1/govno_kotoroe_ne_nyshno(ne_ydalit!!!!).yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"ne_opredelenn",
-    "path":"folders/glava1/monsters/ne_opredelenn.yy",
+    "path":"folders/igra/glava1/monsters/ne_opredelenn.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
