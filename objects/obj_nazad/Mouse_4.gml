@@ -1,4 +1,9 @@
-/// @DnDAction : YoYo Games.Rooms.Previous_Room
-/// @DnDVersion : 1
-/// @DnDHash : 5018DC26
-room_goto_previous();
+var pause_inst = instance_find(obj_pauze, 0);
+
+if (pause_inst != noone)
+{
+    with (pause_inst)
+    {
+        event_user(0);
+    }
+}

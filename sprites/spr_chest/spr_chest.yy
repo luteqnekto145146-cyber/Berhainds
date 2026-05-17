@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"cheast",
+    "path":"folders/veshi/cheast.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

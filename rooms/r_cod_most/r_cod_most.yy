@@ -14,8 +14,8 @@
   ],
   "name":"r_cod_most",
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"rooms",
+    "path":"folders/menu/rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

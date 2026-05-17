@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"terrei-velishaishi",
+    "path":"folders/terrei-velishaishi.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

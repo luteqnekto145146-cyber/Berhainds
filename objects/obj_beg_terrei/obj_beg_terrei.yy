@@ -14,8 +14,8 @@
   "name":"obj_beg_terrei",
   "overriddenProperties":[],
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"objects",
+    "path":"folders/terrei-velishaishi/objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -8,8 +8,8 @@
   "name":"obj_Terre1024",
   "overriddenProperties":[],
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"rofls",
+    "path":"folders/terrei-velishaishi/rofls.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -10,8 +10,8 @@
   "name":"strleka",
   "overriddenProperties":[],
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"knopki",
+    "path":"folders/menu/knopki.yy",
   },
   "parentObjectId":null,
   "persistent":false,

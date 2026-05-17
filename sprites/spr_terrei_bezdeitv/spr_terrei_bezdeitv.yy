@@ -47,8 +47,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"terrei-velishaishi",
+    "path":"folders/terrei-velishaishi.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

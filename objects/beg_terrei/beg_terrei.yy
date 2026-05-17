@@ -13,8 +13,8 @@
   "name":"beg_terrei",
   "overriddenProperties":[],
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"terrei-velishaishi",
+    "path":"folders/terrei-velishaishi.yy",
   },
   "parentObjectId":null,
   "persistent":false,
