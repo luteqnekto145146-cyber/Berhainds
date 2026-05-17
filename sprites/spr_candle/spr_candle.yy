@@ -30,7 +30,7 @@
   "origin":0,
   "parent":{
     "name":"candle",
-    "path":"folders/veshi/candle.yy",
+    "path":"folders/glava1/veshi/candle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

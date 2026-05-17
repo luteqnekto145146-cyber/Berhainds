@@ -9,8 +9,8 @@
   "name":"obj_sapfir_suriken",
   "overriddenProperties":[],
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"objects",
+    "path":"folders/glava1/veshi/oryshie/objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

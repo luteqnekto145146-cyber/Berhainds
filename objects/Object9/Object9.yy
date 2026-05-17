@@ -6,8 +6,8 @@
   "name":"Object9",
   "overriddenProperties":[],
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"fons",
+    "path":"folders/menu/fons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

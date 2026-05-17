@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"polka",
-    "path":"folders/veshi/polka.yy",
+    "path":"folders/glava1/veshi/polka.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

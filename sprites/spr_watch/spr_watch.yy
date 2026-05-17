@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"clock",
-    "path":"folders/veshi/clock.yy",
+    "path":"folders/glava1/veshi/clock.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

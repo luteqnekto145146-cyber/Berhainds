@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"fons",
+    "path":"folders/menu/fons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

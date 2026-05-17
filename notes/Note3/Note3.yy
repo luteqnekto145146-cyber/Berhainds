@@ -3,8 +3,8 @@
   "%Name":"Note3",
   "name":"Note3",
   "parent":{
-    "name":"SOOBshenie",
-    "path":"folders/SOOBshenie.yy",
+    "name":"soobshenie",
+    "path":"folders/soobshenie.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

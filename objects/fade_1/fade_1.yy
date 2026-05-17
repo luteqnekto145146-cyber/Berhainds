@@ -9,8 +9,8 @@
   "name":"fade_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"Vse_ot_Matvei",
+    "path":"folders/glava1/Vse_ot_Matvei.yy",
   },
   "parentObjectId":null,
   "persistent":false,

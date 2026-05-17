@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"Vse_ot_Matvei",
+    "path":"folders/glava1/Vse_ot_Matvei.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

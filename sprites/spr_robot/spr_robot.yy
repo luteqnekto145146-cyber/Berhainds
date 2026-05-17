@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"ne_opredelenn",
+    "path":"folders/glava1/monsters/ne_opredelenn.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

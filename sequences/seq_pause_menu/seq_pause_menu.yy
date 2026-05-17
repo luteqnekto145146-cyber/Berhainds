@@ -26,8 +26,8 @@
   },
   "name":"seq_pause_menu",
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"knopki",
+    "path":"folders/menu/knopki.yy",
   },
   "playback":0,
   "playbackSpeed":60.0,

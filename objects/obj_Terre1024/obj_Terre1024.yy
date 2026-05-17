@@ -8,8 +8,8 @@
   "name":"obj_Terre1024",
   "overriddenProperties":[],
   "parent":{
-    "name":"rofls",
-    "path":"folders/terrei-velishaishi/rofls.yy",
+    "name":"govno_kotoroe_ne_nyshno(ne_ydalit!!!!)",
+    "path":"folders/glava1/govno_kotoroe_ne_nyshno(ne_ydalit!!!!).yy",
   },
   "parentObjectId":null,
   "persistent":false,

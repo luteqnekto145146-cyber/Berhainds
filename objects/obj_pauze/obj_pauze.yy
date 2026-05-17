@@ -10,8 +10,8 @@
   "name":"obj_pauze",
   "overriddenProperties":[],
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"knopki",
+    "path":"folders/menu/knopki.yy",
   },
   "parentObjectId":null,
   "persistent":true,

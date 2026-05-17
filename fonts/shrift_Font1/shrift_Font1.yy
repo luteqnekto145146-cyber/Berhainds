@@ -191,8 +191,8 @@
   "maintainGms1Font":false,
   "name":"shrift_Font1",
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"nesorter",
+    "path":"folders/glava1/nesorter.yy",
   },
   "pointRounding":0,
   "ranges":[

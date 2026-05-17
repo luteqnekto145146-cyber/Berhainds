@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"govno_kotoroe_ne_nyshno(ne_ydalit!!!!)",
+    "path":"folders/glava1/govno_kotoroe_ne_nyshno(ne_ydalit!!!!).yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

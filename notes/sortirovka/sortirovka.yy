@@ -3,8 +3,8 @@
   "%Name":"sortirovka",
   "name":"sortirovka",
   "parent":{
-    "name":"SOOBshenie",
-    "path":"folders/SOOBshenie.yy",
+    "name":"soobshenie",
+    "path":"folders/soobshenie.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",
