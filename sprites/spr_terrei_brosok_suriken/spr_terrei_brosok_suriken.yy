@@ -33,8 +33,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"objects",
-    "path":"folders/igra/glava1/terrei-velishaishi/objects.yy",
+    "name":"terrei-velishaishi",
+    "path":"folders/igra/glava1/terrei-velishaishi.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
