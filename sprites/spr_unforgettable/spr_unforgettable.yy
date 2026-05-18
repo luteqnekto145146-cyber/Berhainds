@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"bi_strash",
+    "path":"folders/igra/glava1/monsters/blisnie_boi/bi_strash.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -10,8 +10,8 @@
   "name":"start",
   "overriddenProperties":[],
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"knopki",
+    "path":"folders/igra/menu/knopki.yy",
   },
   "parentObjectId":null,
   "persistent":false,

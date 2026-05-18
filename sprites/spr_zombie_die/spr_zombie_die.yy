@@ -37,8 +37,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"zombi",
+    "path":"folders/igra/glava1/monsters/blisnie_boi/zombi.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

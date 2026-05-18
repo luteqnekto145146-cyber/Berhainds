@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"sceleton",
+    "path":"folders/igra/glava1/monsters/blisnie_boi/sceleton.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

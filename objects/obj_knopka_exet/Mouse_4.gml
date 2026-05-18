@@ -1,7 +1,9 @@
-/// @DnDAction : YoYo Games.Rooms.Go_To_Room
-/// @DnDVersion : 1
-/// @DnDHash : 04043EA1
-/// @DnDApplyTo : {obj_knopka_exet}
-/// @DnDArgument : "room" "pauze"
-/// @DnDSaveInfo : "room" "pauze"
-with(obj_knopka_exet) room_goto(r_pauze);
+var pause_inst = instance_find(obj_pauze, 0);
+
+if (pause_inst != noone)
+{
+    with (pause_inst)
+    {
+        event_user(0);
+    }
+}

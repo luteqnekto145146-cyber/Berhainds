@@ -221,8 +221,8 @@
   ],
   "name":"r_doroga",
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"rooms",
+    "path":"folders/igra/menu/rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

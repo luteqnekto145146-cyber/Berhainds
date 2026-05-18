@@ -10,8 +10,8 @@
   "name":"obj_chest",
   "overriddenProperties":[],
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"cheast",
+    "path":"folders/igra/glava1/veshi/cheast.yy",
   },
   "parentObjectId":null,
   "persistent":false,

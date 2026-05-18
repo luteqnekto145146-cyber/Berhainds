@@ -13,8 +13,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"tielsetes",
+    "path":"folders/igra/tielsets/tielsetes.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

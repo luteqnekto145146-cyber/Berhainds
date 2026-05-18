@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"mags",
+    "path":"folders/igra/glava1/monsters/mags.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"kamikadze",
+    "path":"folders/igra/glava1/monsters/kamikadze.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

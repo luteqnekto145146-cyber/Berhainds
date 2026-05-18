@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"sprites",
+    "path":"folders/igra/tielsets/sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"oryshie",
+    "path":"folders/igra/glava1/veshi/oryshie.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

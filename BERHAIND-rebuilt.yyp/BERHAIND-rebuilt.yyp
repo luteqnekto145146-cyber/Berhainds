@@ -14,7 +14,9 @@
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
-  "MetaData":{},
+  "MetaData":{
+    "IDEVersion":"2024.14.4.222",
+  },
   "name":"BERHAIND-rebuilt",
   "resources":[],
   "resourceType":"GMProject",

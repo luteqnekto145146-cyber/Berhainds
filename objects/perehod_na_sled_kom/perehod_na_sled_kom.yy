@@ -9,8 +9,8 @@
   "name":"perehod_na_sled_kom",
   "overriddenProperties":[],
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"nesorter",
+    "path":"folders/igra/glava1/nesorter.yy",
   },
   "parentObjectId":null,
   "persistent":false,

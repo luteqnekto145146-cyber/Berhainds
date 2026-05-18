@@ -8,8 +8,8 @@
   "name":"obj_Object13",
   "overriddenProperties":[],
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"objects",
+    "path":"folders/igra/glava1/terrei-velishaishi/objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

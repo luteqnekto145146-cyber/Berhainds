@@ -31,8 +31,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"glava1",
-    "path":"folders/glava1.yy",
+    "name":"fons",
+    "path":"folders/igra/menu/fons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
