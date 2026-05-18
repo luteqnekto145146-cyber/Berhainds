@@ -30,3 +30,10 @@ hdir = 0;
 /// @DnDHash : 56884A6A
 /// @DnDArgument : "var" "vdir"
 vdir = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5422884F
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "canknock "
+canknock  = true;
