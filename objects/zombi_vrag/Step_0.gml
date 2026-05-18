@@ -102,9 +102,9 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 71D090B8
 /// @DnDArgument : "xvel" "(obj_beg_terrei.x - zombi_vrag.x)"
-/// @DnDArgument : "yvel" "(obj_beg_terrei.y - zombi_vrag.y)"
+/// @DnDArgument : "yvel" "(obj_beg_terrei.y - zombi_vrag.y) - 25"
 /// @DnDArgument : "maxxmove" "1"
 /// @DnDArgument : "maxymove" "1"
 /// @DnDArgument : "object" "zombi_vrag"
 /// @DnDSaveInfo : "object" "zombi_vrag"
-move_and_collide((obj_beg_terrei.x - zombi_vrag.x), (obj_beg_terrei.y - zombi_vrag.y), [zombi_vrag],4,0,0,1,1);
+move_and_collide((obj_beg_terrei.x - zombi_vrag.x), (obj_beg_terrei.y - zombi_vrag.y) - 25, [zombi_vrag],4,0,0,1,1);
