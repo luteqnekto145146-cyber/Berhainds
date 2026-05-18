@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"fade",
+  "%Name":"spriat_perehod_obichni",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"fade",
+  "name":"spriat_perehod_obichni",
   "overriddenProperties":[],
   "parent":{
     "name":"Vse_ot_Matvei",

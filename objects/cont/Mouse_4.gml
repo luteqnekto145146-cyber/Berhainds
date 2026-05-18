@@ -3,4 +3,4 @@
 /// @DnDHash : 4FA60B0A
 /// @DnDArgument : "objectid" "fade_1"
 /// @DnDSaveInfo : "objectid" "fade_1"
-instance_create_layer(0, 0, "Instances", fade_1);
+instance_create_layer(0, 0, "Instances", spriat_perehod_menu);
