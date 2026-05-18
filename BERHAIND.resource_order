@@ -1,7 +1,5 @@
 {
-  "FolderOrderSettings":[
-    {"name":"glava1","order":2,"path":"folders/glava1.yy",},
-  ],
+  "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"shrift_Font1","order":31,"path":"fonts/shrift_Font1/shrift_Font1.yy",},
     {"name":"Note3","order":6,"path":"notes/Note3/Note3.yy",},
@@ -21,9 +19,7 @@
     {"name":"obj_sapfir_suriken","order":14,"path":"objects/obj_sapfir_suriken/obj_sapfir_suriken.yy",},
     {"name":"obj_Terre1024","order":15,"path":"objects/obj_Terre1024/obj_Terre1024.yy",},
     {"name":"obj_wall","order":16,"path":"objects/obj_wall/obj_wall.yy",},
-    {"name":"Object1","order":17,"path":"objects/Object1/Object1.yy",},
     {"name":"Object16","order":18,"path":"objects/Object16/Object16.yy",},
-    {"name":"Object3","order":19,"path":"objects/Object3/Object3.yy",},
     {"name":"Object9","order":20,"path":"objects/Object9/Object9.yy",},
     {"name":"perehod_na_sled_kom","order":21,"path":"objects/perehod_na_sled_kom/perehod_na_sled_kom.yy",},
     {"name":"settin","order":30,"path":"objects/settin/settin.yy",},
@@ -35,7 +31,6 @@
     {"name":"r_menu_i","order":26,"path":"rooms/r_menu_i/r_menu_i.yy",},
     {"name":"r_pauze","order":27,"path":"rooms/r_pauze/r_pauze.yy",},
     {"name":"r_Settings_Menu","order":28,"path":"rooms/r_Settings_Menu/r_Settings_Menu.yy",},
-    {"name":"spr_picture","order":80,"path":"rooms/spr_picture/spr_picture.yy",},
     {"name":"scr_beg_terrei_kod","order":29,"path":"scripts/scr_beg_terrei_kod/scr_beg_terrei_kod.yy",},
     {"name":"skibidishop","order":32,"path":"sprites/skibidishop/skibidishop.yy",},
     {"name":"spr_ANM_Beg_Terrei","order":33,"path":"sprites/spr_ANM_Beg_Terrei/spr_ANM_Beg_Terrei.yy",},
@@ -135,7 +130,6 @@
     {"name":"Sprite76","order":126,"path":"sprites/Sprite76/Sprite76.yy",},
     {"name":"Sprite77","order":127,"path":"sprites/Sprite77/Sprite77.yy",},
     {"name":"Sprite8","order":128,"path":"sprites/Sprite8/Sprite8.yy",},
-    {"name":"Sprite80","order":129,"path":"sprites/Sprite80/Sprite80.yy",},
     {"name":"Sprite83","order":130,"path":"sprites/Sprite83/Sprite83.yy",},
     {"name":"Sprite85","order":131,"path":"sprites/Sprite85/Sprite85.yy",},
     {"name":"Sprite86_1","order":133,"path":"sprites/Sprite86_1/Sprite86_1.yy",},
@@ -144,7 +138,6 @@
     {"name":"Sprite96","order":135,"path":"sprites/Sprite96/Sprite96.yy",},
     {"name":"sproite","order":136,"path":"sprites/sproite/sproite.yy",},
     {"name":"terrei_1024","order":139,"path":"sprites/terrei_1024/terrei_1024.yy",},
-    {"name":"zombi","order":148,"path":"sprites/zombi/zombi.yy",},
     {"name":"TileSet1","order":140,"path":"tilesets/TileSet1/TileSet1.yy",},
     {"name":"TileSet2","order":141,"path":"tilesets/TileSet2/TileSet2.yy",},
     {"name":"TileSet3","order":142,"path":"tilesets/TileSet3/TileSet3.yy",},
