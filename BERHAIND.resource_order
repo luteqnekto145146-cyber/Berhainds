@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings":[
+    {"name":"igra","order":4,"path":"folders/igra.yy",},
     {"name":"govno_kotoroe_ne_nyshno(ne_ydalit!!!!)","order":23,"path":"folders/igra/glava1/govno_kotoroe_ne_nyshno(ne_ydalit!!!!).yy",},
     {"name":"monsters","order":21,"path":"folders/igra/glava1/monsters.yy",},
     {"name":"arrtileri","order":5,"path":"folders/igra/glava1/monsters/arrtileri.yy",},
@@ -26,7 +27,6 @@
     {"name":"soobshenie","order":2,"path":"folders/igra/soobshenie.yy",},
     {"name":"tielsets","order":3,"path":"folders/igra/tielsets.yy",},
     {"name":"sprites","order":1,"path":"folders/igra/tielsets/sprites.yy",},
-    {"name":"igra","order":4,"path":"folders/igra.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"shrift_Font1","order":4,"path":"fonts/shrift_Font1/shrift_Font1.yy",},
