@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"fade_1",
+  "%Name":"spriat_perehod_menu",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"fade_1",
+  "name":"spriat_perehod_menu",
   "overriddenProperties":[],
   "parent":{
     "name":"Vse_ot_Matvei",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite20",
-    "path":"sprites/Sprite20/Sprite20.yy",
+    "name":"poopkakoito",
+    "path":"sprites/poopkakoito/poopkakoito.yy",
   },
   "spriteMaskId":null,
   "visible":true,
