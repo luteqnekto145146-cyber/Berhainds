@@ -28,16 +28,10 @@
     {"name":"tielsets","order":3,"path":"folders/igra/tielsets.yy",},
     {"name":"sprites","order":1,"path":"folders/igra/tielsets/sprites.yy",},
 <<<<<<< HEAD
-<<<<<<< HEAD
     {"name":"переименновать!!!","order":9,"path":"folders/переименновать!!!.yy",},
 =======
     {"name":"igra","order":4,"path":"folders/igra.yy",},
 >>>>>>> parent of 43ff214 (о)
-=======
-    {"name":"Lev","order":2,"path":"folders/Lev.yy",},
-    {"name":"sergh","order":1,"path":"folders/sergh.yy",},
-    {"name":"Matvei","order":3,"path":"folders/Matvei.yy",},
->>>>>>> parent of 39ee022 (Revert "о")
   ],
   "ResourceOrderSettings":[
     {"name":"shrift_Font1","order":4,"path":"fonts/shrift_Font1/shrift_Font1.yy",},
@@ -51,7 +45,6 @@
     {"name":"obj_nazad_1","order":17,"path":"objects/obj_nazad_1/obj_nazad_1.yy",},
     {"name":"obj_nazad","order":5,"path":"objects/obj_nazad/obj_nazad.yy",},
     {"name":"obj_Object13","order":1,"path":"objects/obj_Object13/obj_Object13.yy",},
-    {"name":"obj_pause_progres","order":4,"path":"objects/obj_pause_progres/obj_pause_progres.yy",},
     {"name":"obj_pauze","order":18,"path":"objects/obj_pauze/obj_pauze.yy",},
     {"name":"obj_Terre1024","order":2,"path":"objects/obj_Terre1024/obj_Terre1024.yy",},
     {"name":"Object16","order":1,"path":"objects/Object16/Object16.yy",},
@@ -68,7 +61,6 @@
     {"name":"r_pictuerie","order":6,"path":"rooms/r_pictuerie/r_pictuerie.yy",},
     {"name":"r_Settings_Menu","order":5,"path":"rooms/r_Settings_Menu/r_Settings_Menu.yy",},
     {"name":"scr_beg_terrei_kod","order":3,"path":"scripts/scr_beg_terrei_kod/scr_beg_terrei_kod.yy",},
-<<<<<<< HEAD
     {"name":"seq_pause_menu","order":19,"path":"sequences/seq_pause_menu/seq_pause_menu.yy",},
 <<<<<<< HEAD
     {"name":"_094cde37_e08a_4dcd_850c_f4982f0e0d7a","order":1,"path":"sprites/_094cde37_e08a_4dcd_850c_f4982f0e0d7a/_094cde37_e08a_4dcd_850c_f4982f0e0d7a.yy",},
@@ -88,9 +80,6 @@
     {"name":"_87e5e7d6_1346_434a_ab9e_cdf099313174","order":14,"path":"sprites/_87e5e7d6_1346_434a_ab9e_cdf099313174/_87e5e7d6_1346_434a_ab9e_cdf099313174.yy",},
 =======
 >>>>>>> parent of 43ff214 (о)
-=======
-    {"name":"seq_pause_menu","order":5,"path":"sequences/seq_pause_menu/seq_pause_menu.yy",},
->>>>>>> parent of 39ee022 (Revert "о")
     {"name":"backeryn","order":1,"path":"sprites/backeryn/backeryn.yy",},
     {"name":"f779584f_d0cd_4ee7_9fe2_850f9a880b2c","order":16,"path":"sprites/f779584f_d0cd_4ee7_9fe2_850f9a880b2c/f779584f_d0cd_4ee7_9fe2_850f9a880b2c.yy",},
     {"name":"skibidishop","order":2,"path":"sprites/skibidishop/skibidishop.yy",},
