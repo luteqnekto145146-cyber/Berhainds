@@ -45,6 +45,7 @@
     {"name":"obj_Terre1024","order":2,"path":"objects/obj_Terre1024/obj_Terre1024.yy",},
     {"name":"Object16","order":1,"path":"objects/Object16/Object16.yy",},
     {"name":"Object24","order":10,"path":"objects/Object24/Object24.yy",},
+    {"name":"Object25","order":11,"path":"objects/Object25/Object25.yy",},
     {"name":"Object9","order":6,"path":"objects/Object9/Object9.yy",},
     {"name":"perehod_na_sled_kom","order":2,"path":"objects/perehod_na_sled_kom/perehod_na_sled_kom.yy",},
     {"name":"settin","order":6,"path":"objects/settin/settin.yy",},

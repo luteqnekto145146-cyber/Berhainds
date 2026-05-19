@@ -76,6 +76,7 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"Object16","path":"objects/Object16/Object16.yy",},},
     {"id":{"name":"Object24","path":"objects/Object24/Object24.yy",},},
+    {"id":{"name":"Object25","path":"objects/Object25/Object25.yy",},},
     {"id":{"name":"Object9","path":"objects/Object9/Object9.yy",},},
     {"id":{"name":"perehod_na_sled_kom","path":"objects/perehod_na_sled_kom/perehod_na_sled_kom.yy",},},
     {"id":{"name":"settin","path":"objects/settin/settin.yy",},},
