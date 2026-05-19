@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Sprite20",
-    "path":"sprites/Sprite20/Sprite20.yy",
+    "name":"poopkakoito",
+    "path":"sprites/poopkakoito/poopkakoito.yy",
   },
   "spriteMaskId":null,
   "visible":true,

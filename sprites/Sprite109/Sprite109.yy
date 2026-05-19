@@ -2,16 +2,24 @@
   "$GMSprite":"v2",
   "%Name":"Sprite109",
   "bboxMode":0,
+<<<<<<< HEAD
   "bbox_bottom":77,
   "bbox_left":0,
   "bbox_right":77,
   "bbox_top":0,
+=======
+  "bbox_bottom":50,
+  "bbox_left":7,
+  "bbox_right":62,
+  "bbox_top":6,
+>>>>>>> parent of cbd915a (Revert "1")
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
+<<<<<<< HEAD
     {"$GMSpriteFrame":"v1","%Name":"cfb092a2-bb5d-4db5-a7d0-11f2c5d3fceb","name":"cfb092a2-bb5d-4db5-a7d0-11f2c5d3fceb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
@@ -20,13 +28,28 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"681f5c97-6903-46cd-baec-cfae07aac9e9","blendMode":0,"displayName":"default","isLocked":false,"name":"681f5c97-6903-46cd-baec-cfae07aac9e9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+=======
+    {"$GMSpriteFrame":"v1","%Name":"87e5e7d6-1346-434a-ab9e-cdf099313174","name":"87e5e7d6-1346-434a-ab9e-cdf099313174","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+  ],
+  "gridX":0,
+  "gridY":0,
+  "height":64,
+  "HTile":false,
+  "layers":[
+    {"$GMImageLayer":"","%Name":"017cebdb-029d-431c-a6f1-6c68ce65f131","blendMode":0,"displayName":"default","isLocked":false,"name":"017cebdb-029d-431c-a6f1-6c68ce65f131","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+>>>>>>> parent of cbd915a (Revert "1")
   ],
   "name":"Sprite109",
   "nineSlice":null,
   "origin":0,
   "parent":{
+<<<<<<< HEAD
     "name":"переименновать!!!",
     "path":"folders/переименновать!!!.yy",
+=======
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
+>>>>>>> parent of cbd915a (Revert "1")
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -69,8 +92,13 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+<<<<<<< HEAD
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cfb092a2-bb5d-4db5-a7d0-11f2c5d3fceb","path":"sprites/Sprite109/Sprite109.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"60cf2e4c-8640-4e9f-9501-07763ca99b20","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+=======
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"87e5e7d6-1346-434a-ab9e-cdf099313174","path":"sprites/Sprite109/Sprite109.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1988fdd4-8aa7-4596-bcc2-2b4d850bff76","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+>>>>>>> parent of cbd915a (Revert "1")
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +114,9 @@
   },
   "type":0,
   "VTile":false,
+<<<<<<< HEAD
   "width":78,
+=======
+  "width":64,
+>>>>>>> parent of cbd915a (Revert "1")
 }
