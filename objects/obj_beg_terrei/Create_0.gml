@@ -30,3 +30,9 @@ hdir = 0;
 /// @DnDHash : 56884A6A
 /// @DnDArgument : "var" "vdir"
 vdir = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 16679452
+/// @DnDArgument : "var" "hp = 1000"
+hp = 1000 = 0;
