@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"igra","folderPath":"folders/igra.yy","name":"igra","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"glava1","folderPath":"folders/igra/glava1.yy","name":"glava1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"govno_kotoroe_ne_nyshno(ne_ydalit!!!!)","folderPath":"folders/igra/glava1/govno_kotoroe_ne_nyshno(ne_ydalit!!!!).yy","name":"govno_kotoroe_ne_nyshno(ne_ydalit!!!!)","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"monsters","folderPath":"folders/igra/glava1/monsters.yy","name":"monsters","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -41,11 +42,7 @@
     {"$GMFolder":"","%Name":"tielsets","folderPath":"folders/igra/tielsets.yy","name":"tielsets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/igra/tielsets/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"tielsetes","folderPath":"folders/igra/tielsets/tielsetes.yy","name":"tielsetes","resourceType":"GMFolder","resourceVersion":"2.0",},
-<<<<<<< HEAD
     {"$GMFolder":"","%Name":"переименновать!!!","folderPath":"folders/переименновать!!!.yy","name":"переименновать!!!","resourceType":"GMFolder","resourceVersion":"2.0",},
-=======
-    {"$GMFolder":"","%Name":"igra","folderPath":"folders/igra.yy","name":"igra","resourceType":"GMFolder","resourceVersion":"2.0",},
->>>>>>> parent of 43ff214 (о)
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
