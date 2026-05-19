@@ -103,6 +103,7 @@
     {"name":"spr_kirpich","order":1,"path":"sprites/spr_kirpich/spr_kirpich.yy",},
     {"name":"Spr_kmni","order":2,"path":"sprites/Spr_kmni/Spr_kmni.yy",},
     {"name":"spr_knopka_exet","order":8,"path":"sprites/spr_knopka_exet/spr_knopka_exet.yy",},
+    {"name":"spr_LEVlaz_SOLDIER","order":5,"path":"sprites/spr_LEVlaz_SOLDIER/spr_LEVlaz_SOLDIER.yy",},
     {"name":"spr_loading_picture","order":4,"path":"sprites/spr_loading_picture/spr_loading_picture.yy",},
     {"name":"spr_lokons_iz_apiloga","order":3,"path":"sprites/spr_lokons_iz_apiloga/spr_lokons_iz_apiloga.yy",},
     {"name":"spr_metall_suriken","order":6,"path":"sprites/spr_metall_suriken/spr_metall_suriken.yy",},
