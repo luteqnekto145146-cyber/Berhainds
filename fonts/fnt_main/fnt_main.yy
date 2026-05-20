@@ -528,8 +528,8 @@
   "maintainGms1Font":false,
   "name":"fnt_main",
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"группа1",
+    "path":"folders/группа1.yy",
   },
   "pointRounding":0,
   "ranges":[

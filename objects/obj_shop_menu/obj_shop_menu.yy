@@ -12,8 +12,8 @@
   "name":"obj_shop_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"группа1",
+    "path":"folders/группа1.yy",
   },
   "parentObjectId":null,
   "persistent":false,

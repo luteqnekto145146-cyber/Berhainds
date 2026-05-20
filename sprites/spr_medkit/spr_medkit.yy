@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"группа1",
+    "path":"folders/группа1.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

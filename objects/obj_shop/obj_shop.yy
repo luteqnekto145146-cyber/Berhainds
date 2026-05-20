@@ -9,8 +9,8 @@
   "name":"obj_shop",
   "overriddenProperties":[],
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"группа1",
+    "path":"folders/группа1.yy",
   },
   "parentObjectId":null,
   "persistent":false,
