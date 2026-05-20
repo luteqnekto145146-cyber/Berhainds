@@ -28,3 +28,8 @@ draw_set_valign(fa_top);
 // Рисуем счетчики с отступом в 20 пикселей от правого края экрана
 draw_text(gui_width - 20, 20, "Money: " + string(global.coins));
 draw_text(gui_width - 20, 50, "Exp: " + string(global.xp));
+// Получаем ширину экрана
+var gui_width = display_get_gui_width();
+
+// Рисуем надпись ниже монет и опыта (например, на высоте Y: 80)
+draw_text(gui_width - 20, 80, "Сюрикены: " + string(shurikens));

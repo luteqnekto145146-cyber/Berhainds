@@ -3,14 +3,15 @@
   "%Name":"obj_sapfir_suriken",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_zombie","path":"objects/obj_zombie/obj_zombie.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_sapfir_suriken",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/igra/glava1/veshi/oryshie/objects.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
