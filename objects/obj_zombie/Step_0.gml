@@ -90,17 +90,46 @@ if (instance_exists(obj_beg_terrei)) {
                 image_index = 0;
             }
             break;
+           
+               case Z_STATE.ATTACK:
+            // 3. ЛОГИКА АТАКИ ВО ВСЕ 4 СТОРОНЫ
+            speed = 0; // Останавливаемся, чтобы ударить
             
-        case Z_STATE.ATTACK:
-            // 3. ЛОГИКА АТАКИ
-            speed = 0;
-            sprite_index = spr_idet_na_nas_zombie; 
+            // Вычисляем точный угол направления на игрока
+            var attack_dir = point_direction(x, y, obj_beg_terrei.x, obj_beg_terrei.y);
+            attack_dir = (attack_dir + 360) % 360; // Корректируем угол от 0 до 360
             
+            // Включаем нужный спрайт атаки в зависимости от угла
+            if (attack_dir >= 45 && attack_dir < 135) {
+                sprite_index = Spr_zombie_ataka_ot_nas;    // Атака НАЗАД (вверх)
+            } 
+            else if (attack_dir >= 135 && attack_dir < 225) {
+                sprite_index = Spr_zombie_ataka_v_levo;    // Атака ВЛЕВО
+            } 
+            else if (attack_dir >= 225 && attack_dir < 315) {
+                sprite_index = Spr_zombie_ataka_na_nas;    // Атака НА НАС (вниз)
+            } 
+            else {
+                sprite_index = Spr_zombie_ataka_v_pravo;   // Атака ВПРАВО
+            }
+            
+            image_xscale = 1; // Убираем отзеркаливание
+            
+            // Логика нанесения урона по таймеру (раз в секунду)
+            if (attack_cooldown <= 0) {
+                obj_beg_terrei.player_hp -= 15; // Наносим 15 единиц урона
+                attack_cooldown = 60;          // Перезарядка 1 секунда
+            } else {
+                attack_cooldown--; // Уменьшаем таймер перезарядки
+            }
+            
+            // Если игрок отбежал — продолжаем погоню
             if (dist > attack_radius) {
                 state = Z_STATE.CHASE;
+                attack_cooldown = 0;
             }
             break;
-            
+
         case Z_STATE.RETURN:
             // 4. ЛОГИКА ВОЗВРАЩЕНИЯ ДОМОЙ
             // Спокойно идем к точке спавна (со скоростью move_speed)

@@ -4,3 +4,7 @@ vdir = (keyboard_check(ord("S")) - keyboard_check(ord("W")))
 beg_cod();
 
 move_and_collide(hdir * move_speed, vdir * move_speed, obj_wall, 4, 0,0, move_speed, move_speed)
+// Если здоровье закончилось — перемещаем игрока в комнату главного меню
+if (player_hp <= 0) {
+    room_goto(r_menu_i);
+}
