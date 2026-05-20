@@ -52,29 +52,62 @@ if (instance_exists(obj_beg_terrei)) {
     switch (state) {
         
         case Z_STATE.WANDER:
-            // 1. ЛОГИКА БЛУЖДАНИЯ
-            speed = move_speed;
-            
+            // 1. ЛОГИКА БЛУЖДАНИЯ С УМНЫМИ ПАУЗАМИ
             wander_timer++;
+            
+            // Каждые 2 секунды (120 кадров) принимаем новое решение
             if (wander_timer >= 120) {
+                
                 // Проверяем расстояние от зомби до его дома
                 var dist_to_home = point_distance(x, y, home_x, home_y);
                 
                 if (dist_to_home > 100) {
-                    direction = point_direction(x, y, home_x, home_y); // Идем к дому
+                    // Если ушел слишком далеко, принудительно возвращаем домой
+                    direction = point_direction(x, y, home_x, home_y);
+                    speed = move_speed;
                 } else {
-                    direction = random(360); // Гуляем случайно
+                    // Если он внутри зоны, выбираем: идти или стоять (шанс 50 на 50)
+                    var decide_to_walk = choose(true, false);
+                    
+                    if (decide_to_walk) {
+                        // Зомби идет в случайном направлении
+                        direction = random(360); 
+                        speed = move_speed;
+                    } else {
+                        // Зомби останавливается на месте
+                        speed = 0;
+                    }
                 }
                 wander_timer = 0;
             }
             
-            move_dir = direction;
+            // Если зомби идет — запоминаем и обновляем угол движения для анимации ходьбы
+            if (speed > 0) {
+                move_dir = direction;
+            } else {
+                // ЕСЛИ ЗОМБИ СТОИТ: включаем правильный спрайт покоя на основе последнего направления движения
+                move_dir = (move_dir + 360) % 360;
+                
+                if (move_dir >= 45 && move_dir < 135) {
+                    sprite_index = spr_ne_dvigayetsa_zombie_ot_nas; // Стоит спиной
+                } 
+                else if (move_dir >= 135 && move_dir < 225) {
+                    sprite_index = spr_ne_dvigayetsa_zombie_v_levo; // Твой спрайт: стоит влево
+                } 
+                else if (move_dir >= 225 && move_dir < 315) {
+                    sprite_index = spr_ne_dvigayetsa_zombie_na_nas; // Стоит лицом к нам
+                } 
+                else {
+                    sprite_index = spr_ne_dvigayetsa_zombie_v_pravo; // Стоит вправо
+                }
+            }
             
-            // Если заметил игрока — преследуем
+            // Если заметил игрока obj_beg_terrei — мгновенно прерывает отдых и бежит за ним
             if (dist < detection_radius) {
                 state = Z_STATE.CHASE;
             }
             break;
+
             
         case Z_STATE.CHASE:
             // 2. ЛОГИКА ПОГОНИ
