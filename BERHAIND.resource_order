@@ -28,6 +28,7 @@
     {"name":"soobshenie","order":2,"path":"folders/igra/soobshenie.yy",},
     {"name":"tielsets","order":3,"path":"folders/igra/tielsets.yy",},
     {"name":"sprites","order":1,"path":"folders/igra/tielsets/sprites.yy",},
+    {"name":"группа1","order":14,"path":"folders/группа1.yy",},
     {"name":"переименновать!!!","order":1,"path":"folders/переименновать!!!.yy",},
   ],
   "ResourceOrderSettings":[
@@ -85,6 +86,7 @@
     {"name":"_87e5e7d6_1346_434a_ab9e_cdf099313174","order":14,"path":"sprites/_87e5e7d6_1346_434a_ab9e_cdf099313174/_87e5e7d6_1346_434a_ab9e_cdf099313174.yy",},
     {"name":"backeryn","order":1,"path":"sprites/backeryn/backeryn.yy",},
     {"name":"f779584f_d0cd_4ee7_9fe2_850f9a880b2c","order":16,"path":"sprites/f779584f_d0cd_4ee7_9fe2_850f9a880b2c/f779584f_d0cd_4ee7_9fe2_850f9a880b2c.yy",},
+    {"name":"gold","order":12,"path":"sprites/gold/gold.yy",},
     {"name":"skibidishop","order":2,"path":"sprites/skibidishop/skibidishop.yy",},
     {"name":"spr_ANM_Beg_Terrei","order":3,"path":"sprites/spr_ANM_Beg_Terrei/spr_ANM_Beg_Terrei.yy",},
     {"name":"spr_ANM_Beg_TerrLEFT","order":4,"path":"sprites/spr_ANM_Beg_TerrLEFT/spr_ANM_Beg_TerrLEFT.yy",},
@@ -170,7 +172,6 @@
     {"name":"Sprite14","order":5,"path":"sprites/Sprite14/Sprite14.yy",},
     {"name":"Sprite140","order":2,"path":"sprites/Sprite140/Sprite140.yy",},
     {"name":"Sprite141","order":3,"path":"sprites/Sprite141/Sprite141.yy",},
-    {"name":"Sprite143","order":12,"path":"sprites/Sprite143/Sprite143.yy",},
     {"name":"Sprite17","order":5,"path":"sprites/Sprite17/Sprite17.yy",},
     {"name":"Sprite20","order":2,"path":"sprites/Sprite20/Sprite20.yy",},
     {"name":"Sprite29","order":12,"path":"sprites/Sprite29/Sprite29.yy",},
