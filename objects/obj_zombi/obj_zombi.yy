@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Object24",
-  "eventList":[],
+  "%Name":"obj_zombi",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object24",
+  "name":"obj_zombi",
   "overriddenProperties":[],
   "parent":{
     "name":"BERHAIND",
@@ -26,8 +29,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":null,
+  "solid":true,
+  "spriteId":{
+    "name":"spr_idet_na_nas_zombie",
+    "path":"sprites/spr_idet_na_nas_zombie/spr_idet_na_nas_zombie.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
