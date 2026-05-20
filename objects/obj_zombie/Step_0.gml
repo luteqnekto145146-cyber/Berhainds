@@ -84,19 +84,30 @@ if (instance_exists(obj_beg_terrei)) {
             }
             break;
             
-        case Z_STATE.CHASE:
-            // ЛОГИКА ПОГОНИ (true заставляет mp_potential_step учитывать других твердых зомби)
-            mp_potential_step(obj_beg_terrei.x, obj_beg_terrei.y, chase_speed, true);
-            move_dir = point_direction(x, y, obj_beg_terrei.x, obj_beg_terrei.y);
+             case Z_STATE.CHASE:
+            // ЛОГИКА ПОГОНИ (Исправленная под маску ботинок)
+            
+            // Заставляем зомби бежать не в центр игрока, а чуть ниже — к его ногам (ботинкам)
+            // Смещение +16 или +20 пикселей вниз по оси Y (подстрой под размер своего спрайта)
+            var target_x = obj_beg_terrei.x;
+            var target_y = obj_beg_terrei.y + 16; 
+            
+            mp_potential_step(target_x, target_y, chase_speed, true);
+            move_dir = point_direction(x, y, target_x, target_y);
+            
+            // Считаем дистанцию атаки тоже до ног, чтобы зомби вовремя останавливался и бил
+            var dist_to_feet = point_distance(x, y, target_x, target_y);
             
             if (dist > detection_radius * 1.5) {
                 state = Z_STATE.RETURN;
             }
-            else if (dist <= attack_radius) {
+            // Слегка увеличиваем attack_radius (например, до 45-50), если зомби всё равно не достает
+            else if (dist_to_feet <= attack_radius) {
                 state = Z_STATE.ATTACK;
                 image_index = 0;
             }
             break;
+
             
         case Z_STATE.ATTACK:
             // ЛОГИКА АТАКИ ВО ВСЕ 4 СТОРОНЫ
