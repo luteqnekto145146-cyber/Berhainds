@@ -55,6 +55,7 @@
   },
   "name":"BERHAIND",
   "resources":[
+    {"id":{"name":"fnt_main","path":"fonts/fnt_main/fnt_main.yy",},},
     {"id":{"name":"shrift_Font1","path":"fonts/shrift_Font1/shrift_Font1.yy",},},
     {"id":{"name":"Note3","path":"notes/Note3/Note3.yy",},},
     {"id":{"name":"prim_Note1","path":"notes/prim_Note1/prim_Note1.yy",},},
@@ -78,6 +79,7 @@
     {"id":{"name":"obj_Object13","path":"objects/obj_Object13/obj_Object13.yy",},},
     {"id":{"name":"obj_pauze","path":"objects/obj_pauze/obj_pauze.yy",},},
     {"id":{"name":"obj_sapfir_suriken","path":"objects/obj_sapfir_suriken/obj_sapfir_suriken.yy",},},
+    {"id":{"name":"obj_shop_menu","path":"objects/obj_shop_menu/obj_shop_menu.yy",},},
     {"id":{"name":"obj_shop","path":"objects/obj_shop/obj_shop.yy",},},
     {"id":{"name":"obj_Terre1024","path":"objects/obj_Terre1024/obj_Terre1024.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},

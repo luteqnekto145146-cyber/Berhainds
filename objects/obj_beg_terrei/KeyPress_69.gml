@@ -1,24 +1,12 @@
-// 1. Ищем ближайший магазин на карте
+// Проверяем, есть ли рядом объект магазина
 var nearest_shop = instance_nearest(x, y, obj_shop);
 
 if (nearest_shop != noone) {
-    // Считаем расстояние до этого магазина
-    var dist_to_shop = point_distance(x, y, nearest_shop.x, nearest_shop.y);
+    var dist = point_distance(x, y, nearest_shop.x, nearest_shop.y);
     
-    // Если игрок стоит вплотную к магазину (ближе 60 пикселей)
-    if (dist_to_shop <= 60) {
-        
-        // Проверяем, хватает ли у игрока монет
-        if (global.coins >= nearest_shop.medkit_price) {
-            
-            global.coins -= nearest_shop.medkit_price; // Забираем монеты
-            
-            // Спавним аптечку прямо под ногами игрока
-            instance_create_layer(x, y, "Instances", obj_medkit);
-            
-        } else {
-            // Если монет не хватает, можно вывести сообщение или просто ничего не делать
-            // Например, временно изменить цвет текста (по желанию)
-        }
+    // Если стоим близко к магазину и меню ЕЩЕ НЕ открыто
+    if (dist <= 60 && !instance_exists(obj_shop_menu)) {
+        // Создаем интерфейс меню
+        instance_create_layer(0, 0, "Instances", obj_shop_menu);
     }
 }
