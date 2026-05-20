@@ -65,9 +65,12 @@ if (instance_exists(obj_beg_terrei)) {
                     // Если ушел слишком далеко, принудительно возвращаем домой
                     direction = point_direction(x, y, home_x, home_y);
                     speed = move_speed;
-                } else {
-                    // Если он внутри зоны, выбираем: идти или стоять (шанс 50 на 50)
-                    var decide_to_walk = choose(true, false);
+                                } else {
+                    // Генерируем случайный процент от 0 до 100
+                    var wander_chance = random(100);
+
+                    // Если выпало больше 15 — зомби идет (85% шанса), иначе — стоит (15% шанса)
+                    var decide_to_walk = (wander_chance > 15);
                     
                     if (decide_to_walk) {
                         // Зомби идет в случайном направлении
