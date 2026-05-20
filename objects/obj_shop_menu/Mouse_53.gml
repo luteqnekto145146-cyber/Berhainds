@@ -11,19 +11,27 @@ var cy = screen_h / 2;
 var b1_x1 = cx - 180; var b1_y1 = cy - 60; var b1_x2 = cx + 180; var b1_y2 = cy - 10;
 var b2_x1 = cx - 180; var b2_y1 = cy + 20; var b2_x2 = cx + 180; var b2_y2 = cy + 70;
 
-// ПОКУПКА АПТЕЧКИ
+// ПОКУПКА АПТЕЧКИ (Кнопка 1)
 if (mx >= b1_x1 && mx <= b1_x2 && my >= b1_y1 && my <= b1_y2) {
     if (global.coins >= price_medkit) {
-        global.coins -= price_medkit;
+        global.coins -= price_medkit; // Списываем 5 монет
         
-        // Сразу лечим игрока, если у него не полное здоровье
+        // Проверяем: если у игрока МЕНЬШЕ максимального здоровья — лечим его сразу
         if (obj_beg_terrei.player_hp < obj_beg_terrei.player_hp_max) {
-            obj_beg_terrei.player_hp += 30;
-            if (obj_beg_terrei.player_hp > obj_beg_terrei.player_hp_max) obj_beg_terrei.player_hp = obj_beg_terrei.player_hp_max;
+            obj_beg_terrei.player_hp += 30; // Восстанавливаем 30 HP
+            
+            // Защита от превышения максимума
+            if (obj_beg_terrei.player_hp > obj_beg_terrei.player_hp_max) {
+                obj_beg_terrei.player_hp = obj_beg_terrei.player_hp_max;
+            }
+        } 
+        else {
+            // ЕСЛИ ЗДОРОВЬЕ ПОЛНОЕ (ФУЛЛ ХП) — выбрасываем аптечку на землю!
+            // Спавним её рядом с игроком, который стоит у магазина, с небольшим случайным смещением
+            instance_create_layer(obj_beg_terrei.x + random_range(-15, 15), obj_beg_terrei.y + random_range(-15, 15), "Instances", obj_medkit);
         }
     }
 }
-
 // ПОКУПКА СЮРИКЕНОВ
 if (mx >= b2_x1 && mx <= b2_x2 && my >= b2_y1 && my <= b2_y2) {
     if (global.coins >= price_shurikens) {

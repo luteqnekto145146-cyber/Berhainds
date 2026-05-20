@@ -109,12 +109,15 @@ if (instance_exists(obj_beg_terrei)) {
             break;
 
             
-        case Z_STATE.ATTACK:
-            // ЛОГИКА АТАКИ ВО ВСЕ 4 СТОРОНЫ
-            speed = 0; 
-            var attack_dir = point_direction(x, y, obj_beg_terrei.x, obj_beg_terrei.y);
+          case Z_STATE.ATTACK:
+            // 3. ЛОГИКА АТАКИ С ДЕЛИКАТНЫМ УРОНОМ
+            speed = 0; // Полностью останавливаемся для удара
+            
+            // Считаем угол до ног игрока для выбора спрайта
+            var attack_dir = point_direction(x, y, obj_beg_terrei.x, obj_beg_terrei.y + 16);
             attack_dir = (attack_dir + 360) % 360; 
             
+            // Выбираем правильный спрайт атаки (все с заглавной Spr_)
             if (attack_dir >= 45 && attack_dir < 135) sprite_index = Spr_zombie_ataka_ot_nas;    
             else if (attack_dir >= 135 && attack_dir < 225) sprite_index = Spr_zombie_ataka_v_levo;    
             else if (attack_dir >= 225 && attack_dir < 315) sprite_index = Spr_zombie_ataka_na_nas;    
@@ -122,19 +125,31 @@ if (instance_exists(obj_beg_terrei)) {
             
             image_xscale = 1; 
             
-            // Нанесение урона игроку раз в секунду
-            if (attack_cooldown <= 0) {
-                obj_beg_terrei.player_hp -= 15; 
-                attack_cooldown = 60;          
-            } else {
-                attack_cooldown--; 
+            // ---- ПРОВЕРКА НАДЁЖНОГО УРОНА НА 6-М КАДРЕ (индекс 5) ----
+            // Использован floor(), чтобы урон считался ровно 1 раз за анимацию
+            if (floor(image_index) == 5 && attack_cooldown <= 0) {
+                
+                // Проверяем, что игрок ВСЁ ЕЩЕ рядом в момент самого удара, а не убежал
+                var check_dist = point_distance(x, y, obj_beg_terrei.x, obj_beg_terrei.y + 16);
+                if (check_dist <= attack_radius + 10) { 
+                    obj_beg_terrei.player_hp -= 15; // Наносим 15 единиц урона
+                    attack_cooldown = 1; // Блокируем повторный урон в этом цикле анимации
+                }
             }
             
-            if (dist > attack_radius) {
+            // Сбрасываем блокировку урона, когда анимация начинается заново
+            if (image_index < 1) {
+                attack_cooldown = 0;
+            }
+            
+            // Если игрок успел отбежать дальше радиуса атаки — возвращаемся в погоню
+            var current_dist = point_distance(x, y, obj_beg_terrei.x, obj_beg_terrei.y + 16);
+            if (current_dist > attack_radius + 10) {
                 state = Z_STATE.CHASE;
                 attack_cooldown = 0;
             }
             break;
+
             
         case Z_STATE.RETURN:
             // ЛОГИКА ВОЗВРАЩЕНИЯ ДОМОЙ
