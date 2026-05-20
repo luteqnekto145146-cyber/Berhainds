@@ -45,7 +45,7 @@
     {"name":"obj_Object13","order":1,"path":"objects/obj_Object13/obj_Object13.yy",},
     {"name":"obj_pauze","order":18,"path":"objects/obj_pauze/obj_pauze.yy",},
     {"name":"obj_Terre1024","order":2,"path":"objects/obj_Terre1024/obj_Terre1024.yy",},
-    {"name":"obj_zombi","order":10,"path":"objects/obj_zombi/obj_zombi.yy",},
+    {"name":"obj_zombie","order":10,"path":"objects/obj_zombie/obj_zombie.yy",},
     {"name":"Object16","order":1,"path":"objects/Object16/Object16.yy",},
     {"name":"Object25","order":11,"path":"objects/Object25/Object25.yy",},
     {"name":"Object9","order":6,"path":"objects/Object9/Object9.yy",},

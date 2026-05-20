@@ -75,7 +75,7 @@
     {"id":{"name":"obj_sapfir_suriken","path":"objects/obj_sapfir_suriken/obj_sapfir_suriken.yy",},},
     {"id":{"name":"obj_Terre1024","path":"objects/obj_Terre1024/obj_Terre1024.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
-    {"id":{"name":"obj_zombi","path":"objects/obj_zombi/obj_zombi.yy",},},
+    {"id":{"name":"obj_zombie","path":"objects/obj_zombie/obj_zombie.yy",},},
     {"id":{"name":"Object16","path":"objects/Object16/Object16.yy",},},
     {"id":{"name":"Object25","path":"objects/Object25/Object25.yy",},},
     {"id":{"name":"Object9","path":"objects/Object9/Object9.yy",},},
