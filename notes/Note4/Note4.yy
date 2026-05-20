@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"Note4",
+  "name":"Note4",
+  "parent":{
+    "name":"levalazar",
+    "path":"folders/igra/levalazar.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}
