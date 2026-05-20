@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Object25",
+  "%Name":"obj_exp",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object25",
+  "name":"obj_exp",
   "overriddenProperties":[],
   "parent":{
     "name":"BERHAIND",
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_exp",
+    "path":"sprites/spr_exp/spr_exp.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
