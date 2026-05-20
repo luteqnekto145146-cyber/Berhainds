@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"gold",
-    "path":"sprites/gold/gold.yy",
+    "name":"spr_larek",
+    "path":"sprites/spr_larek/spr_larek.yy",
   },
   "spriteMaskId":null,
   "visible":true,

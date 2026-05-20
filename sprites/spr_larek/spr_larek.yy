@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"levalazar",
+    "path":"folders/igra/levalazar.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
