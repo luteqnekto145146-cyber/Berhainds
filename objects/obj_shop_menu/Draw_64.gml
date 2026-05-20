@@ -15,7 +15,7 @@ draw_rectangle(cx - 200, cy - 150, cx + 200, cy + 150, true); // Черная р
 draw_set_color(c_white);
 draw_set_halign(fa_center);
 draw_set_valign(fa_top);
-draw_text(cx, cy - 130, "--- ОРУЖЕЙНАЯ ЛАВКА ---");
+draw_text(cx, cy - 130, "--- ЛАРЁК ---");
 
 // 2. КНОПКА 1: Аптечка
 var b1_x1 = cx - 180; var b1_y1 = cy - 60;
@@ -35,4 +35,4 @@ draw_text(cx, cy + 30, "Сюрикены x3 (" + string(price_shurikens) + " м�
 
 // Подсказка снизу
 draw_set_color(c_yellow);
-draw_text(cx, cy + 110, "Press [E] или кликни мимо, чтобы выйти");
+draw_text(cx, cy + 110, "Нажми [E] или кликни мимо, чтобы выйти");

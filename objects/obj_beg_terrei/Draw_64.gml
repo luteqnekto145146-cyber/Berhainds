@@ -1,3 +1,4 @@
+draw_set_font(fnt_main); // Включаем наш русский шрифт
 // ---- РИСУЕМ ЗДОРОВЬЕ ИГРОКА ----
 // Вычисляем процент здоровья игрока
 var player_hp_percent = (player_hp / player_hp_max) * 100;
@@ -26,8 +27,8 @@ draw_set_halign(fa_right);
 draw_set_valign(fa_top);
 
 // Рисуем счетчики с отступом в 20 пикселей от правого края экрана
-draw_text(gui_width - 20, 20, "Money: " + string(global.coins));
-draw_text(gui_width - 20, 50, "Exp: " + string(global.xp));
+draw_text(gui_width - 20, 20, "Монеты: " + string(global.coins));
+draw_text(gui_width - 20, 50, "Опыт: " + string(global.xp));
 // Получаем ширину экрана
 var gui_width = display_get_gui_width();
 
