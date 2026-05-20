@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite143",
-    "path":"sprites/Sprite143/Sprite143.yy",
+    "name":"gold",
+    "path":"sprites/gold/gold.yy",
   },
   "spriteMaskId":null,
   "visible":true,
