@@ -34,8 +34,8 @@
   "ResourceOrderSettings":[
     {"name":"shrift_Font1","order":4,"path":"fonts/shrift_Font1/shrift_Font1.yy",},
     {"name":"Note3","order":1,"path":"notes/Note3/Note3.yy",},
-    {"name":"Note4","order":1,"path":"notes/Note4/Note4.yy",},
     {"name":"prim_Note1","order":1,"path":"notes/prim_Note1/prim_Note1.yy",},
+    {"name":"САМАЯ ВАЖНАЯ INFO","order":1,"path":"notes/САМАЯ ВАЖНАЯ INFO/САМАЯ ВАЖНАЯ INFO.yy",},
     {"name":"beg_terrei","order":2,"path":"objects/beg_terrei/beg_terrei.yy",},
     {"name":"ex","order":1,"path":"objects/ex/ex.yy",},
     {"name":"fade_1","order":1,"path":"objects/fade_1/fade_1.yy",},
@@ -166,6 +166,8 @@
     {"name":"Sprite12","order":12,"path":"sprites/Sprite12/Sprite12.yy",},
     {"name":"Sprite13","order":9,"path":"sprites/Sprite13/Sprite13.yy",},
     {"name":"Sprite14","order":5,"path":"sprites/Sprite14/Sprite14.yy",},
+    {"name":"Sprite140","order":2,"path":"sprites/Sprite140/Sprite140.yy",},
+    {"name":"Sprite141","order":3,"path":"sprites/Sprite141/Sprite141.yy",},
     {"name":"Sprite17","order":5,"path":"sprites/Sprite17/Sprite17.yy",},
     {"name":"Sprite20","order":2,"path":"sprites/Sprite20/Sprite20.yy",},
     {"name":"Sprite29","order":12,"path":"sprites/Sprite29/Sprite29.yy",},
