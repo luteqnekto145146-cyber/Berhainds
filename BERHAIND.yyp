@@ -30,6 +30,7 @@
     {"$GMFolder":"","%Name":"cheast","folderPath":"folders/igra/glava1/veshi/cheast.yy","name":"cheast","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"clock","folderPath":"folders/igra/glava1/veshi/clock.yy","name":"clock","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"flower_pot","folderPath":"folders/igra/glava1/veshi/flower_pot.yy","name":"flower_pot","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"luk","folderPath":"folders/igra/glava1/veshi/luk.yy","name":"luk","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"oryshie","folderPath":"folders/igra/glava1/veshi/oryshie.yy","name":"oryshie","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objects","folderPath":"folders/igra/glava1/veshi/oryshie/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"polka","folderPath":"folders/igra/glava1/veshi/polka.yy","name":"polka","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -56,6 +57,7 @@
   "resources":[
     {"id":{"name":"shrift_Font1","path":"fonts/shrift_Font1/shrift_Font1.yy",},},
     {"id":{"name":"Note3","path":"notes/Note3/Note3.yy",},},
+    {"id":{"name":"Note4","path":"notes/Note4/Note4.yy",},},
     {"id":{"name":"prim_Note1","path":"notes/prim_Note1/prim_Note1.yy",},},
     {"id":{"name":"sortirovka","path":"notes/sortirovka/sortirovka.yy",},},
     {"id":{"name":"beg_terrei","path":"objects/beg_terrei/beg_terrei.yy",},},
@@ -151,6 +153,7 @@
     {"id":{"name":"spr_LEVlaz_SOLDIER","path":"sprites/spr_LEVlaz_SOLDIER/spr_LEVlaz_SOLDIER.yy",},},
     {"id":{"name":"spr_loading_picture","path":"sprites/spr_loading_picture/spr_loading_picture.yy",},},
     {"id":{"name":"spr_lokons_iz_apiloga","path":"sprites/spr_lokons_iz_apiloga/spr_lokons_iz_apiloga.yy",},},
+    {"id":{"name":"spr_luk","path":"sprites/spr_luk/spr_luk.yy",},},
     {"id":{"name":"spr_metall_suriken","path":"sprites/spr_metall_suriken/spr_metall_suriken.yy",},},
     {"id":{"name":"spr_nazad","path":"sprites/spr_nazad/spr_nazad.yy",},},
     {"id":{"name":"spr_ne_dvigayetsa_na_nas_scelet","path":"sprites/spr_ne_dvigayetsa_na_nas_scelet/spr_ne_dvigayetsa_na_nas_scelet.yy",},},
