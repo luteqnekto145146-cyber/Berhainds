@@ -34,8 +34,8 @@
   "ResourceOrderSettings":[
     {"name":"shrift_Font1","order":4,"path":"fonts/shrift_Font1/shrift_Font1.yy",},
     {"name":"Note3","order":1,"path":"notes/Note3/Note3.yy",},
-    {"name":"Note4","order":1,"path":"notes/Note4/Note4.yy",},
     {"name":"prim_Note1","order":1,"path":"notes/prim_Note1/prim_Note1.yy",},
+    {"name":"САМАЯ ВАЖНАЯ INFO","order":1,"path":"notes/САМАЯ ВАЖНАЯ INFO/САМАЯ ВАЖНАЯ INFO.yy",},
     {"name":"beg_terrei","order":2,"path":"objects/beg_terrei/beg_terrei.yy",},
     {"name":"ex","order":1,"path":"objects/ex/ex.yy",},
     {"name":"fade_1","order":1,"path":"objects/fade_1/fade_1.yy",},
