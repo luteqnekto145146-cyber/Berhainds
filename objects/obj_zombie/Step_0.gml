@@ -4,18 +4,35 @@ if (state == Z_STATE.DIE) {
     sprite_index = spr_zombie_die;      // Включаем анимацию смерти
     
     // Проверяем, дошла ли анимация до самого последнего кадра
-    // image_number - это сколько всего кадров в спрайте
     if (image_index >= image_number - 1) {
-        image_speed = 0;                // Останавливаем анимацию на последнем кадре (трупе)
+        image_speed = 0;                // Останавливаем анимацию
         image_index = image_number - 1; // Фиксируем последний кадр
         
-        // Временная пауза перед исчезновением (например, через секундный таймер)
-        // Но если хотите, чтобы он исчезал МГНОВЕННО после падения, раскомментируйте строку ниже:
+        // ---- СИСТЕМА ВЫПАДЕНИЯ ЛУТА (СПАВН ПРЕДМЕТОВ) ----
+        
+        // 1. Опыт падает со 100% вероятностью
+        instance_create_layer(x, y, "Instances", obj_exp);
+        
+        // Генерируем случайное число от 0 до 100 для шансов монет
+        var chance = random(100);
+        
+        // 2. Проверяем 10% шанс на 3 монеты (от 0 до 10)
+        if (chance <= 10) {
+            // Создаем 3 монеты с небольшим случайным смещением, чтобы они не слиплись
+            instance_create_layer(x + random_range(-10, 10), y + random_range(-10, 10), "Instances", obj_coin);
+            instance_create_layer(x + random_range(-10, 10), y + random_range(-10, 10), "Instances", obj_coin);
+            instance_create_layer(x + random_range(-10, 10), y + random_range(-10, 10), "Instances", obj_coin);
+        }
+        // 3. Проверяем 40% шанс на 1 монету (от 10 до 50 — как раз диапазон в 40 единиц)
+        else if (chance > 10 && chance <= 50) {
+            instance_create_layer(x, y, "Instances", obj_coin);
+        }
+        
+        // Уничтожаем объект зомби ПОСЛЕ того, как создали предметы
         instance_destroy(); 
     }
-    exit; // Выходим из события Step, чтобы зомби больше ничего не вычислял
+    exit; 
 }
-
 // ЕСЛИ ЗОМБИ ЕЩЕ ЖИВ, НО ЗДОРОВЬЕ КОНЧИЛОСЬ — ПЕРЕХОДЕМ В СОСТОЯНИЕ СМЕРТИ
 if (hp <= 0) {
     state = Z_STATE.DIE;
