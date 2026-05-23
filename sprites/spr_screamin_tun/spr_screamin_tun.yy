@@ -133,8 +133,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"переименновать!!!",
-    "path":"folders/переименновать!!!.yy",
+    "name":"govno_kotoroe_nyshno(ne_ydalit!!!!)",
+    "path":"folders/igra/glava1/govno_kotoroe_nyshno(ne_ydalit!!!!).yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

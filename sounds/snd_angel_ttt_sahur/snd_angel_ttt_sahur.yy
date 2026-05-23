@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_angel_ttt_sahur",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":23.986229,
+  "exportDir":"",
+  "name":"snd_angel_ttt_sahur",
+  "parent":{
+    "name":"govno_kotoroe_nyshno(ne_ydalit!!!!)",
+    "path":"folders/igra/glava1/govno_kotoroe_nyshno(ne_ydalit!!!!).yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"snd_angel_ttt_sahur.mp3",
+  "volume":1.0,
+}

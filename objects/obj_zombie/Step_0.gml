@@ -1,4 +1,4 @@
- // 1. ЕСЛИ ЗОМБИ УЖЕ УМИРАЕТ — ОСТАНАВЛИВАЕМСЯ И ЖДЕМ КОНЦА АНИМАЦИИ
+  // 1. ЕСЛИ ЗОМБИ УЖЕ УМИРАЕТ — ОСТАНАВЛИВАЕМСЯ И ЖДЕМ КОНЦА АНИМАЦИИ
 if (state == Z_STATE.DIE) {
     speed = 0;                          
     sprite_index = spr_zombie_die;      
@@ -90,7 +90,7 @@ if (instance_exists(obj_beg_terrei)) {
             // Заставляем зомби бежать не в центр игрока, а чуть ниже — к его ногам (ботинкам)
             // Смещение +16 или +20 пикселей вниз по оси Y (подстрой под размер своего спрайта)
             var target_x = obj_beg_terrei.x;
-            var target_y = obj_beg_terrei.y + 16; 
+            var target_y = obj_beg_terrei.y; 
             
             mp_potential_step(target_x, target_y, chase_speed, true);
             move_dir = point_direction(x, y, target_x, target_y);

@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Terre1024",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_tun_angel",
+  "eventList":[],
   "managed":true,
-  "name":"obj_Terre1024",
+  "name":"obj_tun_angel",
   "overriddenProperties":[],
   "parent":{
     "name":"govno_kotoroe_nyshno(ne_ydalit!!!!)",
@@ -29,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"spr_terrei1024",
-    "path":"sprites/spr_terrei1024/spr_terrei1024.yy",
+    "name":"spr_angel_tun",
+    "path":"sprites/spr_angel_tun/spr_angel_tun.yy",
   },
   "spriteMaskId":null,
   "visible":true,
