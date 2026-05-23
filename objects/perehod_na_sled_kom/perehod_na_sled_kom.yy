@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Sprite20",
-    "path":"sprites/Sprite20/Sprite20.yy",
+    "name":"spr_screamiN_perehod",
+    "path":"sprites/spr_screamiN_perehod/spr_screamiN_perehod.yy",
   },
   "spriteMaskId":null,
   "visible":true,
