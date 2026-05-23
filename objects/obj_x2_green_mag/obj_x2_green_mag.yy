@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Terre1024",
+  "%Name":"obj_x2_green_mag",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_beg_terrei","path":"objects/obj_beg_terrei/obj_beg_terrei.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Terre1024",
+  "name":"obj_x2_green_mag",
   "overriddenProperties":[],
   "parent":{
-    "name":"govno_kotoroe_ne_nyshno(ne_ydalit!!!!)",
-    "path":"folders/igra/glava1/govno_kotoroe_ne_nyshno(ne_ydalit!!!!).yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_terrei1024",
-    "path":"sprites/spr_terrei1024/spr_terrei1024.yy",
+    "name":"spr_green_mags_x2",
+    "path":"sprites/spr_green_mags_x2/spr_green_mags_x2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -6,5 +6,5 @@ state = Z_STATE.WANDER;
 wander_timer = 0;       
 home_x = x;
 home_y = y;
-hp_max = 100; 
+hp_max = 50; 
 hp = hp_max;
