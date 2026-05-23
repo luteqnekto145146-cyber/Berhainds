@@ -4,7 +4,7 @@
   "name":"САМАЯ ВАЖНАЯ INFO",
   "parent":{
     "name":"levalazar",
-    "path":"folders/igra/levalazar.yy",
+    "path":"folders/levalazar.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

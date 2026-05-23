@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"betatest",
+    "path":"folders/serega/betatest.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

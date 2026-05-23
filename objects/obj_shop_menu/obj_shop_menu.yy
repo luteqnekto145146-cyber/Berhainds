@@ -12,8 +12,8 @@
   "name":"obj_shop_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"группа1",
-    "path":"folders/группа1.yy",
+    "name":"betatest",
+    "path":"folders/serega/betatest.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -8,8 +8,8 @@
   "name":"obj_green_mag",
   "overriddenProperties":[],
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"betatest",
+    "path":"folders/serega/betatest.yy",
   },
   "parentObjectId":null,
   "persistent":false,

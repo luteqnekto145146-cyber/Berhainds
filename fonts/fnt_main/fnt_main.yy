@@ -528,8 +528,8 @@
   "maintainGms1Font":false,
   "name":"fnt_main",
   "parent":{
-    "name":"группа1",
-    "path":"folders/группа1.yy",
+    "name":"betatest",
+    "path":"folders/serega/betatest.yy",
   },
   "pointRounding":0,
   "ranges":[

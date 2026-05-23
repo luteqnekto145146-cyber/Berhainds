@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"levalazar",
-    "path":"folders/igra/levalazar.yy",
+    "path":"folders/levalazar.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

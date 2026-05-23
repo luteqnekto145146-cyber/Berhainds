@@ -8,8 +8,8 @@
   "name":"obj_x2_zombie",
   "overriddenProperties":[],
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"betatest",
+    "path":"folders/serega/betatest.yy",
   },
   "parentObjectId":null,
   "persistent":false,

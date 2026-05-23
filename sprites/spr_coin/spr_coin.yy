@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"группа1",
-    "path":"folders/группа1.yy",
+    "name":"betatest",
+    "path":"folders/serega/betatest.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
