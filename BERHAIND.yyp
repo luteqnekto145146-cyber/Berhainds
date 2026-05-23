@@ -191,6 +191,7 @@
     {"id":{"name":"spr_pause_bg","path":"sprites/spr_pause_bg/spr_pause_bg.yy",},},
     {"id":{"name":"spr_player_avtomat","path":"sprites/spr_player_avtomat/spr_player_avtomat.yy",},},
     {"id":{"name":"spr_polka","path":"sprites/spr_polka/spr_polka.yy",},},
+    {"id":{"name":"spr_pyli_bandit","path":"sprites/spr_pyli_bandit/spr_pyli_bandit.yy",},},
     {"id":{"name":"spr_robot","path":"sprites/spr_robot/spr_robot.yy",},},
     {"id":{"name":"spr_sceleton_die","path":"sprites/spr_sceleton_die/spr_sceleton_die.yy",},},
     {"id":{"name":"spr_screamiN_perehod","path":"sprites/spr_screamiN_perehod/spr_screamiN_perehod.yy",},},
