@@ -2,6 +2,6 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"spr_pyli_bandit","order":1,"path":"sprites/spr_pyli_bandit/spr_pyli_bandit.yy",},
-    {"name":"Sprite152","order":1,"path":"sprites/Sprite152/Sprite152.yy",},
+    {"name":"Sprite152","order":2,"path":"sprites/Sprite152/Sprite152.yy",},
   ],
 }
