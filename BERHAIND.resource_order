@@ -1,7 +1,17 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"levalazar","order":1,"path":"folders/levalazar.yy",},
+    {"name":"Matvei","order":2,"path":"folders/Matvei.yy",},
+    {"name":"obrashenie","order":3,"path":"folders/obrashenie.yy",},
+    {"name":"serega","order":4,"path":"folders/serega.yy",},
+    {"name":"переименновать!!!","order":5,"path":"folders/переименновать!!!.yy",},
+  ],
   "ResourceOrderSettings":[
+    {"name":"obj_pyli_sceleton_sherif","order":9,"path":"objects/obj_pyli_sceleton_sherif/obj_pyli_sceleton_sherif.yy",},
+    {"name":"obj_sceleton_sherif","order":6,"path":"objects/obj_sceleton_sherif/obj_sceleton_sherif.yy",},
     {"name":"spr_pyli_bandit","order":1,"path":"sprites/spr_pyli_bandit/spr_pyli_bandit.yy",},
+    {"name":"spr_pyli_sceletona_sherifa","order":8,"path":"sprites/spr_pyli_sceletona_sherifa/spr_pyli_sceletona_sherifa.yy",},
+    {"name":"spr_sceleton_sherif","order":7,"path":"sprites/spr_sceleton_sherif/spr_sceleton_sherif.yy",},
     {"name":"Sprite152","order":2,"path":"sprites/Sprite152/Sprite152.yy",},
   ],
 }
