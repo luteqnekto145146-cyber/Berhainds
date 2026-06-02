@@ -34,3 +34,21 @@ var gui_width = display_get_gui_width();
 
 // Рисуем надпись ниже монет и опыта (например, на высоте Y: 80)
 draw_text(gui_width - 20, 80, "Сюрикены: " + string(shurikens));
+draw_set_color(c_white);
+
+var gui_w = display_get_gui_width();
+var gui_h = display_get_gui_height();
+
+draw_set_halign(fa_right);
+
+if (current_weapon == "revolver") {
+    draw_text(gui_w - 40, gui_h - 60, "ОРУЖИЕ: Револьвер");
+    draw_text(gui_w - 40, gui_h - 40, "ПАТРОНЫ: " + string(revolver_ammo));
+} 
+else {
+    draw_text(gui_w - 40, gui_h - 40, "ОРУЖИЕ: Кулаки");
+}
+
+draw_set_halign(fa_left);
+
+

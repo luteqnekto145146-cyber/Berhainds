@@ -42,7 +42,10 @@ if (is_dying) {
            
             instance_create_layer(x, y, "Instances", obj_coin);
         }
-        
+     var ammo_chance = random(100);
+if (ammo_chance <= 50) {
+    instance_create_layer(x, y, "Instances", obj_ammo);
+}   
 var weapon_chance = random(100)       
 if (weapon_chance <=10) { 
  instance_create_layer(x, y, "Instances", obj_revolver)

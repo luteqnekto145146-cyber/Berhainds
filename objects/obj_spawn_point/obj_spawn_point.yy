@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_revolver",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_beg_terrei","path":"objects/obj_beg_terrei/obj_beg_terrei.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_spawn_point",
+  "eventList":[],
   "managed":true,
-  "name":"obj_revolver",
+  "name":"obj_spawn_point",
   "overriddenProperties":[],
   "parent":{
     "name":"BERHAIND",
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_revolver",
-    "path":"sprites/spr_revolver/spr_revolver.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

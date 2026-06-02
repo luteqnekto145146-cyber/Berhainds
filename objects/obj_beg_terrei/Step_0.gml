@@ -1,3 +1,14 @@
+if (mouse_wheel_up()) {
+    if (has_revolver) { 
+        weapon_select = 1;
+        current_weapon = "revolver";
+    }
+}
+
+if (mouse_wheel_down()) {
+    weapon_select = 0;
+    current_weapon = "none";
+}
 hdir = (keyboard_check(ord("D")) - keyboard_check(ord("A"))) 
 vdir = (keyboard_check(ord("S")) - keyboard_check(ord("W"))) 
 
@@ -23,5 +34,26 @@ if (sprite_index == spr_terrei_brosok_suriken) {
         var target_dir = point_direction(x, y, mouse_x, mouse_y);
         my_shuriken.direction = target_dir;
         my_shuriken.speed = 8; // Скорость полета
+    }
+}
+// Проверяем нажатие ЛКМ и что в руках именно револьвер
+if (mouse_check_button_pressed(mb_left) && current_weapon == "revolver") {
+    
+    // Проверяем, есть ли патроны
+    if (revolver_ammo > 0) {
+        revolver_ammo -= 1; // Тратим 1 патрон
+        
+        // Создаем пулю на координатах игрока. 
+        // ВНИМАНИЕ: убедитесь, что на вашей карте слой называется именно "Instances"
+        var bullet = instance_create_layer(x, y, "Instances", obj_bullet);
+        
+        // Направляем пулю в сторону мышки
+        bullet.direction = point_direction(x, y, mouse_x, mouse_y);
+        
+        // Задаем пуле скорость (можно изменить число, если летит слишком быстро/медленно)
+        bullet.speed = 8; 
+        
+        // Поворачиваем сам спрайт пули по направлению полета
+        bullet.image_angle = bullet.direction;
     }
 }

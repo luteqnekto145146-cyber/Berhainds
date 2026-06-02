@@ -19,3 +19,7 @@ player_hp = player_hp_max;
 shurikens = 0;
 
 shuriken_thrown = false; 
+has_revolver = false 
+current_weapon = "none"
+revolver_ammo = 0
+weapon_select = 0

@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_revolver",
+  "%Name":"obj_bullet",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_beg_terrei","path":"objects/obj_beg_terrei/obj_beg_terrei.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_vrag","path":"objects/obj_vrag/obj_vrag.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_revolver",
+  "name":"obj_bullet",
   "overriddenProperties":[],
   "parent":{
     "name":"BERHAIND",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_revolver",
-    "path":"sprites/spr_revolver/spr_revolver.yy",
+    "name":"spr_pyli_bandit",
+    "path":"sprites/spr_pyli_bandit/spr_pyli_bandit.yy",
   },
   "spriteMaskId":null,
   "visible":true,
