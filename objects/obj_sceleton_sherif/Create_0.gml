@@ -1,6 +1,9 @@
-hp = 20 
+is_dying = false
+hp = 25
+hp_max = 25
 move_speed = random_range(1,2)
 stop_distance = random_range(200, 400)
 shooting_distance = 400
 shooting_timer = 0
-shooting_delay = 30
+shooting_delay = 150
+alarm[0] = 300

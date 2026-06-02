@@ -2,11 +2,15 @@
 bullet_speed = 6 
 
 if (instance_exists(obj_beg_terrei)){
-dir_to_player = point_direction(x, y, obj_beg_terrei.x, obj_beg_terrei.y)
-motion_set(dir_to_player, bullet_speed)
+var _target = instance_find(obj_beg_terrei, 0)
 
-}else{ 
-instance_destroy()
+var _target_x = _target.x
+var _target_y = _target.y
 
-
+var _dir = point_direction(x, y, _target_x, _target_y)
+motion_set(_dir, bullet_speed)
 }
+
+image_angle = direction
+image_xscale = 0.3
+image_yscale = 0.3

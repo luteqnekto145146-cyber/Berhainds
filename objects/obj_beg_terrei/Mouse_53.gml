@@ -2,7 +2,7 @@
 var attack_distance = 50; 
 
 // 2. Ищем БЛИЖАЙШЕГО зомби на всей карте
-var nearest_zombie = instance_nearest(x, y, obj_zombie);
+var nearest_zombie = instance_nearest(x, y, obj_vrag);
 
 // 3. Проверяем, нашли ли мы зомби вообще
 if (nearest_zombie != noone) {
