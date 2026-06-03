@@ -1,3 +1,4 @@
+
 if (mouse_wheel_up()) {
     if (has_revolver) { 
         weapon_select = 1;
@@ -17,7 +18,9 @@ beg_cod();
 move_and_collide(hdir * move_speed, vdir * move_speed, obj_wall, 4, 0,0, move_speed, move_speed)
 // Если здоровье закончилось — перемещаем игрока в комнату главного меню
 if (player_hp <= 0) {
+	instance_destroy()
     room_goto(r_menu_i);
+	exit
 }
 // Проверяем, идет ли сейчас анимация броска
 if (sprite_index == spr_terrei_brosok_suriken) {
@@ -25,15 +28,21 @@ if (sprite_index == spr_terrei_brosok_suriken) {
     // Если анимация дошла до 6-го кадра (в коде это 5) и мы еще НЕ выпустили снаряд
     if (floor(image_index) == 5 && shuriken_thrown == false) {
         
-        shuriken_thrown = true; // Отмечаем, что сюрикен выпущен (чтобы код не сработал повторно на этом же кадре)
+shuriken_thrown = true; // Отмечаем, что сюрикен выпущен
         
-        // СОЗДАЕМ СЮРИКЕН В ТОЧКЕ ИГРОКА
-        var my_shuriken = instance_create_layer(x, y, "Instances", obj_sapfir_suriken);
-        
-        // Направляем его в сторону мышки
-        var target_dir = point_direction(x, y, mouse_x, mouse_y);
-        my_shuriken.direction = target_dir;
-        my_shuriken.speed = 8; // Скорость полета
+        if (global.crazy_mode == false) {
+            var my_shuriken = instance_create_layer(x, y, "Instances", obj_sapfir_suriken);
+            var target_dir = point_direction(x, y, mouse_x, mouse_y);
+            my_shuriken.direction = target_dir;
+            my_shuriken.speed = 8; // Скорость полета
+        } else {
+            var my_hornet = instance_create_layer(x, y, "Instances", obj_hornet);
+            var target_dir = point_direction(x, y, mouse_x, mouse_y);
+            
+            // Шершень летит в сторону мышки, но с веерным разбросом!
+            my_hornet.direction = target_dir + irandom_range(-15, 15);
+            my_hornet.speed = 12; // Сделаем шершня чуть быстрее сюрикена!
+        }
     }
 }
 // Проверяем нажатие ЛКМ и что в руках именно револьвер

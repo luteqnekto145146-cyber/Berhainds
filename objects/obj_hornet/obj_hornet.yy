@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_spawn_point",
+  "%Name":"obj_hornet",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_spawn_point",
+  "name":"obj_hornet",
   "overriddenProperties":[],
   "parent":{
     "name":"serega",
     "path":"folders/serega.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_sapfir_suriken",
+    "path":"objects/obj_sapfir_suriken/obj_sapfir_suriken.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_SHERSHEN",
+    "path":"sprites/spr_SHERSHEN/spr_SHERSHEN.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

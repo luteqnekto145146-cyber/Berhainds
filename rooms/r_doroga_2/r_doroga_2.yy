@@ -71,8 +71,8 @@
   ],
   "name":"r_doroga_2",
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"serega",
+    "path":"folders/serega.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_spawn_point",
+  "%Name":"obj_mushroom_blue",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_beg_terrei","path":"objects/obj_beg_terrei/obj_beg_terrei.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_spawn_point",
+  "name":"obj_mushroom_blue",
   "overriddenProperties":[],
   "parent":{
     "name":"serega",
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_mushroom_blue",
+    "path":"sprites/spr_mushroom_blue/spr_mushroom_blue.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
