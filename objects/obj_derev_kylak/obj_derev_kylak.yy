@@ -1,20 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pyli_sceleton_sherif",
+  "%Name":"obj_derev_kylak",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_beg_terrei","path":"objects/obj_beg_terrei/obj_beg_terrei.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pyli_sceleton_sherif",
+  "name":"obj_derev_kylak",
   "overriddenProperties":[],
   "parent":{
     "name":"BERHAIND",
     "path":"BERHAIND.yyp",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_kylak",
+    "path":"objects/obj_kylak/obj_kylak.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_pyli_sceletona_sherifa",
-    "path":"sprites/spr_pyli_sceletona_sherifa/spr_pyli_sceletona_sherifa.yy",
+    "name":"spr_derev_kylak",
+    "path":"sprites/spr_derev_kylak/spr_derev_kylak.yy",
   },
   "spriteMaskId":null,
   "visible":true,

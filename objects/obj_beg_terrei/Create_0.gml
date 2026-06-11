@@ -34,3 +34,15 @@ if (instance_exists(obj_spawn_point)) {
     show_debug_message("ОШИБКА: Игрок не видит объект obj_spawnpoint!");
 }
 alaram[0] = 1 
+
+has_parry_item = true
+popup_text = ""
+popup_timer = 0
+
+
+
+
+
+
+
+

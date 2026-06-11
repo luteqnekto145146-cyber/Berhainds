@@ -20,8 +20,8 @@
   "name":"obj_beg_terrei",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/igra/glava1/terrei-velishaishi/objects.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "parentObjectId":null,
   "persistent":true,

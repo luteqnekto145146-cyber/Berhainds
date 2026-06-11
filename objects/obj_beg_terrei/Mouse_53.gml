@@ -21,3 +21,49 @@ if (nearest_zombie != noone) {
         // nearest_zombie.y += lengthdir_y(10, point_direction(x, y, nearest_zombie.x, nearest_zombie.y));
     }
 }
+// 1. Запоминаем точную ссылку на нашего игрока
+var _player = id;
+
+// 2. Защита: создаем переменную текста на игроке, если её вдруг нет
+if (!variable_instance_exists(_player, "popup_text")) {
+    _player.popup_text = "";
+}
+
+// 3. Проверяем, подобран ли предмет
+if (has_parry_item == true) {
+    
+    var _radius = 120; 
+    var _near_bullet = instance_nearest(x, y, obj_pyli_sceleton_sherif); 
+    
+    if (_near_bullet != noone) {
+        
+        var _dist = point_distance(x, y, _near_bullet.x, _near_bullet.y);
+        
+        if (_dist <= _radius) {
+            
+            var _dice = random(100); 
+            
+            // ИСХОД А: Отбивание (2%)
+            if (_dice <= 2) {
+                _near_bullet.direction += 180; 
+                _near_bullet.speed *= 1.5;     
+                _near_bullet.image_blend = c_green; 
+                
+                // Вставь сюда СВОЁ слово для отбивания вместо "ОТБИТО!"
+                popup_text = "prect!"
+            } 
+            // ИСХОД Б: Блокировка (60%)
+            else if (_dice <= (2 + 60)) {
+                instance_destroy(_near_bullet);
+                
+                // Вставь сюда СВОЁ слово для блока вместо "БЛОК!"
+                popup_text = "Block!"
+            }
+            // ИСХОД В: Осечка предмета (остальные проценты)
+            else {
+                // Вставь сюда СВОЁ слово для промаха вместо "ОСЕЧКА!"
+                popup_text =  "wanted!"
+            }
+        }
+    }
+}

@@ -66,3 +66,6 @@ if (mouse_check_button_pressed(mb_left) && current_weapon == "revolver") {
         bullet.image_angle = bullet.direction;
     }
 }
+
+
+	
