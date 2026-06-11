@@ -34,10 +34,20 @@ if (instance_exists(obj_spawn_point)) {
     show_debug_message("ОШИБКА: Игрок не видит объект obj_spawnpoint!");
 }
 alaram[0] = 1 
+has_shield = false
+my_shield_type = noone 
 
-has_parry_item = true
-popup_text = ""
-popup_timer = 0
+
+// По умолчанию щит не подобран
+has_shield = false; 
+my_shield_type = noone
+
+// Переменные для красивого всплывающего текста
+shield_text = "";
+text_color = c_white;
+text_timer = 0;
+text_y_offset = 0; // Смещение текста вверх
+text_alpha = 1.0;  // Прозрачность текста (1 = полностью виден, 0 = невидим)
 
 
 

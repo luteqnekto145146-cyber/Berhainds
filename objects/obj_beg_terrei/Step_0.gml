@@ -67,5 +67,21 @@ if (mouse_check_button_pressed(mb_left) && current_weapon == "revolver") {
     }
 }
 
-
+// Управление анимацией всплывающего текста
+if (text_timer > 0) {
+    text_timer -= 1;
+    
+    // Текст плавно летит вверх (каждый кадр поднимается на 1.5 пикселя)
+    text_y_offset -= 1.5; 
+    
+    // В последние 20 кадров текст начинает плавно растворяться
+    if (text_timer < 20) {
+        text_alpha = text_timer / 20; 
+    }
+    
+    // Когда время вышло, полностью сбрасываем параметры
+    if (text_timer <= 0) {
+        shield_text = "";
+    }
+}
 	

@@ -30,40 +30,32 @@ if (!variable_instance_exists(_player, "popup_text")) {
 }
 
 // 3. Проверяем, подобран ли предмет
-if (has_parry_item == true) {
+
     
-    var _radius = 120; 
-    var _near_bullet = instance_nearest(x, y, obj_pyli_sceleton_sherif); 
-    
-    if (_near_bullet != noone) {
+// Если игрок подобрал хоть какой-то щит
+if (my_shield_object != noone) 
+{
+    if (has_shield == false) 
+    {
+        has_shield = true;
         
-        var _dist = point_distance(x, y, _near_bullet.x, _near_bullet.y);
+        // Сбрасываем анимацию текста
+        text_y_offset = 0;
+        text_alpha = 1.0;
+        text_timer = 45;
         
-        if (_dist <= _radius) {
-            
-            var _dice = random(100); 
-            
-            // ИСХОД А: Отбивание (2%)
-            if (_dice <= 2) {
-                _near_bullet.direction += 180; 
-                _near_bullet.speed *= 1.5;     
-                _near_bullet.image_blend = c_green; 
-                
-                // Вставь сюда СВОЁ слово для отбивания вместо "ОТБИТО!"
-                popup_text = "prect!"
-            } 
-            // ИСХОД Б: Блокировка (60%)
-            else if (_dice <= (2 + 60)) {
-                instance_destroy(_near_bullet);
-                
-                // Вставь сюда СВОЁ слово для блока вместо "БЛОК!"
-                popup_text = "Block!"
-            }
-            // ИСХОД В: Осечка предмета (остальные проценты)
-            else {
-                // Вставь сюда СВОЁ слово для промаха вместо "ОСЕЧКА!"
-                popup_text =  "wanted!"
-            }
+        // Проверяем объект кулака и подбираем название
+        if (my_shield_object == obj_derev_kylak) {
+            shield_text = "ДЕРЕВЯННЫЙ ЩИТ";
+            text_color = c_orange; 
+        }
+        else if (my_shield_object == obj_iron_kylak) {
+            shield_text = "ЖЕЛЕЗНЫЙ ЩИТ";
+            text_color = c_gray; 
+        }
+        else if (my_shield_object == obj_sapfir_kylak) {
+            shield_text = "САПФИРОВЫЙ ЩИТ";
+            text_color = c_aqua; 
         }
     }
 }

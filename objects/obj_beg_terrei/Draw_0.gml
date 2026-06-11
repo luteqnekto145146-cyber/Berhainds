@@ -12,26 +12,26 @@ draw_sprite_ext(sprite_index, image_index, x, y, image_xscale * final_scale, ima
 
 
     
-	if(variable_instance_exists(id, "popur_text") and popup_text != "") {
+
 	
-	
-	draw_set_font(fnt_main)
-	
-	
-    draw_set_halign(fa_center); // Выравниваем текст по центру
+	// Сначала рисуем самого игрока
+
+// Если текст активен, рисуем его с анимацией
+if (text_timer > 0) {
+    draw_set_halign(fa_center);
+    draw_set_valign(fa_middle);
     
-    // Выбираем цвет: если отбито — зеленый, если блок — белый, если осечка — красный
-    if (popup_text == "prect!") draw_set_color(c_green);
-    else if (popup_text == "Block!") draw_set_color(c_white);
-    else draw_set_color(c_red);
-	
-	var _old_depth = depth
-	depth = - 10000
-	
-	
-	
-    // Рисуем текст чуть выше головы персонажа (y - 40 пикселей)
-    draw_text(x, y - 80, popup_text); 
-depth = _old_depth
-	}
+    // Устанавливаем текущий цвет и прозрачность текста
+    draw_set_color(text_color);
+    draw_set_alpha(text_alpha);
+    
+    // Рисуем текст над головой игрока (базово -60 пикселей + динамическое смещение text_y_offset)
+    draw_text(x, y - 60 + text_y_offset, shield_text);
+    
+    // Обязательно возвращаем прозрачность и настройки в исходное состояние!
+    draw_set_alpha(1.0);
+    draw_set_halign(fa_left);
+    draw_set_valign(fa_top);
+    draw_set_color(c_white);
+}
 	
