@@ -6,8 +6,8 @@
   "name":"obj_sapfir_kylak",
   "overriddenProperties":[],
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"serega",
+    "path":"folders/serega.yy",
   },
   "parentObjectId":{
     "name":"obj_kylak",

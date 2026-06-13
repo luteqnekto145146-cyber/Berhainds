@@ -11,8 +11,8 @@
   "name":"obj_pyli_sceleton_sherif",
   "overriddenProperties":[],
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"serega",
+    "path":"folders/serega.yy",
   },
   "parentObjectId":null,
   "persistent":false,
