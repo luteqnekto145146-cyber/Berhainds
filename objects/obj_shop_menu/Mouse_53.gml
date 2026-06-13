@@ -12,31 +12,44 @@ var b1_x1 = cx - 180; var b1_y1 = cy - 60; var b1_x2 = cx + 180; var b1_y2 = cy 
 var b2_x1 = cx - 180; var b2_y1 = cy + 20; var b2_x2 = cx + 180; var b2_y2 = cy + 70;
 
 // ПОКУПКА АПТЕЧКИ (Кнопка 1)
+// ПОКУПКА АПТЕЧКИ (Кнопка 1)
 if (mx >= b1_x1 && mx <= b1_x2 && my >= b1_y1 && my <= b1_y2) {
+    // 1. Проверяем, хватает ли у игрока монет (цена: 5 монет)
     if (global.coins >= price_medkit) {
-        global.coins -= price_medkit; // Списываем 5 монет
         
-        // Проверяем: если у игрока МЕНЬШЕ максимального здоровья — лечим его сразу
-        if (obj_beg_terrei.player_hp < obj_beg_terrei.player_hp_max) {
-            obj_beg_terrei.player_hp += 30; // Восстанавливаем 30 HP
+        // 2. Проверяем, существует ли инвентарь, и пытаемся положить туда 1 Аптечку (ID = 3)
+        if (instance_exists(obj_inventory)) {
+            var success = obj_inventory.add_item_to_inv(global.db_items.potion, 1);
             
-            // Защита от превышения максимума
-            if (obj_beg_terrei.player_hp > obj_beg_terrei.player_hp_max) {
-                obj_beg_terrei.player_hp = obj_beg_terrei.player_hp_max;
+            // 3. Если в инвентаре нашлось место — списываем деньги!
+            if (success) {
+                global.coins -= price_medkit; // Списываем 5 монет
+                show_debug_message("Аптечка куплена и добавлена в инвентарь!");
+            } else {
+                show_debug_message("Нет места в инвентаре для аптечки!");
             }
-        } 
-        else {
-            // ЕСЛИ ЗДОРОВЬЕ ПОЛНОЕ (ФУЛЛ ХП) — выбрасываем аптечку на землю!
-            // Спавним её рядом с игроком, который стоит у магазина, с небольшим случайным смещением
-            instance_create_layer(obj_beg_terrei.x + random_range(-15, 15), obj_beg_terrei.y + random_range(-15, 15), "Instances", obj_medkit);
         }
     }
 }
-// ПОКУПКА СЮРИКЕНОВ
+
+// ПОКУПКА СЮРИКЕНОВ (Кнопка 2)
 if (mx >= b2_x1 && mx <= b2_x2 && my >= b2_y1 && my <= b2_y2) {
-    if (global.coins >= price_shurikens) {
-        global.coins -= price_shurikens;
-        obj_beg_terrei.shurikens += 3; // Добавляем 3 штуки в инвентарь
+    // Предположим, пачка сюрикенов стоит 10 монет (замените price_shuriken на вашу переменную цены, если она есть)
+    var price_shuriken = 10; 
+    
+    if (global.coins >= price_shuriken) {
+        if (instance_exists(obj_inventory)) {
+            
+            // Пытаемся положить Сапфировый сюрикен (ID = 7) в количестве 5 штук напрямую в рюкзак!
+            var success = obj_inventory.add_item_to_inv(global.db_items.shuriken, 5);
+            
+            if (success) {
+                global.coins -= price_shuriken; // Списываем монеты
+                show_debug_message("5 Сапфировых сюрикенов добавлены в инвентарь!");
+            } else {
+                show_debug_message("Нет места в инвентаре для сюрикенов!");
+            }
+        }
     }
 }
 

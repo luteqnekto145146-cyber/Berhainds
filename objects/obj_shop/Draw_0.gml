@@ -9,6 +9,6 @@ if (instance_exists(obj_beg_terrei)) {
         // Рисуем подсказку чуть выше магазина
         draw_set_color(c_yellow);
         draw_set_halign(fa_center);
-        draw_text(x, y - 40, "Нажми [E], чтобы купить аптечку (" + string(medkit_price) + " монет)");
+        draw_text(x, y - 40, "Нажми [E],  (" + string(medkit_price) + " монет)");
     }
 }

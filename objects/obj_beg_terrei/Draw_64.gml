@@ -19,22 +19,12 @@ draw_set_valign(fa_top);
 // Узнаем текущую ширину GUI-экрана
 var gui_width = display_get_gui_width();
 
-// Настраиваем цвет текста
-draw_set_color(c_white);
 
-// ВАЖНО: Выравниваем текст по ПРАВОМУ краю
-draw_set_halign(fa_right);
-draw_set_valign(fa_top);
-
-// Рисуем счетчики с отступом в 20 пикселей от правого края экрана
-draw_text(gui_width - 20, 20, "Монеты: " + string(global.coins));
-draw_text(gui_width - 20, 50, "Опыт: " + string(global.xp));
+draw_text(gui_width - 20, 20, "Опыт: " + string(global.xp));
 // Получаем ширину экрана
 var gui_width = display_get_gui_width();
 
-// Рисуем надпись ниже монет и опыта (например, на высоте Y: 80)
-draw_text(gui_width - 20, 80, "Сюрикены: " + string(shurikens));
-draw_set_color(c_white);
+
 
 var gui_w = display_get_gui_width();
 var gui_h = display_get_gui_height();
@@ -43,12 +33,23 @@ draw_set_halign(fa_right);
 
 if (current_weapon == "revolver") {
     draw_text(gui_w - 40, gui_h - 60, "ОРУЖИЕ: Револьвер");
-    draw_text(gui_w - 40, gui_h - 40, "ПАТРОНЫ: " + string(revolver_ammo));
+    
+    // СЧИТАЕМ ПАТРОНЫ В ИНВЕНТАРЕ:
+    var total_ammo_in_bag = 0;
+    if (instance_exists(obj_inventory)) {
+        for (var i = 0; i < obj_inventory.inventory_slots; i++) {
+            var slot = obj_inventory.inventory[i];
+            // Ищем предмет с ID = 2 (наши патроны в базе данных)
+            if (slot != undefined && slot.item.item_id == 2) {
+                total_ammo_in_bag += slot.count; // Плюсуем всё количество
+            }
+        }
+    }
+    
+    // Выводим на экран: сколько в барабане у игрока / сколько всего в рюкзаке
+    draw_text(gui_w - 40, gui_h - 40, "ПАТРОНЫ: " + string(revolver_ammo) + " / " + string(total_ammo_in_bag));
 } 
 else {
     draw_text(gui_w - 40, gui_h - 40, "ОРУЖИЕ: Кулаки");
 }
-
-draw_set_halign(fa_left);
-
 

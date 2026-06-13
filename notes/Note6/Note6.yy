@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"Note6",
+  "name":"Note6",
+  "parent":{
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

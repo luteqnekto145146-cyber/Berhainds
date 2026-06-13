@@ -48,6 +48,7 @@ text_color = c_white;
 text_timer = 0;
 text_y_offset = 0; // Смещение текста вверх
 text_alpha = 1.0;  // Прозрачность текста (1 = полностью виден, 0 = невидим)
+my_shield_object = noone;
 
 
 

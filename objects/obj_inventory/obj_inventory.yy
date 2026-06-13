@@ -1,21 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_revolver",
+  "%Name":"obj_inventory",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_revolver",
+  "name":"obj_inventory",
   "overriddenProperties":[],
   "parent":{
-    "name":"serega",
-    "path":"folders/serega.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
-  "parentObjectId":{
-    "name":"obj_item_parent",
-    "path":"objects/obj_item_parent/obj_item_parent.yy",
-  },
-  "persistent":false,
+  "parentObjectId":null,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -32,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_revolver",
-    "path":"sprites/spr_revolver/spr_revolver.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
