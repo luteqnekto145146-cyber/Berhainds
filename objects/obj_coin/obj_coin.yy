@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_coin",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_beg_terrei","path":"objects/obj_beg_terrei/obj_beg_terrei.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_coin",
   "overriddenProperties":[],
@@ -11,7 +9,10 @@
     "name":"betatest",
     "path":"folders/serega/betatest.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_item_parent",
+    "path":"objects/obj_item_parent/obj_item_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -25,7 +26,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"item_key","filters":[],"listItems":[],"multiselect":false,"name":"item_key","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"coin","varType":2,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

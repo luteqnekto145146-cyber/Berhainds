@@ -10,7 +10,7 @@ selected_slot = 0;
 
 
 hotbar_slots = 4;    
-inventory_slots = 4;  
+inventory_slots = 0
 inventory = array_create(32, undefined); 
 
 selected_slot = 0;    
@@ -20,42 +20,56 @@ hovered_slot = -1;
 current_weapon = "fists"; 
 revolver_ammo = 0;        
 
-
 function upgrade_backpack_stats(_backpack_item) {
-    hotbar_slots = 4 + _backpack_item.hotbar_add;       
-    inventory_slots = hotbar_slots + _backpack_item.inventory_add; 
+    // 1. Увеличиваем хот-бар (к базовым 4 прибавляем то, что дает сумка)
+    hotbar_slots = 4 + _backpack_item.hotbar_add; 
     
-
-    if (selected_slot >= hotbar_slots && !show_inventory) selected_slot = 0;
-}
-
-
-function add_item_to_inv(_item_struct, _amount) {
-    // Если подобрали предмет с типом "backpack" — берем его характеристики вместимости!
-    if (_item_struct.type == "backpack") {
-        upgrade_backpack_stats(_item_struct);
-        return true; // Рюкзак "экипировался", в ячейку его не кладем
+    // 2. Задаем количество ячеек самого инвентаря (например, 10)
+    inventory_slots = _backpack_item.inventory_add; 
+    
+    // 3. Высчитываем общий новый размер всего инвентаря вместе с хот-баром
+    var _total_slots = hotbar_slots + inventory_slots;
+    
+    // 4. Физически увеличиваем массив под новый размер, заполняя новые ячейки "пустотой" (undefined)
+    array_resize(inventory, _total_slots);
+    
+    // Безопасность: если выбранный слот улетел за границы, сбрасываем его на 0
+    if (selected_slot >= hotbar_slots) {
+        selected_slot = 0;
     }
-
-    // Стак в существующий слот
+}
+// Замените вашу старую функцию add_item_to_inv на этот код:
+function add_item_to_inv(_item_struct, _amount) {
+    
+    // 1. СТАКИНГ: Ищем, есть ли уже такой предмет в инвентаре
     if (_item_struct.stackable) {
-        for (var i = 0; i < inventory_slots; i++) {
-            if (inventory[i] != undefined && inventory[i].item.item_id == _item_struct.item_id) {
-                inventory[i].count += _amount;
-                return true;
+        // Проверяем ВСЕ ячейки, которые сейчас физически есть в массиве
+        for (var i = 0; i < array_length(inventory); i++) {
+            if (inventory[i] != undefined) {
+                // Проверяем, совпадает ли ID предмета
+                if (inventory[i].item.item_id == _item_struct.item_id) {
+                    inventory[i].count += _amount;
+                    return true; // Успешно добавили в существующий стек!
+                }
             }
         }
     }
-    // Поиск пустой доступной ячейки
-    for (var i = 0; i < inventory_slots; i++) {
+    
+    // 2. ПОИСК ПУСТОЙ ЯЧЕЙКИ: Если предмета еще нет или он не стакается
+    for (var i = 0; i < array_length(inventory); i++) {
         if (inventory[i] == undefined) {
-            inventory[i] = { item: _item_struct, count: _amount, durability: _item_struct.max_durability };
-            return true;
+            // Создаем новую структуру слота
+            inventory[i] = {
+                item: _item_struct,
+                count: _amount
+            };
+            return true; // Успешно положили в свободную ячейку!
         }
     }
-    return false; 
+    
+    // Если свободного места вообще нет
+    return false;
 }
-
 
 // Функция считает ВСЕ монеты в инвентаре (ID = 6)
 function get_total_coins() {

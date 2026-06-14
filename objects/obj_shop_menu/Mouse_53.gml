@@ -35,14 +35,14 @@ if (mx >= b1_x1 && mx <= b1_x2 && my >= b1_y1 && my <= b1_y2) {
 // ПОКУПКА СЮРИКЕНОВ (Кнопка 2)
 if (mx >= b2_x1 && mx <= b2_x2 && my >= b2_y1 && my <= b2_y2) {
     // Предположим, пачка сюрикенов стоит 10 монет (замените price_shuriken на вашу переменную цены, если она есть)
-    var price_shuriken = 10; 
+    var price_shuriken = 5; 
     
     if (global.coins >= price_shuriken) {
         if (instance_exists(obj_inventory)) {
             
             // Пытаемся положить Сапфировый сюрикен (ID = 7) в количестве 5 штук напрямую в рюкзак!
             var success = obj_inventory.add_item_to_inv(global.db_items.shuriken, 5);
-            
+  
             if (success) {
                 global.coins -= price_shuriken; // Списываем монеты
                 show_debug_message("5 Сапфировых сюрикенов добавлены в инвентарь!");
