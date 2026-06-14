@@ -25,6 +25,7 @@
     {"name":"obj_revolver","order":8,"path":"objects/obj_revolver/obj_revolver.yy",},
     {"name":"obj_sapfir_kylak","order":23,"path":"objects/obj_sapfir_kylak/obj_sapfir_kylak.yy",},
     {"name":"obj_sceleton_sherif","order":3,"path":"objects/obj_sceleton_sherif/obj_sceleton_sherif.yy",},
+    {"name":"obj_shop","order":15,"path":"objects/obj_shop/obj_shop.yy",},
     {"name":"obj_spawn_point","order":17,"path":"objects/obj_spawn_point/obj_spawn_point.yy",},
     {"name":"obj_vrag","order":9,"path":"objects/obj_vrag/obj_vrag.yy",},
     {"name":"r_doroga_2","order":10,"path":"rooms/r_doroga_2/r_doroga_2.yy",},
@@ -40,5 +41,6 @@
     {"name":"spr_revolver","order":2,"path":"sprites/spr_revolver/spr_revolver.yy",},
     {"name":"spr_sceleton_sherif_die","order":12,"path":"sprites/spr_sceleton_sherif_die/spr_sceleton_sherif_die.yy",},
     {"name":"spr_sceleton_sherif","order":5,"path":"sprites/spr_sceleton_sherif/spr_sceleton_sherif.yy",},
+    {"name":"Sprite162","order":16,"path":"sprites/Sprite162/Sprite162.yy",},
   ],
 }

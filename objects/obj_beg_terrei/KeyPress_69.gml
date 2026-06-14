@@ -1,5 +1,5 @@
 // Проверяем, есть ли рядом объект магазина
-var nearest_shop = instance_nearest(x, y, obj_shop);
+var nearest_shop = instance_nearest(x, y, obj_shop_menu);
 
 if (nearest_shop != noone) {
     var dist = point_distance(x, y, nearest_shop.x, nearest_shop.y);

@@ -41,36 +41,26 @@ for (var i = 0; i < hotbar_slots; i++) {
 }
 
 // 2.  ОСНОВНОЙ ИНВЕНТАРЬ 
-if (show_inventory) {
-    var slots_per_row = 5;
-    for (var i = hotbar_slots; i < inventory_slots; i++) {
-        var index_in_menu = i - hotbar_slots;
-        var row = floor(index_in_menu / slots_per_row);
-        var col = index_in_menu % slots_per_row;
+if (inventory[i] != undefined) {
+    // Вычисляем центр ячейки для отрисовки предмета
+    var _center_x = xx + (slot_size / 2);
+    var _center_y = yy + (slot_size / 2);
+    
+    // Рисуем спрайт предмета СТРОГО ПО ЦЕНТРУ ячейки
+    draw_sprite(inventory[i].item.sprite, 0, _center_x, _center_y);
+    
+    // Отрисовка количества предметов (цифр)
+    if (inventory[i].count > 1) {
+        draw_set_color(c_white);
         
-        var xx = start_x + (col * (slot_size + gap));
-        var yy = start_y + slot_size + 40 + (row * (slot_size + gap));
+        // Смещаем цифры в правый нижний угол, оставляя небольшой отступ в 4 пикселя от краев ячейки
+        var _text_x = xx + slot_size - 4;
+        var _text_y = yy + slot_size - 12; // 12 — примерная высота шрифта, чтобы он не улетал вниз
         
-       
-        if (mx >= xx && mx <= xx + slot_size && my >= yy && my <= yy + slot_size) {
-            hovered_slot = i;
-        }
-        
-        if (i == selected_slot) draw_set_color(c_red);
-        else if (hovered_slot == i) draw_set_color(c_yellow);
-        else draw_set_color(c_white);
-        
-        draw_rectangle(xx, yy, xx + slot_size, yy + slot_size, true);
-        
-        
-        if (inventory[i] != undefined) {
-            draw_sprite(inventory[i].item.sprite, 0, xx, yy);
-            
-            if (inventory[i].count > 1) {
-                draw_set_color(c_white);
-                draw_text(xx + slot_size - 18, yy + slot_size - 20, string(inventory[i].count));
-            }
-        }
+        // Выравниваем текст по правому краю, чтобы двухзначные числа (например, 10, 52) не вылезали за рамку
+        draw_set_halign(fa_right);
+        draw_text(_text_x, _text_y, string(inventory[i].count));
+        draw_set_halign(fa_left); // Обязательно сбрасываем выравнивание обратно!
     }
 }
 
