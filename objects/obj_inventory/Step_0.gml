@@ -6,7 +6,7 @@ if (keyboard_check_pressed(ord("E"))) {
 
 // 2. ВЫБОР ОРУЖИЯ 
 var active = inventory[selected_slot];
-if (active != undefined && active.item.type == "weapon" && active.item.item_id == 1) {
+if (active != undefined && active != noone && active.item.type == "weapon" &&  active.item.item_id == 1) {
     current_weapon = "revolver";
 } else {
     current_weapon = "fists";

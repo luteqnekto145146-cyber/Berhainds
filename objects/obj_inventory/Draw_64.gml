@@ -28,8 +28,7 @@ for (var i = 0; i < hotbar_slots; i++) {
     
     draw_rectangle(xx, yy, xx + slot_size, yy + slot_size, true);
     
-    
-    if (inventory[i] != undefined) {
+    if (inventory[i] != noone && inventory[i] != undefined) {
         draw_sprite(inventory[i].item.sprite, 0, xx, yy); 
         
        
@@ -46,7 +45,27 @@ if (inventory[i] != undefined) {
     var _center_x = xx + (slot_size / 2);
     var _center_y = yy + (slot_size / 2);
     
-    // Рисуем спрайт предмета СТРОГО ПО ЦЕНТРУ ячейки
+ // Проверяем, что в слоте действительно что-то лежит, и это не noone/undefined
+if (inventory[i] != noone && inventory[i] != undefined) {
+    
+    // Вычисляем центр ячейки (код центрования, который мы делали)
+    var _center_x = xx + (slot_size / 2);
+    var _center_y = yy + (slot_size / 2);
+    
+    // Рисуем спрайт предмета, ТОЛЬКО если ячейка заполнена
+    draw_sprite(inventory[i].item.sprite, 0, _center_x, _center_y);
+    
+    // Отрисовка количества предметов
+    if (inventory[i].count > 1) {
+        draw_set_color(c_white);
+        var _text_x = xx + slot_size - 4;
+        var _text_y = yy + slot_size - 12;
+        
+        draw_set_halign(fa_right);
+        draw_text(_text_x, _text_y, string(inventory[i].count));
+        draw_set_halign(fa_left);
+    }
+}
     draw_sprite(inventory[i].item.sprite, 0, _center_x, _center_y);
     
     // Отрисовка количества предметов (цифр)
@@ -68,8 +87,9 @@ if (inventory[i] != undefined) {
 draw_set_color(c_white);
 var slot_data = inventory[selected_slot];
 var text_y = show_inventory ? start_y + 240 : start_y + 90; 
+var slot_data = inventory[i];
+if (slot_data != noone and slot_data != undefined) {
 
-if (slot_data != undefined) {
     var item = slot_data.item;
     draw_text(start_x, text_y, "Выбрано: " + string(item.name));
     draw_text(start_x, text_y + 20, "Описание: " + string(item.description));

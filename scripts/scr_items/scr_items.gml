@@ -128,3 +128,42 @@ function scr_items(_item_data, _quantity) {
     }
     return false; // Если прошлись по всему инвентарю и не нашли свободного места
 }
+function inventory_sell_revolver() {
+    if (!instance_exists(obj_inventory)) return false;
+    
+    var _inv_array = obj_inventory.inventory;
+    var _revolver_found = false;
+    
+    // Проходим по всему инвентарю в поисках револьвера (ID 1)
+    for (var i = 0; i < array_length(_inv_array); i++) {
+        var _slot = _inv_array[i];
+        
+        // Проверяем, что в ячейке действительно лежит структура предмета
+        if (_slot != noone && _slot != undefined && is_struct(_slot)) {
+            var _is_revolver = false;
+            
+            // Безопасно проверяем ID револьвера во всех возможных вариантах имён переменных
+            if (struct_exists(_slot, "item_id") && _slot.item_id == 1) _is_revolver = true;
+            else if (struct_exists(_slot, "item_data") && is_struct(_slot.item_data) && _slot.item_data.item_id == 1) _is_revolver = true;
+            else if (struct_exists(_slot, "item") && is_struct(_slot.item) && _slot.item.item_id == 1) _is_revolver = true;
+            
+            // Если это револьвер — забираем его из инвентаря
+            if (_is_revolver) {
+                _slot.count -= 1;
+                // Если револьверы в этом слоте кончились, очищаем ячейку
+                if (_slot.count <= 0) _inv_array[i] = noone;
+                _revolver_found = true;
+                break; // Останавливаем цикл, чтобы продать строго одну штуку
+            }
+        }
+    }
+    
+    // Если револьвер успешно удалён — выдаём игроку 10 монет (ID 6)
+    if (_revolver_found) {
+        scr_items(global.db_items.coin, 10);
+        return true;
+    }
+    
+    return false; // Револьвера не оказалось в карманах
+}
+    

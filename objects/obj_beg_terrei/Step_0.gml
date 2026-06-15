@@ -49,7 +49,7 @@ shuriken_thrown = true; // Отмечаем, что сюрикен выпуще�
 var is_revolver_equipped = false;
 if (instance_exists(obj_inventory)) {
     var active_slot = obj_inventory.inventory[obj_inventory.selected_slot];
-    if (active_slot != undefined && active_slot.item.item_id == 1) {
+    if (active_slot != undefined && active_slot != noone and active_slot.item.item_id == 1) {
         is_revolver_equipped = true; // Револьвер действительно выбран в хот-баре
     }
 }
