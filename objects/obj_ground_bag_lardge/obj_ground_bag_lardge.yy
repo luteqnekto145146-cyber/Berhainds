@@ -8,8 +8,8 @@
   "name":"obj_ground_bag_lardge",
   "overriddenProperties":[],
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"serega",
+    "path":"folders/serega.yy",
   },
   "parentObjectId":{
     "name":"obj_item_parent",

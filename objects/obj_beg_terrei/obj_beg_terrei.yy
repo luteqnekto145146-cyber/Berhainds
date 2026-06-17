@@ -20,8 +20,8 @@
   "name":"obj_beg_terrei",
   "overriddenProperties":[],
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"serega",
+    "path":"folders/serega.yy",
   },
   "parentObjectId":null,
   "persistent":true,

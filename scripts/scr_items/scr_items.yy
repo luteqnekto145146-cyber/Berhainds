@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_items",
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"serega",
+    "path":"folders/serega.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

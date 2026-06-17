@@ -1,10 +1,10 @@
 {
   "$GMNotes":"v1",
-  "%Name":"Note6",
-  "name":"Note6",
+  "%Name":"Идеи",
+  "name":"Идеи",
   "parent":{
-    "name":"serega",
-    "path":"folders/serega.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

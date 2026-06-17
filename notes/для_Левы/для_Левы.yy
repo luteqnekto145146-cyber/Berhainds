@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"для_Левы",
+  "name":"для_Левы",
+  "parent":{
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

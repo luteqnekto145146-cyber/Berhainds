@@ -9,8 +9,8 @@
   "name":"obj_item_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"serega",
+    "path":"folders/serega.yy",
   },
   "parentObjectId":null,
   "persistent":false,
