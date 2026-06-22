@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mnogoatashka_lestniza",
+  "%Name":"obj_tower_guard",
   "eventList":[],
   "managed":true,
-  "name":"obj_mnogoatashka_lestniza",
+  "name":"obj_tower_guard",
   "overriddenProperties":[],
   "parent":{
-    "name":"serega",
-    "path":"folders/serega.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_lestniza_v_mnogoatashka",
-    "path":"sprites/spr_lestniza_v_mnogoatashka/spr_lestniza_v_mnogoatashka.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
