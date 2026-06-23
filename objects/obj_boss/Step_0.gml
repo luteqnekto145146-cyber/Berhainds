@@ -1,4 +1,4 @@
-if (!instance_exists(obj_player)) exit;
+if (!instance_exists(obj_beg_terrei)) exit;
 
 if (hp <= 0) {
     repeat(30) { 
@@ -21,7 +21,7 @@ if (hp <= 0) {
 }
 
 if (state == "walk") {
-    var dir = point_direction(x, y, obj_player.x, obj_player.y);
+    var dir = point_direction(x, y, obj_beg_terrei.x, obj_beg_terrei.y);
     x += lengthdir_x(speed_walk, dir);
     y += lengthdir_y(speed_walk, dir);
     
@@ -45,8 +45,8 @@ else if (state == "prepare") {
         jump_current_frame = 0;
         start_x = x;
         start_y = y;
-        jump_target_x = obj_player.x;
-        jump_target_y = obj_player.y;
+        jump_target_x = obj_beg_terrei.x;
+        jump_target_y = obj_beg_terrei.y;
     }
 }
 else if (state == "jump") {
@@ -75,7 +75,7 @@ else if (state == "shoot_circle") {
         var angle_step = 360 / streams;
         for (var i = 0; i < streams; i++) {
             var bullet_angle = spiral_angle + (i * angle_step);
-            var b = instance_create_layer(x, y, "Instances", obj_enemy_bullet); 
+            var b = instance_create_layer(x, y, "Instances", obj_pyli_sceleton_sherif); 
             with(b) { direction = bullet_angle; speed = 3.5; }
         }
     }

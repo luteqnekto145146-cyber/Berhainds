@@ -1,6 +1,6 @@
-if (!instance_exists(obj_player)) exit;
+if (!instance_exists(obj_beg_terrei)) exit;
 
-var dist = distance_to_object(obj_player);
+var dist = distance_to_object(obj_beg_terrei);
 
 if (dist <= talk_distance && !has_given_gear) {
     has_given_gear = true;

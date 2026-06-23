@@ -1,4 +1,5 @@
-// Стартовые настройки
+global.gold = 0; // Создаем кошелек при старте Башни
+
 global.current_floor = 0; // Начинаем с 0 этажа (Хаб)
 
 if (!variable_global_exists("max_floor_reached")) {

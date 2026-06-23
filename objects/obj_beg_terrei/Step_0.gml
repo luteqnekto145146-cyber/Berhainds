@@ -86,4 +86,86 @@ if (text_timer > 0) {
         shield_text = "";
     }
 }
-	
+if (room == rm_tower_floor_1) {
+    
+    // Фора для генератора рельефа на старте
+    if (!variable_instance_exists(id, "tower_start_timer")) {
+        tower_start_timer = 5; 
+        floor_cleared = false; // Переменная, чтобы таймер перехода не срабатывал дважды
+        clear_timer = 0;       // Наш новый таймер на 20 секунд
+    }
+    
+    if (tower_start_timer > 0) {
+        tower_start_timer--;
+        exit; 
+    }
+    
+    // Считаем живых врагов
+    var total_enemies = instance_number(obj_sceleton_sherif) + instance_number(obj_zombie);
+    
+    // Выводим инфо, только если враги уже заспавнились
+    if (instance_exists(obj_sceleton_sherif) || instance_exists(obj_zombie) || floor_cleared) {
+        show_debug_message("РЕАЛЬНО ЖИВЫХ ВРАГОВ = " + string(total_enemies));
+    }
+    
+    // ЕСЛИ ВСЕ ВРАГИ УБИТЫ
+    if (total_enemies == 0 && !floor_cleared && (instance_exists(obj_sceleton_sherif) == false && instance_exists(obj_zombie) == false)) {
+        floor_cleared = true;
+        clear_timer = 600; // Запускаем задержку в 20 секунд (1200 кадров)
+        
+        // ЕСЛИ ЭТО 5-Й ЭТАЖ: Лифт падает СРАЗУ, чтобы вы успели его увидеть и воспользоваться!
+        if (global.current_floor % 5 == 0 && instance_number(obj_elevator) == 0) {
+            instance_create_layer(room_width / 2, room_height / 2, "Instances", obj_elevator);
+        }
+    }
+    
+    // ОТСЧЕТ 20 СЕКУНД ПОСЛЕ ПОБЕДЫ
+    if (floor_cleared) {
+        clear_timer--;
+        
+        // Если это обычный этаж (без лифта), пишем сколько секунд осталось до телепорта
+        if (global.current_floor % 5 != 0) {
+            show_debug_message("До перехода на следующий этаж осталось: " + string(ceil(clear_timer / 60)) + " сек.");
+        }
+        
+        // Когда 20 секунд истекли
+        if (clear_timer <= 0) {
+            
+            // Если на 5-м этаже игрок ТАК И НЕ ЗАШЕЛ в лифт за 20 секунд — везем его принудительно
+            if (global.current_floor % 5 == 0) {
+                global.current_floor += 1;
+                room_restart();
+                exit;
+            }
+            
+            // Сброс настроек для следующего этажа
+            tower_start_timer = 5; 
+            floor_cleared = false;
+            
+            if (instance_exists(obj_tower_controller)) {
+                with(obj_tower_controller) {
+                    global.current_floor += 1;
+                    if (global.current_floor > global.max_floor_reached) global.max_floor_reached = global.current_floor;
+                    
+                    if (global.current_floor == 10) room_goto(rm_boss_flour_10);
+                    else if (global.current_floor == 25) room_goto(rm_boss_flour_25);
+                    else room_restart(); 
+                }
+            } else {
+                global.current_floor += 1;
+                room_restart(); 
+            }
+        }
+    }
+}
+// ЧИТ-КОД: Нажмите клавишу F4, чтобы сразу прыгнуть на 20 этаж для теста
+if (keyboard_check_pressed(vk_f4)) {
+    global.current_floor = 20;
+    
+    // Принудительно обновляем рекорд, чтобы лифт в меню разблокировал этот этаж
+    if (global.current_floor > global.max_floor_reached) {
+        global.max_floor_reached = global.current_floor;
+    }
+    
+    room_restart(); // Перезапускаем комнату, чтобы сработал лифт 20-го этажа
+}

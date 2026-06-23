@@ -13,7 +13,6 @@ global.coins = 0;
 global.xp = 0;
 
 player_hp_max = 100;
-
 player_hp = player_hp_max;
 
 shurikens = 0;

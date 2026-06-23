@@ -8,8 +8,8 @@
   "name":"obj_chunk_pits",
   "overriddenProperties":[],
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"tower_25",
+    "path":"folders/tower_25.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,4 +1,4 @@
-if (!instance_exists(obj_player)) exit;
+if (!instance_exists(obj_beg_terrei)) exit;
 
 if (hp <= 0) {
     repeat(15) {
@@ -8,10 +8,10 @@ if (hp <= 0) {
     instance_destroy();
 }
 
-var dist = distance_to_object(obj_player);
+var dist = distance_to_object(obj_beg_terrei);
 
 if (state == "move") {
-    var dir_to_player = point_direction(x, y, obj_player.x, obj_player.y);
+    var dir_to_player = point_direction(x, y, obj_beg_terrei.x, obj_beg_terrei.y);
     if (dist < 200) {
         var escape_dir = dir_to_player + 180;
         x += lengthdir_x(speed_run, escape_dir);
@@ -31,12 +31,12 @@ else if (state == "throw") {
     throw_timer--;
     if (throw_timer <= 0) {
         var bomb = instance_create_layer(x, y, "Instances", obj_boss_bomb);
-        var target_dir = point_direction(x, y, obj_player.x, obj_player.y);
+        var target_dir = point_direction(x, y, obj_beg_terrei.x, obj_beg_terrei.y);
         with(bomb) {
             direction = target_dir;
             speed = 6;
-            target_x = obj_player.x;
-            target_y = obj_player.y;
+            target_x = obj_beg_terrei.x;
+            target_y = obj_beg_terrei.y;
         }
         state = "move";
         throw_timer = throw_cooldown;

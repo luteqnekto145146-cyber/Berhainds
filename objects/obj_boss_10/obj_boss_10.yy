@@ -12,7 +12,10 @@
     "name":"tower_25",
     "path":"folders/tower_25.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_vrag",
+    "path":"objects/obj_vrag/obj_vrag.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
