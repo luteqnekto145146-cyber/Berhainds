@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
   "%Name":"obj_boss",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_boss",
   "overriddenProperties":[],
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"tower_25",
+    "path":"folders/tower_25.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_boss",
+    "path":"sprites/spr_boss/spr_boss.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

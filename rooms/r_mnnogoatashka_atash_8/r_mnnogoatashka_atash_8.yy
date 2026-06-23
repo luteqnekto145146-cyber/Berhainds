@@ -144,8 +144,8 @@
   ],
   "name":"r_mnnogoatashka_atash_8",
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"tower_25",
+    "path":"folders/tower_25.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

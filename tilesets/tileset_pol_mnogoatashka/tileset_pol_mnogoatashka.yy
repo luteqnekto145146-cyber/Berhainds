@@ -17,8 +17,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"tower_25",
+    "path":"folders/tower_25.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

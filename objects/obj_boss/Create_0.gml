@@ -1,0 +1,16 @@
+hp = 500;
+state = "walk"; 
+speed_walk = 2; 
+jump_cooldown = 180; 
+jump_timer = jump_cooldown;
+jump_target_x = 0;
+jump_target_y = 0;
+jump_duration = 45; 
+jump_current_frame = 0;
+start_x = 0;
+start_y = 0;
+shoot_timer = 0;
+shoot_duration = 60; 
+bullets_per_wave = 8; 
+spiral_angle = 0; 
+spiral_direction = 1; 

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"tower_25",
+    "path":"folders/tower_25.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
