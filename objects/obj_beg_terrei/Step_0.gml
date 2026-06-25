@@ -28,71 +28,67 @@ if (sprite_index == spr_terrei_brosok_suriken) {
     // Если анимация дошла до 6-го кадра (в коде это 5) и мы еще НЕ выпустили снаряд
     if (floor(image_index) == 5 && shuriken_thrown == false) {
         
-shuriken_thrown = true; // Отмечаем, что сюрикен выпущен
+shuriken_thrown = true; 
         
         if (global.crazy_mode == false) {
             var my_shuriken = instance_create_layer(x, y, "Instances", obj_sapfir_suriken);
             var target_dir = point_direction(x, y, mouse_x, mouse_y);
             my_shuriken.direction = target_dir;
-            my_shuriken.speed = 8; // Скорость полета
+            my_shuriken.speed = 8; 
         } else {
             var my_hornet = instance_create_layer(x, y, "Instances", obj_hornet);
             var target_dir = point_direction(x, y, mouse_x, mouse_y);
             
-            // Шершень летит в сторону мышки, но с веерным разбросом!
+            
             my_hornet.direction = target_dir + irandom_range(-15, 15);
-            my_hornet.speed = 12; // Сделаем шершня чуть быстрее сюрикена!
+            my_hornet.speed = 12;
         }
     }
 }
-// Проверяем нажатие ЛКМ и что в руках именно револьвер (смотрим в инвентарь)
 var is_revolver_equipped = false;
 if (instance_exists(obj_inventory)) {
     var active_slot = obj_inventory.inventory[obj_inventory.selected_slot];
     if (active_slot != undefined && active_slot != noone and active_slot.item.item_id == 1) {
-        is_revolver_equipped = true; // Револьвер действительно выбран в хот-баре
+        is_revolver_equipped = true; 
     }
 }
 
 if (mouse_check_button_pressed(mb_left) && is_revolver_equipped) {
     if (revolver_ammo > 0) {
-        revolver_ammo -= 1; // Тратим 1 патрон
+        revolver_ammo -= 1; 
         
-        // Создаем пулю на координатах игрока
+       
         var bullet = instance_create_layer(x, y, "Instances", obj_bullet);
         
-        // Направляем пулю в сторону мышки
+      
         bullet.direction = point_direction(x, y, mouse_x, mouse_y);
-        bullet.speed = 8; // Задаем пуле скорость
+        bullet.speed = 8; 
         
-        // ПОВОРАЧИВАЕМ СПРАЙТ ПУЛИ ПО НАПРАВЛЕНИЮ ПОЛЕТА
         bullet.image_angle = bullet.direction; 
     }
 }
-// Управление анимацией всплывающего текста
+
 if (text_timer > 0) {
     text_timer -= 1;
     
-    // Текст плавно летит вверх (каждый кадр поднимается на 1.5 пикселя)
     text_y_offset -= 1.5; 
-    
-    // В последние 20 кадров текст начинает плавно растворяться
+
     if (text_timer < 20) {
         text_alpha = text_timer / 20; 
     }
     
-    // Когда время вышло, полностью сбрасываем параметры
+
     if (text_timer <= 0) {
         shield_text = "";
     }
 }
 if (room == rm_tower_floor_1) {
     
-    // Фора для генератора рельефа на старте
+    // 1. Инициализация переменных при старте этажа
     if (!variable_instance_exists(id, "tower_start_timer")) {
         tower_start_timer = 5; 
-        floor_cleared = false; // Переменная, чтобы таймер перехода не срабатывал дважды
-        clear_timer = 0;       // Наш новый таймер на 20 секунд
+        floor_cleared = false; 
+        clear_timer = 0;       
     }
     
     if (tower_start_timer > 0) {
@@ -100,45 +96,60 @@ if (room == rm_tower_floor_1) {
         exit; 
     }
     
-    // Считаем живых врагов
+    // 2. Прямой подсчет врагов (Убедитесь, что имена объектов совпадают с Asset Browser!)
     var total_enemies = instance_number(obj_sceleton_sherif) + instance_number(obj_zombie);
     
-    // Выводим инфо, только если враги уже заспавнились
-    if (instance_exists(obj_sceleton_sherif) || instance_exists(obj_zombie) || floor_cleared) {
+    // Вывод информации в консоль только во время боя
+    if (total_enemies > 0) {
         show_debug_message("РЕАЛЬНО ЖИВЫХ ВРАГОВ = " + string(total_enemies));
     }
     
-    // ЕСЛИ ВСЕ ВРАГИ УБИТЫ
-    if (total_enemies == 0 && !floor_cleared && (instance_exists(obj_sceleton_sherif) == false && instance_exists(obj_zombie) == false)) {
-        floor_cleared = true;
-        clear_timer = 600; // Запускаем задержку в 20 секунд (1200 кадров)
+      // 3. Логика фиксации победы
+   
+    if (tower_start_timer <= 0) {
         
-        // ЕСЛИ ЭТО 5-Й ЭТАЖ: Лифт падает СРАЗУ, чтобы вы успели его увидеть и воспользоваться!
-        if (global.current_floor % 5 == 0 && instance_number(obj_elevator) == 0) {
-            instance_create_layer(room_width / 2, room_height / 2, "Instances", obj_elevator);
+        
+        if (!instance_exists(obj_tower_generator)) {
+            
+            
+            if (total_enemies == 0 && !floor_cleared) {
+                floor_cleared = true;
+                clear_timer = 1200; 
+                
+               
+                if (global.current_floor % 5 == 0 && instance_number(obj_elevator) == 0) {
+                    instance_create_layer(room_width / 2, room_height / 2, "Instances", obj_elevator);
+                }
+            }
         }
     }
+
     
-    // ОТСЧЕТ 20 СЕКУНД ПОСЛЕ ПОБЕДЫ
+    if (total_enemies > 0) {
+        floor_cleared = false;
+        clear_timer = 0;
+    }
+    
+    // 4. Отсчет времени передышки и выполнение перехода
     if (floor_cleared) {
         clear_timer--;
-        
-        // Если это обычный этаж (без лифта), пишем сколько секунд осталось до телепорта
+ 
+       
         if (global.current_floor % 5 != 0) {
             show_debug_message("До перехода на следующий этаж осталось: " + string(ceil(clear_timer / 60)) + " сек.");
-        }
+		}
         
-        // Когда 20 секунд истекли
+        
         if (clear_timer <= 0) {
             
-            // Если на 5-м этаже игрок ТАК И НЕ ЗАШЕЛ в лифт за 20 секунд — везем его принудительно
+            
             if (global.current_floor % 5 == 0) {
                 global.current_floor += 1;
                 room_restart();
                 exit;
             }
             
-            // Сброс настроек для следующего этажа
+           
             tower_start_timer = 5; 
             floor_cleared = false;
             
@@ -158,14 +169,13 @@ if (room == rm_tower_floor_1) {
         }
     }
 }
-// ЧИТ-КОД: Нажмите клавишу F4, чтобы сразу прыгнуть на 20 этаж для теста
+
 if (keyboard_check_pressed(vk_f4)) {
-    global.current_floor = 20;
+    global.current_floor = 24;
     
-    // Принудительно обновляем рекорд, чтобы лифт в меню разблокировал этот этаж
     if (global.current_floor > global.max_floor_reached) {
         global.max_floor_reached = global.current_floor;
     }
     
-    room_restart(); // Перезапускаем комнату, чтобы сработал лифт 20-го этажа
+    room_restart(); 
 }
