@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"revolver_shot",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":3.22161,
+  "exportDir":"",
+  "name":"revolver_shot",
+  "parent":{
+    "name":"Matvei",
+    "path":"folders/Matvei.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"revolver_shot.ogg",
+  "volume":1.0,
+}

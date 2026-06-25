@@ -1,7 +1,7 @@
 {
   "$GMNotes":"v1",
-  "%Name":"Для Матвея",
-  "name":"Для Матвея",
+  "%Name":"vazhnoe soobshenie dlya vseh",
+  "name":"vazhnoe soobshenie dlya vseh",
   "parent":{
     "name":"BERHAIND",
     "path":"BERHAIND.yyp",

@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"подрывник",
+  "name":"подрывник",
+  "parent":{
+    "name":"tower_25",
+    "path":"folders/tower_25.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}
