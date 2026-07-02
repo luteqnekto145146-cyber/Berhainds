@@ -14,7 +14,6 @@
     {"name":"для_Левы","order":6,"path":"notes/для_Левы/для_Левы.yy",},
     {"name":"Идеи","order":8,"path":"notes/Идеи/Идеи.yy",},
     {"name":"подрывник","order":29,"path":"notes/подрывник/подрывник.yy",},
-    {"name":"beg_terrei","order":2,"path":"objects/beg_terrei/beg_terrei.yy",},
     {"name":"obj_ammo","order":6,"path":"objects/obj_ammo/obj_ammo.yy",},
     {"name":"obj_beg_terrei","order":26,"path":"objects/obj_beg_terrei/obj_beg_terrei.yy",},
     {"name":"obj_boss_10","order":1,"path":"objects/obj_boss_10/obj_boss_10.yy",},
@@ -82,6 +81,7 @@
     {"name":"spr_shocwave","order":20,"path":"sprites/spr_shocwave/spr_shocwave.yy",},
     {"name":"spr_target","order":23,"path":"sprites/spr_target/spr_target.yy",},
     {"name":"spr_tower_guard","order":24,"path":"sprites/spr_tower_guard/spr_tower_guard.yy",},
+    {"name":"Sprite172","order":1,"path":"sprites/Sprite172/Sprite172.yy",},
     {"name":"tileset_pol_mnogoatashka","order":16,"path":"tilesets/tileset_pol_mnogoatashka/tileset_pol_mnogoatashka.yy",},
   ],
 }
