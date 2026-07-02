@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"sortirovka",
+  "name":"sortirovka",
+  "parent":{
+    "name":"soobshenie",
+    "path":"folders/igra/soobshenie.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

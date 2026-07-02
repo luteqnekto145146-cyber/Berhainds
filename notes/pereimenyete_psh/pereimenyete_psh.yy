@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"pereimenyete_psh",
+  "name":"pereimenyete_psh",
+  "parent":{
+    "name":"obrashenie",
+    "path":"folders/obrashenie.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

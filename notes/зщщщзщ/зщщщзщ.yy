@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"зщщщзщ",
+  "name":"зщщщзщ",
+  "parent":{
+    "name":"necorter",
+    "path":"folders/necorter.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

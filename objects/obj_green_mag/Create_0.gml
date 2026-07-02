@@ -1,0 +1,10 @@
+move_speed = 0.5;        
+chase_speed = 1.5;       
+detection_radius = 400;
+attack_radius = 200; 
+state = Z_STATE.WANDER;
+wander_timer = 0;       
+home_x = x;
+home_y = y;
+hp_max = 50; 
+hp = hp_max;
