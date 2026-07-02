@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_beg_terrei_kod",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_beg_terrei_kod",
+  "parent":{
+    "name":"nesorter",
+    "path":"folders/igra/glava1/nesorter.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
