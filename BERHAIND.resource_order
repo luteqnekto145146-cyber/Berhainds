@@ -14,6 +14,7 @@
     {"name":"для_Левы","order":6,"path":"notes/для_Левы/для_Левы.yy",},
     {"name":"Идеи","order":8,"path":"notes/Идеи/Идеи.yy",},
     {"name":"подрывник","order":29,"path":"notes/подрывник/подрывник.yy",},
+    {"name":"beg_terrei","order":2,"path":"objects/beg_terrei/beg_terrei.yy",},
     {"name":"obj_ammo","order":6,"path":"objects/obj_ammo/obj_ammo.yy",},
     {"name":"obj_beg_terrei","order":26,"path":"objects/obj_beg_terrei/obj_beg_terrei.yy",},
     {"name":"obj_boss_10","order":1,"path":"objects/obj_boss_10/obj_boss_10.yy",},
