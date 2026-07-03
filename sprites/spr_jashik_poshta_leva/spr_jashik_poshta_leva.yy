@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Sprite172",
+  "%Name":"spr_jashik_poshta_leva",
   "bboxMode":0,
   "bbox_bottom":44,
   "bbox_left":21,
@@ -22,7 +22,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"180dd8e8-3a82-4b8f-be2b-a2260e9f4884","blendMode":0,"displayName":"default","isLocked":false,"name":"180dd8e8-3a82-4b8f-be2b-a2260e9f4884","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Sprite172",
+  "name":"spr_jashik_poshta_leva",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -34,7 +34,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Sprite172",
+    "%Name":"spr_jashik_poshta_leva",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -58,7 +58,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Sprite172",
+    "name":"spr_jashik_poshta_leva",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -70,10 +70,10 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2532462f-6fbf-4a05-8cad-3d247c529443","path":"sprites/Sprite172/Sprite172.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2532462f-6fbf-4a05-8cad-3d247c529443","path":"sprites/spr_jashik_poshta_leva/spr_jashik_poshta_leva.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"2b159d17-4ba8-4963-90a7-6c2ac3648af3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"77e87c1c-7631-4ade-b66a-a847090327d0","path":"sprites/Sprite172/Sprite172.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"77e87c1c-7631-4ade-b66a-a847090327d0","path":"sprites/spr_jashik_poshta_leva/spr_jashik_poshta_leva.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"e82b8a75-6923-46d5-b72e-6d75fde89d9b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
