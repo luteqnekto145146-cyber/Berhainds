@@ -78,6 +78,7 @@
     {"name":"spr_pyli_bandit","order":1,"path":"sprites/spr_pyli_bandit/spr_pyli_bandit.yy",},
     {"name":"spr_pyli_sceletona_sherifa","order":4,"path":"sprites/spr_pyli_sceletona_sherifa/spr_pyli_sceletona_sherifa.yy",},
     {"name":"spr_revolver","order":2,"path":"sprites/spr_revolver/spr_revolver.yy",},
+    {"name":"Spr_riukzak","order":8,"path":"sprites/Spr_riukzak/Spr_riukzak.yy",},
     {"name":"Spr_sceleton_ne_tradicionny_cennoct","order":5,"path":"sprites/Spr_sceleton_ne_tradicionny_cennoct/Spr_sceleton_ne_tradicionny_cennoct.yy",},
     {"name":"spr_sceleton_sherif_die","order":12,"path":"sprites/spr_sceleton_sherif_die/spr_sceleton_sherif_die.yy",},
     {"name":"spr_sceleton_sherif","order":5,"path":"sprites/spr_sceleton_sherif/spr_sceleton_sherif.yy",},
