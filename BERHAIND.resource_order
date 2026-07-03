@@ -81,7 +81,6 @@
     {"name":"spr_shocwave","order":20,"path":"sprites/spr_shocwave/spr_shocwave.yy",},
     {"name":"spr_target","order":23,"path":"sprites/spr_target/spr_target.yy",},
     {"name":"spr_tower_guard","order":24,"path":"sprites/spr_tower_guard/spr_tower_guard.yy",},
-    {"name":"Sprite172","order":1,"path":"sprites/Sprite172/Sprite172.yy",},
     {"name":"tileset_pol_mnogoatashka","order":16,"path":"tilesets/tileset_pol_mnogoatashka/tileset_pol_mnogoatashka.yy",},
   ],
 }
