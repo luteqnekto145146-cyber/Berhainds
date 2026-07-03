@@ -1,27 +1,28 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Spr_FLAG_LAGER",
+  "%Name":"Spr_TERREY_shit_i_pistol",
   "bboxMode":0,
   "bbox_bottom":63,
-  "bbox_left":0,
-  "bbox_right":63,
-  "bbox_top":0,
+  "bbox_left":9,
+  "bbox_right":32,
+  "bbox_top":26,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"1d86e2f0-d523-434c-bdd2-b98a1cc4b7aa","name":"1d86e2f0-d523-434c-bdd2-b98a1cc4b7aa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"43f85fe9-8603-401f-981b-0e006b374f90","name":"43f85fe9-8603-401f-981b-0e006b374f90","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"47630bd5-9832-48ad-8676-b7ab0a88f7e0","name":"47630bd5-9832-48ad-8676-b7ab0a88f7e0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"a4741b9d-1505-4277-ba5c-f24c2c4d9100","blendMode":0,"displayName":"default","isLocked":false,"name":"a4741b9d-1505-4277-ba5c-f24c2c4d9100","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"3cca94da-e145-4e7b-8bac-e6de08548eae","blendMode":0,"displayName":"default","isLocked":false,"name":"3cca94da-e145-4e7b-8bac-e6de08548eae","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Spr_FLAG_LAGER",
+  "name":"Spr_TERREY_shit_i_pistol",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +34,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Spr_FLAG_LAGER",
+    "%Name":"Spr_TERREY_shit_i_pistol",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -49,7 +50,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":2.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -57,7 +58,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Spr_FLAG_LAGER",
+    "name":"Spr_TERREY_shit_i_pistol",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1d86e2f0-d523-434c-bdd2-b98a1cc4b7aa","path":"sprites/Spr_FLAG_LAGER/Spr_FLAG_LAGER.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"63840dd6-93e1-492e-b94b-a3766384bc8f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"43f85fe9-8603-401f-981b-0e006b374f90","path":"sprites/Spr_TERREY_shit_i_pistol/Spr_TERREY_shit_i_pistol.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5b54a3ab-4d91-487a-93fa-8bf1b73e3718","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"47630bd5-9832-48ad-8676-b7ab0a88f7e0","path":"sprites/Spr_TERREY_shit_i_pistol/Spr_TERREY_shit_i_pistol.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9ea8003e-c9aa-4c10-878a-7471af6a4b01","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
