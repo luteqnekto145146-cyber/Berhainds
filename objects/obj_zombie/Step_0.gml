@@ -13,6 +13,7 @@ if (state == Z_STATE.DIE) {
         instance_create_layer(x, y, "Instances", obj_exp);
         var chance = random(100);
         
+		
         if (chance <= 10) {
             instance_create_layer(x + random_range(-10, 10), y + random_range(-10, 10), "Instances", obj_coin);
             instance_create_layer(x + random_range(-10, 10), y + random_range(-10, 10), "Instances", obj_coin);
@@ -50,7 +51,7 @@ if (neighbor != noone) {
 // 4. ГЛАВНАЯ ЛОГИКА ПОВЕДЕНИЯ И ДВИЖЕНИЯ
 if (instance_exists(obj_beg_terrei)) {
     
-    // Считаем точное расстояние до твоего игрока obj_beg_terrei
+   
     var dist = point_distance(x, y, obj_beg_terrei.x, obj_beg_terrei.y);
     var move_dir = direction; 
     

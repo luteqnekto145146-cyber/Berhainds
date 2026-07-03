@@ -4,8 +4,8 @@
   "name":"Для Матвея",
   "openedOnFirstLoad":true,
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"obrashenie",
+    "path":"folders/obrashenie.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

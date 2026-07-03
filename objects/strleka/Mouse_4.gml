@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Apply_To
 /// @DnDVersion : 1
 /// @DnDHash : 25EB59E9
-/// @DnDApplyTo : {strleka}
-with(strleka) {
+/// @DnDApplyTo : all
+with(all) {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 48B06A19
@@ -25,7 +25,7 @@ with(strleka) {
 		/// @DnDVersion : 1
 		/// @DnDHash : 6F7A5938
 		/// @DnDParent : 15846680
-		/// @DnDArgument : "room" "menu_i"
-		/// @DnDSaveInfo : "room" "menu_i"
+		/// @DnDArgument : "room" "r_menu_i"
+		/// @DnDSaveInfo : "room" "r_menu_i"
 		room_goto(r_menu_i);
 }
