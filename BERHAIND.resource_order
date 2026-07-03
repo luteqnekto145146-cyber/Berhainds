@@ -68,6 +68,7 @@
     {"name":"spr_derev_kylak","order":23,"path":"sprites/spr_derev_kylak/spr_derev_kylak.yy",},
     {"name":"spr_elevator","order":19,"path":"sprites/spr_elevator/spr_elevator.yy",},
     {"name":"spr_fire_puddle","order":21,"path":"sprites/spr_fire_puddle/spr_fire_puddle.yy",},
+    {"name":"Spr_FLAG_LAGER","order":3,"path":"sprites/Spr_FLAG_LAGER/Spr_FLAG_LAGER.yy",},
     {"name":"spr_iron_kylak","order":24,"path":"sprites/spr_iron_kylak/spr_iron_kylak.yy",},
     {"name":"spr_jashik_poshta_leva","order":1,"path":"sprites/spr_jashik_poshta_leva/spr_jashik_poshta_leva.yy",},
     {"name":"spr_lestniza_v_mnogoatashka","order":14,"path":"sprites/spr_lestniza_v_mnogoatashka/spr_lestniza_v_mnogoatashka.yy",},

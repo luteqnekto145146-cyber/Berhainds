@@ -205,6 +205,7 @@
     {"id":{"name":"spr_ESCAPE_POD","path":"sprites/spr_ESCAPE_POD/spr_ESCAPE_POD.yy",},},
     {"id":{"name":"spr_exp","path":"sprites/spr_exp/spr_exp.yy",},},
     {"id":{"name":"spr_fire_puddle","path":"sprites/spr_fire_puddle/spr_fire_puddle.yy",},},
+    {"id":{"name":"Spr_FLAG_LAGER","path":"sprites/Spr_FLAG_LAGER/Spr_FLAG_LAGER.yy",},},
     {"id":{"name":"spr_flower_pot_V1","path":"sprites/spr_flower_pot_V1/spr_flower_pot_V1.yy",},},
     {"id":{"name":"spr_flower_pot_V2","path":"sprites/spr_flower_pot_V2/spr_flower_pot_V2.yy",},},
     {"id":{"name":"spr_flower_pot_v3","path":"sprites/spr_flower_pot_v3/spr_flower_pot_v3.yy",},},
