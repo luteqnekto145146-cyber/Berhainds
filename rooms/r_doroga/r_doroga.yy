@@ -144,6 +144,7 @@
     {"name":"inst_697B0015","path":"rooms/r_doroga/r_doroga.yy",},
     {"name":"inst_76F807AA","path":"rooms/r_doroga/r_doroga.yy",},
     {"name":"inst_648F136C","path":"rooms/r_doroga/r_doroga.yy",},
+    {"name":"inst_2F4C673B","path":"rooms/r_doroga/r_doroga.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -286,6 +287,7 @@
         {"$GMRInstance":"v4","%Name":"inst_697B0015","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_697B0015","objectId":{"name":"obj_zabor","path":"objects/obj_zabor/obj_zabor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":19.0,"x":640.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_76F807AA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76F807AA","objectId":{"name":"obj_zabor","path":"objects/obj_zabor/obj_zabor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":23.0,"x":640.0,"y":416.0,},
         {"$GMRInstance":"v4","%Name":"inst_648F136C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_648F136C","objectId":{"name":"obj_sceleton","path":"objects/obj_sceleton/obj_sceleton.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":352.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2F4C673B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2F4C673B","objectId":{"name":"obj_zombi_spawner","path":"objects/obj_zombi_spawner/obj_zombi_spawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":512.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_2","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_194175FD","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_194175FD","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":7.0,"scaleY":7.0,"spriteId":{"name":"Sprite72","path":"sprites/Sprite72/Sprite72.yy",},"x":0.0,"y":32.0,},
