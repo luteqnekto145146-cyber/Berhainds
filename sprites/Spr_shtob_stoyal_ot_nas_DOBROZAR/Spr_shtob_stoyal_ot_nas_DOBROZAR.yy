@@ -1,27 +1,27 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_dobrozar_2PESONASH",
+  "%Name":"Spr_shtob_stoyal_ot_nas_DOBROZAR",
   "bboxMode":0,
-  "bbox_bottom":37,
-  "bbox_left":21,
-  "bbox_right":33,
-  "bbox_top":3,
+  "bbox_bottom":63,
+  "bbox_left":49,
+  "bbox_right":61,
+  "bbox_top":29,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"940acbb5-a4e8-455b-a21f-d89821b5a834","name":"940acbb5-a4e8-455b-a21f-d89821b5a834","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"efbdad05-faf8-43e1-8826-9dcddbf58992","name":"efbdad05-faf8-43e1-8826-9dcddbf58992","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":38,
+  "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"05348493-13ae-4bda-b30c-f62576b35630","blendMode":0,"displayName":"default","isLocked":false,"name":"05348493-13ae-4bda-b30c-f62576b35630","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d4ea359a-193a-41b6-a66a-06e3d85124fc","blendMode":0,"displayName":"default","isLocked":false,"name":"d4ea359a-193a-41b6-a66a-06e3d85124fc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_dobrozar_2PESONASH",
+  "name":"Spr_shtob_stoyal_ot_nas_DOBROZAR",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_dobrozar_2PESONASH",
+    "%Name":"Spr_shtob_stoyal_ot_nas_DOBROZAR",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_dobrozar_2PESONASH",
+    "name":"Spr_shtob_stoyal_ot_nas_DOBROZAR",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"940acbb5-a4e8-455b-a21f-d89821b5a834","path":"sprites/spr_dobrozar_2PESONASH/spr_dobrozar_2PESONASH.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"237b4e0d-7f22-4217-a598-2b16c2d04646","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"efbdad05-faf8-43e1-8826-9dcddbf58992","path":"sprites/Spr_shtob_stoyal_ot_nas_DOBROZAR/Spr_shtob_stoyal_ot_nas_DOBROZAR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"03e11453-8012-4df0-a934-277ab67f9b31","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":38,
+  "width":64,
 }
