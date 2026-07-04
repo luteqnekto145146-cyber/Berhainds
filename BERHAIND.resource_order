@@ -84,6 +84,7 @@
     {"name":"spr_boss_bomb","order":22,"path":"sprites/spr_boss_bomb/spr_boss_bomb.yy",},
     {"name":"spr_boss","order":17,"path":"sprites/spr_boss/spr_boss.yy",},
     {"name":"Spr_camp_tent","order":1,"path":"sprites/Spr_camp_tent/Spr_camp_tent.yy",},
+    {"name":"spr_dobrozar_2PESONASH","order":6,"path":"sprites/spr_dobrozar_2PESONASH/spr_dobrozar_2PESONASH.yy",},
     {"name":"Spr_drobavik","order":10,"path":"sprites/Spr_drobavik/Spr_drobavik.yy",},
     {"name":"spr_elevator","order":19,"path":"sprites/spr_elevator/spr_elevator.yy",},
     {"name":"spr_exp","order":31,"path":"sprites/spr_exp/spr_exp.yy",},
