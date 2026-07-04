@@ -13,8 +13,8 @@
   "name":"beg_terrei",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/igra/glava1/terrei-velishaishi/objects.yy",
+    "name":"Matvei",
+    "path":"folders/Matvei.yy",
   },
   "parentObjectId":null,
   "persistent":false,
