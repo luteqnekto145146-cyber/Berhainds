@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"DOBROZAR",
+    "path":"folders/igra/glava2/DOBROZAR.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

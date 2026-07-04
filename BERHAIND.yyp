@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"DOBROZAR","folderPath":"folders/igra/glava2/DOBROZAR.yy","name":"DOBROZAR","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"igra","folderPath":"folders/igra.yy","name":"igra","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"glava1","folderPath":"folders/igra/glava1.yy","name":"glava1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"govno_kotoroe_nyshno(ne_ydalit!!!!)","folderPath":"folders/igra/glava1/govno_kotoroe_nyshno(ne_ydalit!!!!).yy","name":"govno_kotoroe_nyshno(ne_ydalit!!!!)","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -34,6 +35,7 @@
     {"$GMFolder":"","%Name":"oryshie","folderPath":"folders/igra/glava1/veshi/oryshie.yy","name":"oryshie","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objects","folderPath":"folders/igra/glava1/veshi/oryshie/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"polka","folderPath":"folders/igra/glava1/veshi/polka.yy","name":"polka","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"glava2","folderPath":"folders/igra/glava2.yy","name":"glava2","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"menu","folderPath":"folders/igra/menu.yy","name":"menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"fons","folderPath":"folders/igra/menu/fons.yy","name":"fons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"knopki","folderPath":"folders/igra/menu/knopki.yy","name":"knopki","resourceType":"GMFolder","resourceVersion":"2.0",},
