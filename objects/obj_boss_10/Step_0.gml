@@ -1,4 +1,4 @@
- if (!instance_exists(obj_beg_terrei)) exit;
+if (!instance_exists(obj_beg_terrei)) exit;
 
 if (hp <= 0) {
     repeat(15) {
