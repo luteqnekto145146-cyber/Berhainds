@@ -43,8 +43,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"переименновать!!!",
+    "path":"folders/obrashenie/переименновать!!!.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
