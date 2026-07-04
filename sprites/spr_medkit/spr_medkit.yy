@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"betatest",
-    "path":"folders/serega/betatest.yy",
+    "path":"folders/группа1/serega/betatest.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

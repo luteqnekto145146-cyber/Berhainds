@@ -21,7 +21,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"serega",
-    "path":"folders/serega.yy",
+    "path":"folders/группа1/serega.yy",
   },
   "parentObjectId":null,
   "persistent":true,

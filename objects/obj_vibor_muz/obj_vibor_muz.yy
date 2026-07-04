@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"muz",
-    "path":"folders/muz.yy",
+    "path":"folders/группа1/serega/muz.yy",
   },
   "parentObjectId":null,
   "persistent":false,

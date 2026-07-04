@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"betatest",
-    "path":"folders/serega/betatest.yy",
+    "path":"folders/группа1/serega/betatest.yy",
   },
   "parentObjectId":null,
   "persistent":false,

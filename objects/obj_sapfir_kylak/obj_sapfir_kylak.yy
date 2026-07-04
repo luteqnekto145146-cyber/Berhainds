@@ -6,8 +6,8 @@
   "name":"obj_sapfir_kylak",
   "overriddenProperties":[],
   "parent":{
-    "name":"serega",
-    "path":"folders/serega.yy",
+    "name":"object",
+    "path":"folders/группа1/serega/kylak/object.yy",
   },
   "parentObjectId":{
     "name":"obj_kylak",

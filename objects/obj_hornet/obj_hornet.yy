@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"serega",
-    "path":"folders/serega.yy",
+    "path":"folders/группа1/serega.yy",
   },
   "parentObjectId":{
     "name":"obj_sapfir_suriken",

@@ -6,7 +6,7 @@
   "name":"scr_items",
   "parent":{
     "name":"serega",
-    "path":"folders/serega.yy",
+    "path":"folders/группа1/serega.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

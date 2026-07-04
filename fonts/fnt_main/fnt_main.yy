@@ -529,7 +529,7 @@
   "name":"fnt_main",
   "parent":{
     "name":"betatest",
-    "path":"folders/serega/betatest.yy",
+    "path":"folders/группа1/serega/betatest.yy",
   },
   "pointRounding":0,
   "ranges":[

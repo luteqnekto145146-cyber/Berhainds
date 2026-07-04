@@ -30,7 +30,7 @@
   "name":"rm_boss_flour_10",
   "parent":{
     "name":"tower_25",
-    "path":"folders/tower_25.yy",
+    "path":"folders/группа1/serega/tower_25.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

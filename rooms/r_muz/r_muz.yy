@@ -22,7 +22,7 @@
   "name":"r_muz",
   "parent":{
     "name":"muz",
-    "path":"folders/muz.yy",
+    "path":"folders/группа1/serega/muz.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -18,7 +18,7 @@
   "out_tilevborder":2,
   "parent":{
     "name":"tower_25",
-    "path":"folders/tower_25.yy",
+    "path":"folders/группа1/serega/tower_25.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

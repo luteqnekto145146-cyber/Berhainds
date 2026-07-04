@@ -10,8 +10,8 @@
   "name":"obj_shop",
   "overriddenProperties":[],
   "parent":{
-    "name":"serega",
-    "path":"folders/serega.yy",
+    "name":"Magazin",
+    "path":"folders/группа1/serega/Magazin.yy",
   },
   "parentObjectId":null,
   "persistent":false,

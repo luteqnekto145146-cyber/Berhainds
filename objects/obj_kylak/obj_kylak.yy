@@ -8,8 +8,8 @@
   "name":"obj_kylak",
   "overriddenProperties":[],
   "parent":{
-    "name":"serega",
-    "path":"folders/serega.yy",
+    "name":"object",
+    "path":"folders/группа1/serega/kylak/object.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"serega",
-    "path":"folders/serega.yy",
+    "name":"sprites",
+    "path":"folders/группа1/serega/kylak/sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

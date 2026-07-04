@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"переименновать!!!",
-    "path":"folders/переименновать!!!.yy",
+    "path":"folders/obrashenie/переименновать!!!.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

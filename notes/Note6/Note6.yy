@@ -4,7 +4,7 @@
   "name":"Note6",
   "parent":{
     "name":"serega",
-    "path":"folders/serega.yy",
+    "path":"folders/группа1/serega.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

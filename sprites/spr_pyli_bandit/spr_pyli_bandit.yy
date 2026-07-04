@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"serega",
-    "path":"folders/serega.yy",
+    "path":"folders/группа1/serega.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
