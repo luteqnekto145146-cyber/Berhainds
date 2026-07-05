@@ -123,6 +123,7 @@
     {"name":"Sprite112","order":17,"path":"sprites/Sprite112/Sprite112.yy",},
     {"name":"Sprite113","order":5,"path":"sprites/Sprite113/Sprite113.yy",},
     {"name":"Sprite114","order":12,"path":"sprites/Sprite114/Sprite114.yy",},
+    {"name":"Sprite181","order":8,"path":"sprites/Sprite181/Sprite181.yy",},
     {"name":"tileset_pol_mnogoatashka","order":16,"path":"tilesets/tileset_pol_mnogoatashka/tileset_pol_mnogoatashka.yy",},
   ],
 }
