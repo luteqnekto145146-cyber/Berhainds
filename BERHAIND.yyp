@@ -44,8 +44,11 @@
     {"$GMFolder":"","%Name":"oryshie","folderPath":"folders/igra/glava1/veshi/oryshie.yy","name":"oryshie","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objects","folderPath":"folders/igra/glava1/veshi/oryshie/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"polka","folderPath":"folders/igra/glava1/veshi/polka.yy","name":"polka","resourceType":"GMFolder","resourceVersion":"2.0",},
+<<<<<<< HEAD
+=======
     {"$GMFolder":"","%Name":"glava2","folderPath":"folders/igra/glava2.yy","name":"glava2","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"DOBROZAR","folderPath":"folders/igra/glava2/DOBROZAR.yy","name":"DOBROZAR","resourceType":"GMFolder","resourceVersion":"2.0",},
+>>>>>>> parent of 8e5750f (GG)
     {"$GMFolder":"","%Name":"menu","folderPath":"folders/igra/menu.yy","name":"menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"fons","folderPath":"folders/igra/menu/fons.yy","name":"fons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"knopki","folderPath":"folders/igra/menu/knopki.yy","name":"knopki","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -356,6 +359,7 @@
     {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},},
     {"id":{"name":"Sprite141","path":"sprites/Sprite141/Sprite141.yy",},},
     {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},},
+    {"id":{"name":"Sprite181","path":"sprites/Sprite181/Sprite181.yy",},},
     {"id":{"name":"Sprite29","path":"sprites/Sprite29/Sprite29.yy",},},
     {"id":{"name":"Sprite38","path":"sprites/Sprite38/Sprite38.yy",},},
     {"id":{"name":"Sprite52","path":"sprites/Sprite52/Sprite52.yy",},},
