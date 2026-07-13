@@ -145,7 +145,7 @@
   "name":"r_mnnogoatashka_atash_8",
   "parent":{
     "name":"tower_25",
-    "path":"folders/cozidateli/dialogs/serega/tower_25.yy",
+    "path":"folders/igra/cozidateli/serega/tower_25.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

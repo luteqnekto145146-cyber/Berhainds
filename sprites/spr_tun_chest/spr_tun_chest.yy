@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"cheast",
-    "path":"folders/igra/glava1/veshi/cheast.yy",
+    "name":"tun_chest",
+    "path":"folders/igra/glava1/veshi/chest/tun_chest.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

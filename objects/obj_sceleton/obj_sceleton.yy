@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"serega",
-    "path":"folders/cozidateli/dialogs/serega.yy",
+    "path":"folders/igra/cozidateli/serega.yy",
   },
   "parentObjectId":{
     "name":"obj_vrag",

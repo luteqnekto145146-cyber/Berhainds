@@ -4,7 +4,7 @@
   "name":"подрывник",
   "parent":{
     "name":"tower_25",
-    "path":"folders/cozidateli/dialogs/serega/tower_25.yy",
+    "path":"folders/igra/cozidateli/serega/tower_25.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

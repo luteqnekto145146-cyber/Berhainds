@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":1,
   "parent":{
-    "name":"cheast",
-    "path":"folders/igra/glava1/veshi/cheast.yy",
+    "name":"sprite",
+    "path":"folders/igra/glava1/veshi/chest/chest/sprite.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

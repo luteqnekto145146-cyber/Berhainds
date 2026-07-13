@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"serega",
-    "path":"folders/cozidateli/dialogs/serega.yy",
+    "path":"folders/igra/cozidateli/serega.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

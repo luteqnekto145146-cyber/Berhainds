@@ -21,7 +21,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"serega",
-    "path":"folders/cozidateli/dialogs/serega.yy",
+    "path":"folders/igra/cozidateli/serega.yy",
   },
   "parentObjectId":null,
   "persistent":true,

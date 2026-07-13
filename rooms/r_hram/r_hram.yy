@@ -188,7 +188,7 @@
   "name":"r_hram",
   "parent":{
     "name":"Hram",
-    "path":"folders/Hram.yy",
+    "path":"folders/igra/cozidateli/serega/Hram.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

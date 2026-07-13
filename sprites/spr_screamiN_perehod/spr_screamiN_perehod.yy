@@ -28,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"Vse_ot_Matvei",
-    "path":"folders/Matvei/Vse_ot_Matvei.yy",
+    "path":"folders/igra/cozidateli/Matvei/Vse_ot_Matvei.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

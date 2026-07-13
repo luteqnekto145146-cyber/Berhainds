@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"object",
-    "path":"folders/cozidateli/dialogs/serega/kylak/object.yy",
+    "path":"folders/igra/cozidateli/serega/kylak/object.yy",
   },
   "parentObjectId":{
     "name":"obj_kylak",

@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Hram",
-    "path":"folders/Hram.yy",
+    "path":"folders/igra/cozidateli/serega/Hram.yy",
   },
   "parentObjectId":null,
   "persistent":false,

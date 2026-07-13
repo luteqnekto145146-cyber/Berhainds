@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"GUYS_NA_SSHET_PAPOK_PRO_IGROKOV!",
+  "name":"GUYS_NA_SSHET_PAPOK_PRO_IGROKOV!",
+  "parent":{
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

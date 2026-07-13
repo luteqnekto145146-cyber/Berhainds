@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"tower_25",
-    "path":"folders/cozidateli/dialogs/serega/tower_25.yy",
+    "path":"folders/igra/cozidateli/serega/tower_25.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

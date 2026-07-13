@@ -14,7 +14,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Matvei",
-    "path":"folders/Matvei.yy",
+    "path":"folders/igra/cozidateli/Matvei.yy",
   },
   "parentObjectId":null,
   "persistent":false,

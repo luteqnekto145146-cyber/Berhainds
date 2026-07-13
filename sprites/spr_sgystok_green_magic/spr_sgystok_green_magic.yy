@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"betatest",
-    "path":"folders/cozidateli/dialogs/serega/betatest.yy",
+    "path":"folders/igra/cozidateli/serega/betatest.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -60,7 +60,7 @@
   "name":"r_hram_koridor",
   "parent":{
     "name":"Hram",
-    "path":"folders/Hram.yy",
+    "path":"folders/igra/cozidateli/serega/Hram.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -97,8 +97,8 @@
   ],
   "name":"t_guard",
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"dialogs",
+    "path":"folders/igra/cozidateli/serega/dialogs.yy",
   },
   "resourceType":"GMTimeline",
   "resourceVersion":"2.0",

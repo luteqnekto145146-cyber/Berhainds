@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"dialogs",
-    "path":"folders/cozidateli/dialogs.yy",
+    "path":"folders/igra/cozidateli/serega/dialogs.yy",
   },
   "parentObjectId":null,
   "persistent":false,

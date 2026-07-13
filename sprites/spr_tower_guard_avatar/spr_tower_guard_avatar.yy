@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"serega",
+    "path":"folders/igra/cozidateli/serega.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

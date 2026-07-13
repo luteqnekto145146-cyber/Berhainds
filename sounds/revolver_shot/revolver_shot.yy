@@ -15,7 +15,7 @@
   "name":"revolver_shot",
   "parent":{
     "name":"Matvei",
-    "path":"folders/Matvei.yy",
+    "path":"folders/igra/cozidateli/Matvei.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

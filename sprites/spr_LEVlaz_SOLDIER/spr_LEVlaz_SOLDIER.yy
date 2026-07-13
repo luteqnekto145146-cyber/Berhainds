@@ -28,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"levalazar",
-    "path":"folders/levalazar.yy",
+    "path":"folders/igra/cozidateli/levalazar.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

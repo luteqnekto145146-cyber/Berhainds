@@ -34,7 +34,7 @@
   "name":"rm_tower_lobby",
   "parent":{
     "name":"tower_25",
-    "path":"folders/cozidateli/dialogs/serega/tower_25.yy",
+    "path":"folders/igra/cozidateli/serega/tower_25.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

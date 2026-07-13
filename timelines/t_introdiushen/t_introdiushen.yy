@@ -8,7 +8,7 @@
   "name":"t_introdiushen",
   "parent":{
     "name":"dialogs",
-    "path":"folders/cozidateli/dialogs.yy",
+    "path":"folders/igra/cozidateli/serega/dialogs.yy",
   },
   "resourceType":"GMTimeline",
   "resourceVersion":"2.0",

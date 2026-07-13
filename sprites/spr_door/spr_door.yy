@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Hram",
-    "path":"folders/Hram.yy",
+    "path":"folders/igra/cozidateli/serega/Hram.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

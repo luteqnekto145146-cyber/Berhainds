@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Magazin",
-    "path":"folders/cozidateli/dialogs/serega/Magazin.yy",
+    "path":"folders/igra/cozidateli/serega/Magazin.yy",
   },
   "parentObjectId":null,
   "persistent":false,
