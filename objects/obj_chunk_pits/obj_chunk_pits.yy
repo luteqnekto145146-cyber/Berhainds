@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"tower_25",
-    "path":"folders/группа1/serega/tower_25.yy",
+    "path":"folders/cozidateli/dialogs/serega/tower_25.yy",
   },
   "parentObjectId":null,
   "persistent":false,

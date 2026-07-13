@@ -51,7 +51,9 @@ my_shield_object = noone;
 
 
 
-
+if (instance_exists(obj_dialog_spawn)) {
+    instance_create_layer(obj_dialog_spawn.x, obj_dialog_spawn.y, "Instances", obj_dialogwindow);
+}
 
 
 

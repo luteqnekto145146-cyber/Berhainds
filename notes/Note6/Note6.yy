@@ -4,7 +4,7 @@
   "name":"Note6",
   "parent":{
     "name":"serega",
-    "path":"folders/группа1/serega.yy",
+    "path":"folders/cozidateli/dialogs/serega.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

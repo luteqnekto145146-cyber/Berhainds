@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"muz",
-    "path":"folders/группа1/serega/muz.yy",
+    "path":"folders/cozidateli/dialogs/serega/muz.yy",
   },
   "parentObjectId":null,
   "persistent":false,

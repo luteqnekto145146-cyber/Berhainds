@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"serega",
-    "path":"folders/группа1/serega.yy",
+    "path":"folders/cozidateli/dialogs/serega.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_poshtovy_jaschic",
+    "path":"sprites/Spr_poshtovy_jaschic/Spr_poshtovy_jaschic.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

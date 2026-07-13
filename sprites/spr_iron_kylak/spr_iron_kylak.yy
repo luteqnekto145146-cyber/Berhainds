@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"sprites",
-    "path":"folders/группа1/serega/kylak/sprites.yy",
+    "path":"folders/cozidateli/dialogs/serega/kylak/sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

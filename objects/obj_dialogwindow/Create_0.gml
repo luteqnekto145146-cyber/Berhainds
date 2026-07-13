@@ -1,0 +1,11 @@
+raw_text = "";
+depth = -10000
+show_text = ""
+speaker = "player"
+dialog_step = 0;
+dialogue_step = 0
+timeline_index = t_introdiushen
+timeline_position = 0;
+timeline_running = true;
+char_count = 0
+char_speed = 0.5

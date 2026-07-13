@@ -74,7 +74,7 @@
   "name":"r_doroga_2",
   "parent":{
     "name":"serega",
-    "path":"folders/группа1/serega.yy",
+    "path":"folders/cozidateli/dialogs/serega.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

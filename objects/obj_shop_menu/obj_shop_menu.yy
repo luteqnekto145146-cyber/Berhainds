@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"betatest",
-    "path":"folders/группа1/serega/betatest.yy",
+    "path":"folders/cozidateli/dialogs/serega/betatest.yy",
   },
   "parentObjectId":null,
   "persistent":false,

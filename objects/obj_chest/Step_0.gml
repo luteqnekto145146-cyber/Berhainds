@@ -1,21 +1,36 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 6F33445D
-/// @DnDArgument : "code" "if(distance_to_object(beg_terrei) > 34)$(13_10){$(13_10)	active = false;$(13_10)}"
-if(distance_to_object(obj_beg_terrei) > 34)
-{
-	active = false;
+if (!variable_instance_exists(id, "is_opened")) {
+    is_opened = false;
 }
 
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 0B840F2B
-/// @DnDArgument : "var" "distance_to_object(beg_terrei)"
-/// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "30"
-if(distance_to_object(obj_beg_terrei) > 30){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 2F78C272
-	/// @DnDApplyTo : {Object16}
-	/// @DnDParent : 0B840F2B
-	with(Object16) instance_destroy();}
+if (!is_opened && instance_exists(obj_beg_terrei)) {
+    var dist = point_distance(x, y, obj_beg_terrei.x, obj_beg_terrei.y);
+    
+    if (dist < 50) {
+        if (keyboard_check_pressed(ord("E"))) {
+            if (!instance_exists(obj_dialogwindow)) {
+                if (instance_exists(obj_dialog_spawn)) {
+                    var dialog = instance_create_layer(obj_dialog_spawn.x, obj_dialog_spawn.y, "Instances", obj_dialogwindow);
+                    
+                    with (dialog) {
+                        timeline_index = t_chest;
+                        timeline_position = 0;
+                        dialogue_step = 0;
+                        timeline_running = true;
+                    }
+                    
+                    is_opened = true;
+                }
+            }
+        }
+    }
+}
+if (instance_exists(obj_beg_terrei)) {
+    var p_dist = point_distance(x, y, obj_beg_terrei.x, obj_beg_terrei.y);
+    
+    if (p_dist < 32) {
+        var p_dir = point_direction(x, y, obj_beg_terrei.x, obj_beg_terrei.y);
+        
+        obj_beg_terrei.x = x + lengthdir_x(32, p_dir);
+        obj_beg_terrei.y = y + lengthdir_y(32, p_dir);
+    }
+}

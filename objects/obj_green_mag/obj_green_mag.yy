@@ -3,15 +3,21 @@
   "%Name":"obj_green_mag",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_green_mag",
   "overriddenProperties":[],
   "parent":{
     "name":"betatest",
-    "path":"folders/группа1/serega/betatest.yy",
+    "path":"folders/cozidateli/dialogs/serega/betatest.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_vrag",
+    "path":"objects/obj_vrag/obj_vrag.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

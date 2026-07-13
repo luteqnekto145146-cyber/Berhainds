@@ -6,7 +6,7 @@
   "name":"scr_items",
   "parent":{
     "name":"serega",
-    "path":"folders/группа1/serega.yy",
+    "path":"folders/cozidateli/dialogs/serega.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

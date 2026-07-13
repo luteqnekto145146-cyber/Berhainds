@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"serega",
-    "path":"folders/группа1/serega.yy",
+    "path":"folders/cozidateli/dialogs/serega.yy",
   },
   "parentObjectId":null,
   "persistent":false,

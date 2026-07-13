@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"muz",
-    "path":"folders/группа1/serega/muz.yy",
+    "path":"folders/cozidateli/dialogs/serega/muz.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

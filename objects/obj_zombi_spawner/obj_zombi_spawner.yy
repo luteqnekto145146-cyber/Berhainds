@@ -8,8 +8,8 @@
   "name":"obj_zombi_spawner",
   "overriddenProperties":[],
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"serega",
+    "path":"folders/cozidateli/dialogs/serega.yy",
   },
   "parentObjectId":null,
   "persistent":false,

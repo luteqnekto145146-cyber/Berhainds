@@ -23,7 +23,7 @@
   ],
   "name":"spr_chest",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"cheast",
     "path":"folders/igra/glava1/veshi/cheast.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":15,
     "yorigin":0,
   },
   "swatchColours":null,
