@@ -8,8 +8,8 @@
   "name":"obj_ammo",
   "overriddenProperties":[],
   "parent":{
-    "name":"serega",
-    "path":"folders/igra/cozidateli/serega.yy",
+    "name":"Magazin",
+    "path":"folders/igra/cozidateli/serega/Magazin.yy",
   },
   "parentObjectId":{
     "name":"obj_item_parent",

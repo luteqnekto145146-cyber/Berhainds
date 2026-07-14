@@ -5,7 +5,7 @@ repeat(total_enemies_to_spawn) {
     var spawn_x = random_range(100, room_width - 100);
     var spawn_y = random_range(200, room_height - 200);
     
-    var enemy_type = choose(obj_sceleton_sherif, obj_zombie); 
+    var enemy_type = choose(obj_sceleton_sherif,obj_green_mag, obj_zombie); 
     var created_enemy = instance_create_layer(spawn_x, spawn_y, "Instances", enemy_type);
     
     with(created_enemy) {

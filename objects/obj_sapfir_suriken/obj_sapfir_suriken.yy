@@ -10,8 +10,8 @@
   "name":"obj_sapfir_suriken",
   "overriddenProperties":[],
   "parent":{
-    "name":"betatest",
-    "path":"folders/igra/cozidateli/serega/betatest.yy",
+    "name":"Magazin",
+    "path":"folders/igra/cozidateli/serega/Magazin.yy",
   },
   "parentObjectId":null,
   "persistent":false,

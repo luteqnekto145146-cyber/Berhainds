@@ -10,8 +10,8 @@
   "name":"obj_shop_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"betatest",
-    "path":"folders/igra/cozidateli/serega/betatest.yy",
+    "name":"serega",
+    "path":"folders/igra/cozidateli/serega.yy",
   },
   "parentObjectId":null,
   "persistent":false,

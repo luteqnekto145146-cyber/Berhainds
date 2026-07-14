@@ -8,8 +8,8 @@
   "name":"obj_medkit",
   "overriddenProperties":[],
   "parent":{
-    "name":"betatest",
-    "path":"folders/igra/cozidateli/serega/betatest.yy",
+    "name":"Magazin",
+    "path":"folders/igra/cozidateli/serega/Magazin.yy",
   },
   "parentObjectId":null,
   "persistent":false,

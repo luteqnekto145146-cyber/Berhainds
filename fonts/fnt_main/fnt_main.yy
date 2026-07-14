@@ -528,8 +528,8 @@
   "maintainGms1Font":false,
   "name":"fnt_main",
   "parent":{
-    "name":"betatest",
-    "path":"folders/igra/cozidateli/serega/betatest.yy",
+    "name":"serega",
+    "path":"folders/igra/cozidateli/serega.yy",
   },
   "pointRounding":0,
   "ranges":[

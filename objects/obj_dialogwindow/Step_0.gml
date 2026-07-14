@@ -21,10 +21,11 @@ if (mouse_check_button_pressed(mb_left)) {
     } else {
         dialogue_step += 1; 
         
-        var last_moment = -1;
-        if (timeline_index == t_introdiushen) last_moment = 1;
-        if (timeline_index == t_chest) last_moment = 0;
-        if (timeline_index == t_guard) last_moment = 0;
+      var last_moment = -1;
+if (timeline_index == t_introdiushen) last_moment = 1;
+if (timeline_index == t_chest) last_moment = 0;
+if (timeline_index == t_guard) last_moment = 0;
+if (timeline_index == t_meme_ant) last_moment = 2;
         
         if (dialogue_step <= last_moment) {
             char_count = 0;

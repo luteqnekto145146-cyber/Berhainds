@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_sgystok_green_magic",
+    "path":"sprites/spr_sgystok_green_magic/spr_sgystok_green_magic.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

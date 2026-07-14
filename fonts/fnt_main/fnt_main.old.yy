@@ -528,8 +528,8 @@
   "maintainGms1Font":false,
   "name":"fnt_main",
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"serega",
+    "path":"folders/igra/cozidateli/serega.yy",
   },
   "pointRounding":0,
   "ranges":[

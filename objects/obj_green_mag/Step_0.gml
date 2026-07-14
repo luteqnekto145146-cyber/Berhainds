@@ -1,12 +1,17 @@
-if (shoot_timer > 0) shoot_timer -= 1;
+if (hp <= 0) {
+    instance_destroy();
+    exit;
+}
+
+if (shoot_timer > 0) {
+    shoot_timer -= 1;
+}
 
 var target = instance_nearest(x, y, obj_beg_terrei);
 
 if (target != noone) {
     var dist_to_player = point_distance(x, y, target.x, target.y);
-    
     if (state == M_STATE.WANDER && dist_to_player <= vision_radius) {
-        speed = 0;
         state = M_STATE.ATTACK;
     }
 }
@@ -17,7 +22,6 @@ switch (state) {
             state = M_STATE.RETURN;
             break;
         }
-
         wander_timer -= 1;
         if (wander_timer <= 0) {
             wander_timer = irandom_range(60, 180);
@@ -45,9 +49,7 @@ switch (state) {
         }
         
         var current_dist = point_distance(x, y, target.x, target.y);
-        
         if (current_dist > vision_radius * 1.2) {
-            speed = 0;
             state = M_STATE.RETURN;
             break;
         }
@@ -61,7 +63,6 @@ switch (state) {
             
             if (shoot_timer <= 0) {
                 shoot_timer = shoot_cooldown; 
-                
                 var bullet = instance_create_layer(x, y, "Instances", obj_sgystok_green_magic);
                 if (bullet != noone) {
                     bullet.speed = 5; 
@@ -81,4 +82,23 @@ switch (state) {
             wander_timer = 0;
         }
         break;
+}
+if (hp <= 0) {
+    var ctrl_list = [obj_control, obj_game, obj_spawner, obj_level];
+    for (var i = 0; i < array_length(ctrl_list); i++) {
+        var c_obj = ctrl_list[i];
+        if (instance_exists(c_obj)) {
+            var inst = instance_find(c_obj, 0);
+            if (variable_instance_exists(inst.id, "enemies")) inst.enemies -= 1;
+            if (variable_instance_exists(inst.id, "enemies_count")) inst.enemies_count -= 1;
+            if (variable_instance_exists(inst.id, "enemy_count")) inst.enemy_count -= 1;
+            if (variable_instance_exists(inst.id, "count")) inst.count -= 1;
+        }
+    }
+    if (variable_global_exists("enemies")) global.enemies -= 1;
+    if (variable_global_exists("enemies_count")) global.enemies_count -= 1;
+
+    event_inherited();
+    instance_destroy();
+    exit;
 }

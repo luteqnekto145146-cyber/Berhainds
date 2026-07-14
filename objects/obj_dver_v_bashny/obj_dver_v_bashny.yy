@@ -9,8 +9,8 @@
   "name":"obj_dver_v_bashny",
   "overriddenProperties":[],
   "parent":{
-    "name":"serega",
-    "path":"folders/igra/cozidateli/serega.yy",
+    "name":"tower_25",
+    "path":"folders/igra/cozidateli/serega/tower_25.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"serega",
-    "path":"folders/igra/cozidateli/serega.yy",
+    "name":"tower_25",
+    "path":"folders/igra/cozidateli/serega/tower_25.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

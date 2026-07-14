@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"betatest",
-    "path":"folders/igra/cozidateli/serega/betatest.yy",
+    "name":"Magazin",
+    "path":"folders/igra/cozidateli/serega/Magazin.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

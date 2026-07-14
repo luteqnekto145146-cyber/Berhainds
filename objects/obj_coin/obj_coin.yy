@@ -6,8 +6,8 @@
   "name":"obj_coin",
   "overriddenProperties":[],
   "parent":{
-    "name":"betatest",
-    "path":"folders/igra/cozidateli/serega/betatest.yy",
+    "name":"Magazin",
+    "path":"folders/igra/cozidateli/serega/Magazin.yy",
   },
   "parentObjectId":{
     "name":"obj_item_parent",
