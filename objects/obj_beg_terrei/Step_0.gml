@@ -47,11 +47,45 @@ shuriken_thrown = true;
 }
 var is_revolver_equipped = false;
 if (instance_exists(obj_inventory)) {
-    var active_slot = obj_inventory.inventory[obj_inventory.selected_slot];
-    if (active_slot != undefined && active_slot != noone and active_slot.item.item_id == 1) {
-        is_revolver_equipped = true; 
+
+var active_slot = obj_inventory.inventory[obj_inventory.selected_slot];
+
+// ИСПРАВЛЕННАЯ СТРОКА 51 (Бронированная проверка):
+if (active_slot != undefined && active_slot != noone && is_struct(active_slot) && struct_exists(active_slot, "item") && active_slot.item != undefined) {
+    
+    
+    if (active_slot.item.item_id == 1) {
+        current_weapon = "revolver"; 
     }
+} else {
+  
+    current_weapon = "fists"; 
 }
+  
+var active_slot = obj_inventory.inventory[obj_inventory.selected_slot];
+
+
+if (active_slot != undefined && active_slot != noone && is_struct(active_slot)) {
+    
+   
+    if (struct_exists(active_slot, "item") && active_slot.item != undefined) {
+        
+        
+        if (active_slot.item.item_id == 1) {
+            current_weapon = "revolver";
+        } else {
+            current_weapon = "fists";
+        }
+        
+    } else {
+        current_weapon = "fists";
+    }
+    
+} else {
+    
+    current_weapon = "fists"; 
+}
+
 
 if (mouse_check_button_pressed(mb_left) && is_revolver_equipped) {
     if (revolver_ammo > 0) {
@@ -178,4 +212,5 @@ if (keyboard_check_pressed(vk_f4)) {
     }
     
     room_restart(); 
+}
 }

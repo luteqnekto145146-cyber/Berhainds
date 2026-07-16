@@ -34,22 +34,21 @@ draw_set_halign(fa_right);
 if (current_weapon == "revolver") {
     draw_text(gui_w - 40, gui_h - 60, "ОРУЖИЕ: Револьвер");
     
-    // СЧИТАЕМ ПАТРОНЫ В ИНВЕНТАРЕ:
-    var total_ammo_in_bag = 0;
-    if (instance_exists(obj_inventory)) {
-        for (var i = 0; i < obj_inventory.inventory_slots; i++) {
-            var slot = obj_inventory.inventory[i];
-            // Ищем предмет с ID = 2 (наши патроны в базе данных)
-            if (slot != undefined && slot.item.item_id == 2) {
-                total_ammo_in_bag += slot.count; // Плюсуем всё количество
+// СЧИТАЕМ ПАТРОНЫ В ИНВЕНТАРЕ:
+var total_ammo_in_bag = 0;
+
+if (instance_exists(obj_inventory)) {
+    // ИСПРАВЛЕНИЕ: Берем реальную длину всего массива, включая хот-бар и рюкзак
+    var _total_slots = array_length(obj_inventory.inventory); 
+    
+    for (var i = 0; i < _total_slots; i++) {
+        var slot = obj_inventory.inventory[i];
+           
+        if (slot != undefined && slot != noone && is_struct(slot) && struct_exists(slot, "item") && slot.item != undefined) {
+            if (slot.item.item_id == 2) {
+                total_ammo_in_bag += slot.count; 
             }
         }
-    }
-    
-    // Выводим на экран: сколько в барабане у игрока / сколько всего в рюкзаке
-    draw_text(gui_w - 40, gui_h - 40, "ПАТРОНЫ: " + string(revolver_ammo) + " / " + string(total_ammo_in_bag));
-} 
-else {
-    draw_text(gui_w - 40, gui_h - 40, "ОРУЖИЕ: Кулаки");
-}
-
+	}
+	}
+};

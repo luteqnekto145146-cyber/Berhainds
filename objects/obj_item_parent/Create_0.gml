@@ -1,13 +1,9 @@
-// Количество предметов при подборе по умолчанию
-amount = 1; 
+amount = 1;
+my_item_data = undefined;
+can_pickup = true; 
 
-// Игра автоматически ищет настройки в базе данных по текстовому имени
 if (variable_instance_exists(id, "item_key")) {
-    if (struct_exists(global.db_items, item_key)) {
-        my_item_data = global.db_items[$ item_key];
-    } else {
-        my_item_data = undefined;
+    if (variable_global_exists("db_items") && struct_exists(global.db_items, item_key)) {
+        my_item_data = variable_clone(global.db_items[$ item_key]);
     }
-} else {
-    my_item_data = undefined;
 }

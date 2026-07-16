@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_polka",
+  "%Name":"obj_boot_validator",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_polka",
+  "name":"obj_boot_validator",
   "overriddenProperties":[],
   "parent":{
     "name":"serega",
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_polka",
-    "path":"sprites/spr_polka/spr_polka.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

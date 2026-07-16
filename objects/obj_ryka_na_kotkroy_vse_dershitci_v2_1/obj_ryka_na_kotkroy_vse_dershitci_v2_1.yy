@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_polka",
+  "%Name":"obj_ryka_na_kotkroy_vse_dershitci_v2_1",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_polka",
+  "name":"obj_ryka_na_kotkroy_vse_dershitci_v2_1",
   "overriddenProperties":[],
   "parent":{
     "name":"serega",
     "path":"folders/igra/cozidateli/serega.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_polka",
-    "path":"sprites/spr_polka/spr_polka.yy",
+    "name":"Sprite17",
+    "path":"sprites/Sprite17/Sprite17.yy",
   },
   "spriteMaskId":null,
   "visible":true,
