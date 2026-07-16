@@ -1,7 +1,7 @@
 {
   "$GMNotes":"v1",
-  "%Name":"для_Левы",
-  "name":"для_Левы",
+  "%Name":"ДЛЯ ЛЕВА (не заходить)",
+  "name":"ДЛЯ ЛЕВА (не заходить)",
   "parent":{
     "name":"obrashenie",
     "path":"folders/obrashenie.yy",
