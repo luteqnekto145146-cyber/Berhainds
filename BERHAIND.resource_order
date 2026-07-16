@@ -32,6 +32,7 @@
   "ResourceOrderSettings":[
     {"name":"fnt_main","order":44,"path":"fonts/fnt_main/fnt_main.yy",},
     {"name":"GUYS_NA_SSHET_PAPOK_PRO_IGROKOV!","order":4,"path":"notes/GUYS_NA_SSHET_PAPOK_PRO_IGROKOV!/GUYS_NA_SSHET_PAPOK_PRO_IGROKOV!.yy",},
+    {"name":"Note12","order":12,"path":"notes/Note12/Note12.yy",},
     {"name":"prim_Note1","order":5,"path":"notes/prim_Note1/prim_Note1.yy",},
     {"name":"vazhnoe soobshenie dlya vseh","order":1,"path":"notes/vazhnoe soobshenie dlya vseh/vazhnoe soobshenie dlya vseh.yy",},
     {"name":"ДЛЯ ЛЕВА (не заходить)","order":3,"path":"notes/ДЛЯ ЛЕВА (не заходить)/ДЛЯ ЛЕВА (не заходить).yy",},
@@ -161,6 +162,7 @@
     {"name":"Sprite113","order":5,"path":"sprites/Sprite113/Sprite113.yy",},
     {"name":"Sprite114","order":12,"path":"sprites/Sprite114/Sprite114.yy",},
     {"name":"Sprite17","order":8,"path":"sprites/Sprite17/Sprite17.yy",},
+    {"name":"Sprite181","order":9,"path":"sprites/Sprite181/Sprite181.yy",},
     {"name":"tileset_pol_mnogoatashka","order":16,"path":"tilesets/tileset_pol_mnogoatashka/tileset_pol_mnogoatashka.yy",},
     {"name":"t_chest","order":6,"path":"timelines/t_chest/t_chest.yy",},
     {"name":"t_guard","order":7,"path":"timelines/t_guard/t_guard.yy",},
