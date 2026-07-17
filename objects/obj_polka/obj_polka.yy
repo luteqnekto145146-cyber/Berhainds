@@ -8,8 +8,8 @@
   "name":"obj_polka",
   "overriddenProperties":[],
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"serega",
+    "path":"folders/igra/cozidateli/serega.yy",
   },
   "parentObjectId":null,
   "persistent":false,

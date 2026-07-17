@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"Note12",
+  "name":"Note12",
+  "parent":{
+    "name":"govno_kotoroe_nyshno(ne_ydalit!!!!)",
+    "path":"folders/igra/glava1/govno_kotoroe_nyshno(ne_ydalit!!!!).yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

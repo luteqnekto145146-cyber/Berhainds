@@ -8,8 +8,8 @@
   ],
   "name":"t_meme_ant",
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"serega",
+    "path":"folders/igra/cozidateli/serega.yy",
   },
   "resourceType":"GMTimeline",
   "resourceVersion":"2.0",

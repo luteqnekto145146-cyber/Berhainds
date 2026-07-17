@@ -1,13 +1,13 @@
 draw_self();
 
 if (speaker == "player") {
-    draw_sprite(spr_player_avatar, 0, x + 10, y + 30);
+    draw_sprite(spr_player_avatar, 0, x + 10, y + 10);
 } 
 else if (speaker == "tower_guard") {
-    draw_sprite(spr_tower_guard_avatar, 0, x + 10, y + 30);
+    draw_sprite(spr_tower_guard_avatar, 0, x + 10, y + 10);
 }
 else if (speaker == "meme_ant") {
-    draw_sprite(spr_meme_ant_avatar, 0, x + 10, y + 30);
+    draw_sprite(spr_meme_ant_avatar, 0, x + 10, y + 10);
 }
 
 draw_set_color(c_white);
