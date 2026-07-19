@@ -8,14 +8,32 @@ if (keyboard_check_pressed(ord("E"))) {
     }
 }
 
+// 2. ВЫБОР ОРУЖИЯ 
 if (selected_slot < hotbar_slots) {
     var active = inventory[selected_slot];
-    if (active != undefined && active != noone && active.item.type == "weapon" && active.item.item_id == 1) {
-        current_weapon = "revolver";
+    
+    // ЭТАЖ 1: Проверяем, существует ли вообще структура в ячейке
+    if (active != undefined && active != noone && is_struct(active)) {
+        
+        // ЭТАЖ 2: Проверяем, что внутри структуры лежит сам предмет
+        if (struct_exists(active, "item") && active.item != undefined) {
+            
+            // ЭТАЖ 3: Теперь абсолютно безопасно проверяем тип и ID
+            if (active.item.type == "weapon" && active.item.item_id == 1) {
+                current_weapon = "revolver";
+            } else {
+                current_weapon = "fists";
+            }
+            
+        } else {
+            current_weapon = "fists";
+        }
     } else {
+        // Если ячейка пуста (или предмет перетаскивают мышкой)
         current_weapon = "fists";
     }
 }
+
 
 if (mouse_wheel_up()) { 
     selected_slot -= 1; 
@@ -83,13 +101,17 @@ if (keyboard_check_pressed(ord("R")) && current_weapon == "revolver" && instance
     if (current_bullets_in_gun < 6) {
         for (var i = 0; i < _total_slots; i++) {
             var slot = inventory[i];
-            if (slot != undefined && slot != noone && slot.item.type == "ammo") {
-                var needed = 6 - current_bullets_in_gun;
-                var to_load = min(needed, slot.count);
-                obj_beg_terrei.revolver_ammo += to_load; 
-                slot.count -= to_load;
-                if (slot.count <= 0) inventory[i] = undefined;
-                break; 
+            if (slot != undefined && slot != noone && is_struct(slot)) {
+                if (struct_exists(slot, "item") && slot.item != undefined && struct_exists(slot.item, "type")) {
+                    if (slot.item.type == "ammo") {
+                        var needed = 6 - current_bullets_in_gun;
+                        var to_load = min(needed, slot.count);
+                        obj_beg_terrei.revolver_ammo += to_load; 
+                        slot.count -= to_load;
+                        if (slot.count <= 0) inventory[i] = undefined;
+                        break; 
+                    }
+                }
             }
         }
     }
@@ -98,17 +120,21 @@ if (keyboard_check_pressed(ord("R")) && current_weapon == "revolver" && instance
 if (keyboard_check_pressed(ord("Q")) && !show_inventory && instance_exists(obj_beg_terrei)) {
     for (var i = 0; i < _total_slots; i++) {
         var slot = inventory[i];
-        if (slot != undefined && slot != noone && slot.item.item_id == 7) {
-            slot.count -= 1; 
-            obj_beg_terrei.shurikens += 1; 
-            var _shur = instance_create_layer(obj_beg_terrei.x, obj_beg_terrei.y, "Instances", obj_sapfir_suriken);
-            if (instance_exists(_shur)) {
-                _shur.direction = point_direction(obj_beg_terrei.x, obj_beg_terrei.y, mouse_x, mouse_y);
-                _shur.image_angle = _shur.direction; 
-                _shur.speed = 6; 
+        if (slot != undefined && slot != noone && is_struct(slot)) {
+            if (struct_exists(slot, "item") && slot.item != undefined && struct_exists(slot.item, "item_id")) {
+                if (slot.item.item_id == 7) {
+                    slot.count -= 1; 
+                    obj_beg_terrei.shurikens += 1; 
+                    var _shur = instance_create_layer(obj_beg_terrei.x, obj_beg_terrei.y, "Instances", obj_sapfir_suriken);
+                    if (instance_exists(_shur)) {
+                        _shur.direction = point_direction(obj_beg_terrei.x, obj_beg_terrei.y, mouse_x, mouse_y);
+                        _shur.image_angle = _shur.direction; 
+                        _shur.speed = 6; 
+                    }
+                    if (slot.count <= 0) inventory[i] = undefined;
+                    break;
+                }
             }
-            if (slot.count <= 0) inventory[i] = undefined;
-            break;
         }
     }
 }
@@ -116,11 +142,15 @@ if (keyboard_check_pressed(ord("Q")) && !show_inventory && instance_exists(obj_b
 if (keyboard_check_pressed(ord("H")) && !show_inventory && instance_exists(obj_beg_terrei)) {
     for (var i = 0; i < _total_slots; i++) {
         var slot = inventory[i];
-        if (slot != undefined && slot != noone && slot.item.item_id == 3) {
-            slot.count -= 1;
-            instance_create_layer(obj_beg_terrei.x, obj_beg_terrei.y, "Instances", obj_medkit);
-            if (slot.count <= 0) inventory[i] = undefined;
-            break;
+        if (slot != undefined && slot != noone && is_struct(slot)) {
+            if (struct_exists(slot, "item") && slot.item != undefined && struct_exists(slot.item, "item_id")) {
+                if (slot.item.item_id == 3) {
+                    slot.count -= 1;
+                    instance_create_layer(obj_beg_terrei.x, obj_beg_terrei.y, "Instances", obj_medkit);
+                    if (slot.count <= 0) inventory[i] = undefined;
+                    break;
+                }
+            }
         }
     }
 }

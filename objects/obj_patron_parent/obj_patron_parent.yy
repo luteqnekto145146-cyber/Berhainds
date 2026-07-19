@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_object",
+  "%Name":"obj_patron_parent",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_vrag","path":"objects/obj_vrag/obj_vrag.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_object",
+  "name":"obj_patron_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"serega",
-    "path":"folders/igra/cozidateli/serega.yy",
+    "name":"cozidateli",
+    "path":"folders/igra/cozidateli.yy",
   },
   "parentObjectId":null,
   "persistent":false,

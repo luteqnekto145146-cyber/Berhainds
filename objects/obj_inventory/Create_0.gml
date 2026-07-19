@@ -1,16 +1,18 @@
 hotbar_slots = 4;       
-inventory_slots = 0;    
+inventory_slots = 28; // СРАЗУ задаем размер рюкзака (4 колонки на 7 строк = 28)   
 show_inventory = false; 
 selected_slot = 0;      
 hovered_slot = -1;      
 
-inventory = array_create(hotbar_slots, undefined); 
+// Создаем массив сразу на ВСЕ 32 ячейки (4 хот-бара + 28 рюкзака)
+var _total_slots = hotbar_slots + inventory_slots;
+inventory = array_create(_total_slots, undefined); 
 
 current_weapon = "fists"; 
 revolver_ammo = 0;        
 
 dragged_slot = -1;       
-dragged_item_data = undefined; 
+dragged_item_data = undefined;
 
 function upgrade_backpack_stats(_backpack_item) {
     hotbar_slots = 4 + _backpack_item.hotbar_add; 
