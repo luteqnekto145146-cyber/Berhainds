@@ -191,8 +191,8 @@
   "maintainGms1Font":false,
   "name":"shrift_Font1",
   "parent":{
-    "name":"Berhainds-rebuilt",
-    "path":"Berhainds-rebuilt.yyp",
+    "name":"nesorter",
+    "path":"folders/igra/glava1/nesorter.yy",
   },
   "pointRounding":0,
   "ranges":[

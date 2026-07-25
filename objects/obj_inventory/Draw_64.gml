@@ -59,7 +59,7 @@ for (var i = 0; i < hotbar_slots; i++) {
 // 2. ОТРИСОВКА ОСНОВНОЙ СУМКИ (ТЕПЕРЬ КАК ХОТ-БАР)
 // ==========================================
 if (show_inventory && inventory_slots > 0) {
-    var columns = 7; 
+    var columns = 4; 
     var bag_start_y = start_y + slot_size + 30; 
     var _total_slots = array_length(inventory);
     

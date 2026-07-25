@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"oryshie",
-    "path":"folders/igra/glava1/veshi/oryshie.yy",
+    "name":"sprite",
+    "path":"folders/igra/glava1/veshi/oryshie/sapfir_shuriken/sprite.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

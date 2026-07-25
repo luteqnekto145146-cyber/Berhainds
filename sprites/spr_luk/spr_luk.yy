@@ -33,7 +33,7 @@
   "origin":0,
   "parent":{
     "name":"luk",
-    "path":"folders/igra/glava1/veshi/luk.yy",
+    "path":"folders/igra/glava1/veshi/oryshie/luk.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

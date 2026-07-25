@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"oryshie",
-    "path":"folders/igra/glava1/veshi/oryshie.yy",
+    "name":"sprite",
+    "path":"folders/igra/glava1/veshi/oryshie/medni_shuriken/sprite.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
