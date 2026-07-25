@@ -66,7 +66,7 @@
     {"$GMFolder":"","%Name":"fons","folderPath":"folders/igra/menu/fons.yy","name":"fons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"knopki","folderPath":"folders/igra/menu/knopki.yy","name":"knopki","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"rooms","folderPath":"folders/igra/menu/rooms.yy","name":"rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"soobshenie","folderPath":"folders/igra/soobshenie.yy","name":"soobshenie","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"soobshenie","folderPath":"folders/obrashenie/soobshenie.yy","name":"soobshenie","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"tielsets","folderPath":"folders/igra/tielsets.yy","name":"tielsets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/igra/tielsets/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"tielsetes","folderPath":"folders/igra/tielsets/tielsetes.yy","name":"tielsetes","resourceType":"GMFolder","resourceVersion":"2.0",},

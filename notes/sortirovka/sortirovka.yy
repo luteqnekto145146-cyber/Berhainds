@@ -4,7 +4,7 @@
   "name":"sortirovka",
   "parent":{
     "name":"soobshenie",
-    "path":"folders/igra/soobshenie.yy",
+    "path":"folders/obrashenie/soobshenie.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",
