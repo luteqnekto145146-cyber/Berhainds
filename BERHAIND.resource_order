@@ -180,6 +180,7 @@
     {"name":"spr_shocwave","order":20,"path":"sprites/spr_shocwave/spr_shocwave.yy",},
     {"name":"spr_small_sapfir_suriken","order":1,"path":"sprites/spr_small_sapfir_suriken/spr_small_sapfir_suriken.yy",},
     {"name":"spr_splach_atak","order":7,"path":"sprites/spr_splach_atak/spr_splach_atak.yy",},
+    {"name":"Spr_stary_Chrych","order":5,"path":"sprites/Spr_stary_Chrych/Spr_stary_Chrych.yy",},
     {"name":"spr_strash_mosta_v_levo","order":51,"path":"sprites/spr_strash_mosta_v_levo/spr_strash_mosta_v_levo.yy",},
     {"name":"spr_strash_mosta_v_pravo","order":52,"path":"sprites/spr_strash_mosta_v_pravo/spr_strash_mosta_v_pravo.yy",},
     {"name":"spr_suriken_iz_govna","order":5,"path":"sprites/spr_suriken_iz_govna/spr_suriken_iz_govna.yy",},

@@ -80,7 +80,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"BERHAIND",
   "resources":[
@@ -332,6 +332,7 @@
     {"id":{"name":"spr_skibidimagazik","path":"sprites/spr_skibidimagazik/spr_skibidimagazik.yy",},},
     {"id":{"name":"spr_small_sapfir_suriken","path":"sprites/spr_small_sapfir_suriken/spr_small_sapfir_suriken.yy",},},
     {"id":{"name":"spr_splach_atak","path":"sprites/spr_splach_atak/spr_splach_atak.yy",},},
+    {"id":{"name":"Spr_stary_Chrych","path":"sprites/Spr_stary_Chrych/Spr_stary_Chrych.yy",},},
     {"id":{"name":"spr_strash_mosta_v_levo","path":"sprites/spr_strash_mosta_v_levo/spr_strash_mosta_v_levo.yy",},},
     {"id":{"name":"spr_strash_mosta_v_pravo","path":"sprites/spr_strash_mosta_v_pravo/spr_strash_mosta_v_pravo.yy",},},
     {"id":{"name":"spr_suriken_iz_govna","path":"sprites/spr_suriken_iz_govna/spr_suriken_iz_govna.yy",},},
