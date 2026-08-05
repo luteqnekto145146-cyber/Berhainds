@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"muz",
-    "path":"folders/igra/cozidateli/serega/muz.yy",
+    "path":"folders/igra/muz.yy",
   },
   "parentObjectId":null,
   "persistent":false,

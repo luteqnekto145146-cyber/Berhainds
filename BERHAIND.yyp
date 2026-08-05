@@ -23,7 +23,7 @@
     {"$GMFolder":"","%Name":"object","folderPath":"folders/igra/cozidateli/serega/kylak/object.yy","name":"object","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/igra/cozidateli/serega/kylak/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Magazin","folderPath":"folders/igra/cozidateli/serega/Magazin.yy","name":"Magazin","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"muz","folderPath":"folders/igra/cozidateli/serega/muz.yy","name":"muz","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"muz","folderPath":"folders/igra/muz.yy","name":"muz","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"tower_25","folderPath":"folders/igra/cozidateli/serega/tower_25.yy","name":"tower_25","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"glava1","folderPath":"folders/igra/glava1.yy","name":"glava1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"govno_kotoroe_nyshno(ne_ydalit!!!!)","folderPath":"folders/igra/glava1/govno_kotoroe_nyshno(ne_ydalit!!!!).yy","name":"govno_kotoroe_nyshno(ne_ydalit!!!!)","resourceType":"GMFolder","resourceVersion":"2.0",},

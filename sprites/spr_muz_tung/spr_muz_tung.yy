@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"muz",
-    "path":"folders/igra/cozidateli/serega/muz.yy",
+    "path":"folders/igra/muz.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

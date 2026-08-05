@@ -10,8 +10,8 @@
   "name":"obj_boss_knight",
   "overriddenProperties":[],
   "parent":{
-    "name":"cozidateli",
-    "path":"folders/igra/cozidateli.yy",
+    "name":"serega",
+    "path":"folders/igra/cozidateli/serega.yy",
   },
   "parentObjectId":{
     "name":"obj_vrag",

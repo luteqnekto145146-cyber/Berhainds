@@ -9,8 +9,8 @@
   "name":"obj_patron_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"cozidateli",
-    "path":"folders/igra/cozidateli.yy",
+    "name":"serega",
+    "path":"folders/igra/cozidateli/serega.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -10,8 +10,8 @@
   "name":"obj_boss_knife",
   "overriddenProperties":[],
   "parent":{
-    "name":"cozidateli",
-    "path":"folders/igra/cozidateli.yy",
+    "name":"serega",
+    "path":"folders/igra/cozidateli/serega.yy",
   },
   "parentObjectId":null,
   "persistent":false,
