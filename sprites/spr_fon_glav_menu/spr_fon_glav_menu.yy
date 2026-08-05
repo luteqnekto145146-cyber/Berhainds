@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"igra",
+    "path":"folders/igra.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

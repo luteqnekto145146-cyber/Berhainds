@@ -133,3 +133,66 @@ global.deal_damage_to_enemy = function(_enemy_id, _damage_amount) {
         }
     }
 }
+global.save_game = function() {
+    var _floor = 1;
+    if (variable_global_exists("current_floor")) {
+        _floor = global.current_floor;
+    }
+    
+    var _save_data = {
+        saved_room_name: room_get_name(room), // ДОБАВЛЕНО: Запоминаем имя текущей комнаты текстом
+        current_floor: _floor,
+        player_hp: instance_exists(obj_beg_terrei) ? obj_beg_terrei.player_hp : 100,
+        revolver_ammo: instance_exists(obj_beg_terrei) ? obj_beg_terrei.revolver_ammo : 0,
+        saved_inventory: instance_exists(obj_inventory) ? variable_clone(obj_inventory.inventory) : []
+    };
+    
+    var _json_string = json_stringify(_save_data);
+    var _encrypted_string = base64_encode(_json_string);
+    
+    var _file = file_text_open_write(working_directory + "save.dat");
+    file_text_write_string(_file, _encrypted_string);
+    file_text_close(_file);
+    
+    show_debug_message("Игра зашифрована и сохранена!");
+}
+
+global.load_game = function() {
+    var _file_path = working_directory + "save.dat";
+    
+    if (!file_exists(_file_path)) return false;
+    
+    var _file = file_text_open_read(_file_path);
+    var _encrypted_string = file_text_read_string(_file);
+    file_text_close(_file);
+    
+    var _json_string = base64_decode(_encrypted_string);
+    var _load_data = json_parse(_json_string);
+    
+    global.current_floor = _load_data.current_floor;
+    
+    if (instance_exists(obj_beg_terrei)) {
+        obj_beg_terrei.player_hp = _load_data.player_hp;
+        obj_beg_terrei.revolver_ammo = _load_data.revolver_ammo;
+    }
+    
+    if (instance_exists(obj_inventory)) {
+        obj_inventory.inventory = variable_clone(_load_data.saved_inventory);
+        obj_inventory.inventory_slots = array_length(obj_inventory.inventory) - obj_inventory.hotbar_slots;
+    }
+    
+    // ДОБАВЛЕНО ТУТ: Перемещаем игрока строго в ту комнату, которую мы прочитали из сохранения!
+    if (struct_exists(_load_data, "saved_room_name")) {
+        var _target_room = asset_get_index(_load_data.saved_room_name);
+        if (room_exists(_target_room)) {
+            room_goto(_target_room);
+        } else {
+            room_goto(rm_tower_floor_1); // Запасной вариант, если комната не найдена
+        }
+    } else {
+        room_goto(rm_tower_floor_1);
+    }
+    
+    show_debug_message("Игра успешно расшифрована и загружена!");
+    return true;
+}

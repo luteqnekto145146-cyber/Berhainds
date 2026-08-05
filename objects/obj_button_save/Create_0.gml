@@ -2,8 +2,4 @@ width = 200;
 height = 50;
 button_scale = 1.0;
 button_target_scale = 1.0;
-button_text = "ПРОДОЛЖИТЬ";
-
-
-is_ready = false;
-alarm[0] = 3; 
+button_text = "СОХРАНИТЬ ИГРУ";
