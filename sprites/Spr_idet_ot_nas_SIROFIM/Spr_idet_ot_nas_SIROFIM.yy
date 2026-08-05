@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Spr_shtob_stoyal_NA_NAS_DOBROZAR_1",
+  "%Name":"Spr_idet_ot_nas_SIROFIM",
   "bboxMode":0,
   "bbox_bottom":63,
   "bbox_left":49,
@@ -13,6 +13,7 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"9ef47f18-e979-4c3b-9b29-90e9de7e91cd","name":"9ef47f18-e979-4c3b-9b29-90e9de7e91cd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b9119f23-0d62-4dea-8d01-730c911b6a33","name":"b9119f23-0d62-4dea-8d01-730c911b6a33","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -21,19 +22,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"d4ea359a-193a-41b6-a66a-06e3d85124fc","blendMode":0,"displayName":"default","isLocked":false,"name":"d4ea359a-193a-41b6-a66a-06e3d85124fc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Spr_shtob_stoyal_NA_NAS_DOBROZAR_1",
+  "name":"Spr_idet_ot_nas_SIROFIM",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"DOBROZAR",
-    "path":"folders/igra/glava2/DOBROZAR.yy",
+    "name":"SIROFIM",
+    "path":"folders/igra/glava2/SIROFIM.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Spr_shtob_stoyal_NA_NAS_DOBROZAR_1",
+    "%Name":"Spr_idet_ot_nas_SIROFIM",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -49,7 +50,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":2.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -57,9 +58,9 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Spr_shtob_stoyal_NA_NAS_DOBROZAR_1",
+    "name":"Spr_idet_ot_nas_SIROFIM",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":2.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -69,8 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9ef47f18-e979-4c3b-9b29-90e9de7e91cd","path":"sprites/Spr_shtob_stoyal_NA_NAS_DOBROZAR_1/Spr_shtob_stoyal_NA_NAS_DOBROZAR_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9ef47f18-e979-4c3b-9b29-90e9de7e91cd","path":"sprites/Spr_idet_ot_nas_SIROFIM/Spr_idet_ot_nas_SIROFIM.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"f615f83c-ae43-4df8-be4a-09a44fd78ef5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b9119f23-0d62-4dea-8d01-730c911b6a33","path":"sprites/Spr_idet_ot_nas_SIROFIM/Spr_idet_ot_nas_SIROFIM.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1b181580-2ace-4e1c-b329-b8d242251de5","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

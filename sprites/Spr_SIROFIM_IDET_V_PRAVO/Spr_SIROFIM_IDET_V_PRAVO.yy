@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Spr_DOBROZAR_IDET_V_PRAVO",
+  "%Name":"Spr_SIROFIM_IDET_V_PRAVO",
   "bboxMode":0,
   "bbox_bottom":63,
   "bbox_left":37,
@@ -24,19 +24,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"1fd5be82-cc11-4b7e-ade4-316546102978","blendMode":0,"displayName":"default","isLocked":false,"name":"1fd5be82-cc11-4b7e-ade4-316546102978","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Spr_DOBROZAR_IDET_V_PRAVO",
+  "name":"Spr_SIROFIM_IDET_V_PRAVO",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"DOBROZAR",
-    "path":"folders/igra/glava2/DOBROZAR.yy",
+    "name":"SIROFIM",
+    "path":"folders/igra/glava2/SIROFIM.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Spr_DOBROZAR_IDET_V_PRAVO",
+    "%Name":"Spr_SIROFIM_IDET_V_PRAVO",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -60,7 +60,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Spr_DOBROZAR_IDET_V_PRAVO",
+    "name":"Spr_SIROFIM_IDET_V_PRAVO",
     "playback":1,
     "playbackSpeed":4.0,
     "playbackSpeedType":0,
@@ -72,16 +72,16 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"88ca55d9-6a86-4655-af5c-41cac76dbdbf","path":"sprites/Spr_DOBROZAR_IDET_V_PRAVO/Spr_DOBROZAR_IDET_V_PRAVO.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"88ca55d9-6a86-4655-af5c-41cac76dbdbf","path":"sprites/Spr_SIROFIM_IDET_V_PRAVO/Spr_SIROFIM_IDET_V_PRAVO.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"d58db4fd-aebd-4472-9e00-43de6324ef3f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f4c3adc3-6661-4d81-96f0-3b6ad52f50a6","path":"sprites/Spr_DOBROZAR_IDET_V_PRAVO/Spr_DOBROZAR_IDET_V_PRAVO.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f4c3adc3-6661-4d81-96f0-3b6ad52f50a6","path":"sprites/Spr_SIROFIM_IDET_V_PRAVO/Spr_SIROFIM_IDET_V_PRAVO.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"e0156f7f-426b-40da-8277-66a8619ce9fd","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"46a20bfa-c026-4cb1-8459-e735b3f6dd6c","path":"sprites/Spr_DOBROZAR_IDET_V_PRAVO/Spr_DOBROZAR_IDET_V_PRAVO.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"46a20bfa-c026-4cb1-8459-e735b3f6dd6c","path":"sprites/Spr_SIROFIM_IDET_V_PRAVO/Spr_SIROFIM_IDET_V_PRAVO.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"7b862f13-4de8-42f8-a4af-3503c8bbac45","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b1403d4f-e4c3-4804-a4a1-b337d936b2e4","path":"sprites/Spr_DOBROZAR_IDET_V_PRAVO/Spr_DOBROZAR_IDET_V_PRAVO.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b1403d4f-e4c3-4804-a4a1-b337d936b2e4","path":"sprites/Spr_SIROFIM_IDET_V_PRAVO/Spr_SIROFIM_IDET_V_PRAVO.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"224ce5d2-65bf-435e-b71f-f4c398c607ae","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
