@@ -138,6 +138,7 @@
     {"name":"spr_bag_large","order":21,"path":"sprites/spr_bag_large/spr_bag_large.yy",},
     {"name":"spr_bag_small","order":22,"path":"sprites/spr_bag_small/spr_bag_small.yy",},
     {"name":"spr_big_2hends_sword","order":4,"path":"sprites/spr_big_2hends_sword/spr_big_2hends_sword.yy",},
+    {"name":"SPR_BOS_MITROPHAN","order":10,"path":"sprites/SPR_BOS_MITROPHAN/SPR_BOS_MITROPHAN.yy",},
     {"name":"spr_boss_10","order":18,"path":"sprites/spr_boss_10/spr_boss_10.yy",},
     {"name":"spr_boss_bomb","order":22,"path":"sprites/spr_boss_bomb/spr_boss_bomb.yy",},
     {"name":"spr_boss_knife","order":57,"path":"sprites/spr_boss_knife/spr_boss_knife.yy",},

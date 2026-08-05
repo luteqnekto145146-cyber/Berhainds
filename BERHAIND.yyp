@@ -229,6 +229,7 @@
     {"id":{"name":"spr_big_sapfir_suriken","path":"sprites/spr_big_sapfir_suriken/spr_big_sapfir_suriken.yy",},},
     {"id":{"name":"spr_Black_mag","path":"sprites/spr_Black_mag/spr_Black_mag.yy",},},
     {"id":{"name":"spr_Blue_mag","path":"sprites/spr_Blue_mag/spr_Blue_mag.yy",},},
+    {"id":{"name":"SPR_BOS_MITROPHAN","path":"sprites/SPR_BOS_MITROPHAN/SPR_BOS_MITROPHAN.yy",},},
     {"id":{"name":"spr_boss_10","path":"sprites/spr_boss_10/spr_boss_10.yy",},},
     {"id":{"name":"spr_boss_bomb","path":"sprites/spr_boss_bomb/spr_boss_bomb.yy",},},
     {"id":{"name":"spr_boss_knife","path":"sprites/spr_boss_knife/spr_boss_knife.yy",},},
