@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"boses",
+    "path":"folders/igra/glava2/monsters/boses.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
