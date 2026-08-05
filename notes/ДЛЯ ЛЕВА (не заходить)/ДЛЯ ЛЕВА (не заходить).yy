@@ -3,8 +3,8 @@
   "%Name":"ДЛЯ ЛЕВА (не заходить)",
   "name":"ДЛЯ ЛЕВА (не заходить)",
   "parent":{
-    "name":"obrashenie",
-    "path":"folders/obrashenie.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",
