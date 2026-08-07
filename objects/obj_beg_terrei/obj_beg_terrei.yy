@@ -47,8 +47,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_ANM_Beg_Terrei",
-    "path":"sprites/spr_ANM_Beg_Terrei/spr_ANM_Beg_Terrei.yy",
+    "name":"spr_terrei_idet_v_pravo",
+    "path":"sprites/spr_terrei_idet_v_pravo/spr_terrei_idet_v_pravo.yy",
   },
   "spriteMaskId":null,
   "visible":true,
