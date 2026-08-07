@@ -84,7 +84,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"BERHAIND",
   "resources":[
@@ -210,6 +210,10 @@
     {"id":{"name":"scr_items","path":"scripts/scr_items/scr_items.yy",},},
     {"id":{"name":"seq_pause_menu","path":"sequences/seq_pause_menu/seq_pause_menu.yy",},},
     {"id":{"name":"budilnik_zvyk","path":"sounds/budilnik_zvyk/budilnik_zvyk.yy",},},
+    {"id":{"name":"happysmth","path":"sounds/happysmth/happysmth.yy",},},
+    {"id":{"name":"i_dunno","path":"sounds/i_dunno/i_dunno.yy",},},
+    {"id":{"name":"idk","path":"sounds/idk/idk.yy",},},
+    {"id":{"name":"idonteknowe","path":"sounds/idonteknowe/idonteknowe.yy",},},
     {"id":{"name":"revolver_shot","path":"sounds/revolver_shot/revolver_shot.yy",},},
     {"id":{"name":"snd_angel_ttt_sahur","path":"sounds/snd_angel_ttt_sahur/snd_angel_ttt_sahur.yy",},},
     {"id":{"name":"_017LIK_palatKA_SVYATOI","path":"sprites/_017LIK_palatKA_SVYATOI/_017LIK_palatKA_SVYATOI.yy",},},
@@ -220,6 +224,7 @@
     {"id":{"name":"backeryn","path":"sprites/backeryn/backeryn.yy",},},
     {"id":{"name":"f779584f_d0cd_4ee7_9fe2_850f9a880b2c","path":"sprites/f779584f_d0cd_4ee7_9fe2_850f9a880b2c/f779584f_d0cd_4ee7_9fe2_850f9a880b2c.yy",},},
     {"id":{"name":"gold","path":"sprites/gold/gold.yy",},},
+    {"id":{"name":"hitbox_terrei_tun","path":"sprites/hitbox_terrei_tun/hitbox_terrei_tun.yy",},},
     {"id":{"name":"OY_BLYAAAAAAAAAAAAAAAAAA","path":"sprites/OY_BLYAAAAAAAAAAAAAAAAAA/OY_BLYAAAAAAAAAAAAAAAAAA.yy",},},
     {"id":{"name":"shit_for_terrey","path":"sprites/shit_for_terrey/shit_for_terrey.yy",},},
     {"id":{"name":"skibidishop","path":"sprites/skibidishop/skibidishop.yy",},},

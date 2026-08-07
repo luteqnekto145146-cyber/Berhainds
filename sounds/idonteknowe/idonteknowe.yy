@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"idonteknowe",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":6.974694,
+  "exportDir":"",
+  "name":"idonteknowe",
+  "parent":{
+    "name":"Vse_ot_Matvei",
+    "path":"folders/igra/cozidateli/Matvei/Vse_ot_Matvei.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"idonteknowe.mp3",
+  "volume":1.0,
+}

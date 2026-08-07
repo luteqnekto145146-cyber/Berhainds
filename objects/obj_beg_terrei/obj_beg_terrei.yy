@@ -50,6 +50,9 @@
     "name":"spr_terrei_idet_v_pravo",
     "path":"sprites/spr_terrei_idet_v_pravo/spr_terrei_idet_v_pravo.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"hitbox_terrei_tun",
+    "path":"sprites/hitbox_terrei_tun/hitbox_terrei_tun.yy",
+  },
   "visible":true,
 }
