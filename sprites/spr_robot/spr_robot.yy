@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"ne_opredelenn",
-    "path":"folders/igra/glava1/monsters/ne_opredelenn.yy",
+    "name":"robots",
+    "path":"folders/igra/glava2/robots.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

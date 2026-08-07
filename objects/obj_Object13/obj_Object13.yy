@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_terrei_bezdeitv",
-    "path":"sprites/spr_terrei_bezdeitv/spr_terrei_bezdeitv.yy",
+    "name":"spr_terrei_idet_na_nas",
+    "path":"sprites/spr_terrei_idet_na_nas/spr_terrei_idet_na_nas.yy",
   },
   "spriteMaskId":null,
   "visible":true,
