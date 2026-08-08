@@ -1,7 +1,4 @@
-// Баланс монет на экране
-var _current_coins = inventory_count_coins();
-draw_set_color(c_yellow);
-draw_text(32, 32, "Монеты: " + string(_current_coins));
+
 
 // Цикл рисует ВСЕ 4 КНОПКИ автоматически!
 for (var i = 0; i < item_count; i++) {

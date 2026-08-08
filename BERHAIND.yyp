@@ -84,7 +84,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"BERHAIND",
   "resources":[
@@ -431,8 +431,8 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"r_menu_i","path":"rooms/r_menu_i/r_menu_i.yy",},},
     {"roomId":{"name":"r_hram","path":"rooms/r_hram/r_hram.yy",},},
-    {"roomId":{"name":"r_doroga","path":"rooms/r_doroga/r_doroga.yy",},},
     {"roomId":{"name":"r_hram_koridor","path":"rooms/r_hram_koridor/r_hram_koridor.yy",},},
+    {"roomId":{"name":"r_doroga","path":"rooms/r_doroga/r_doroga.yy",},},
     {"roomId":{"name":"r_doroga_2","path":"rooms/r_doroga_2/r_doroga_2.yy",},},
     {"roomId":{"name":"rm_tower_lobby","path":"rooms/rm_tower_lobby/rm_tower_lobby.yy",},},
     {"roomId":{"name":"rm_tower_floor_1","path":"rooms/rm_tower_floor_1/rm_tower_floor_1.yy",},},

@@ -80,3 +80,6 @@ function get_total_shurikens() {
     }
     return count;
 }
+if (!variable_global_exists("crazy_mode")) {
+    global.crazy_mode = false;
+}
