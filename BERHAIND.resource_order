@@ -140,6 +140,8 @@
     {"name":"idonteknowe","order":5,"path":"sounds/idonteknowe/idonteknowe.yy",},
     {"name":"revolver_shot","order":1,"path":"sounds/revolver_shot/revolver_shot.yy",},
     {"name":"snd_angel_ttt_sahur","order":4,"path":"sounds/snd_angel_ttt_sahur/snd_angel_ttt_sahur.yy",},
+    {"name":"ticking_bombahh","order":13,"path":"sounds/ticking_bombahh/ticking_bombahh.yy",},
+    {"name":"untitle2d","order":14,"path":"sounds/untitle2d/untitle2d.yy",},
     {"name":"_017LIK_palatKA_SVYATOI","order":11,"path":"sprites/_017LIK_palatKA_SVYATOI/_017LIK_palatKA_SVYATOI.yy",},
     {"name":"_6033e574_5842_4e86_b2dc_76852e1ae767","order":1,"path":"sprites/_6033e574_5842_4e86_b2dc_76852e1ae767/_6033e574_5842_4e86_b2dc_76852e1ae767.yy",},
     {"name":"_81e75864_9ef7_4953_9ee9_e1a36734c1c5__4_","order":2,"path":"sprites/_81e75864_9ef7_4953_9ee9_e1a36734c1c5__4_/_81e75864_9ef7_4953_9ee9_e1a36734c1c5__4_.yy",},

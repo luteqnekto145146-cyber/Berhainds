@@ -31,7 +31,7 @@
   "physicsGroup":1,
   "physicsKinematic":false,
   "physicsLinearDamping":0.1,
-  "physicsObject":false,
+  "physicsObject":true,
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
@@ -47,12 +47,9 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_terrei_idet_v_pravo",
-    "path":"sprites/spr_terrei_idet_v_pravo/spr_terrei_idet_v_pravo.yy",
+    "name":"spr_terrei_idet_na_nas",
+    "path":"sprites/spr_terrei_idet_na_nas/spr_terrei_idet_na_nas.yy",
   },
-  "spriteMaskId":{
-    "name":"hitbox_terrei_tun",
-    "path":"sprites/hitbox_terrei_tun/hitbox_terrei_tun.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

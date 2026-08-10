@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"untitle2d",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.7406349,
+  "exportDir":"",
+  "name":"untitle2d",
+  "parent":{
+    "name":"Vse_ot_Matvei",
+    "path":"folders/igra/cozidateli/Matvei/Vse_ot_Matvei.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"untitle2d.ogg",
+  "volume":1.0,
+}
