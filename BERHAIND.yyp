@@ -225,6 +225,7 @@
     {"id":{"name":"_81e75864_9ef7_4953_9ee9_e1a36734c1c5__4_","path":"sprites/_81e75864_9ef7_4953_9ee9_e1a36734c1c5__4_/_81e75864_9ef7_4953_9ee9_e1a36734c1c5__4_.yy",},},
     {"id":{"name":"_81e75864_9ef7_4953_9ee9_e1a36734c1c5","path":"sprites/_81e75864_9ef7_4953_9ee9_e1a36734c1c5/_81e75864_9ef7_4953_9ee9_e1a36734c1c5.yy",},},
     {"id":{"name":"backeryn","path":"sprites/backeryn/backeryn.yy",},},
+    {"id":{"name":"bred_payk_ya_neznay","path":"sprites/bred_payk_ya_neznay/bred_payk_ya_neznay.yy",},},
     {"id":{"name":"f779584f_d0cd_4ee7_9fe2_850f9a880b2c","path":"sprites/f779584f_d0cd_4ee7_9fe2_850f9a880b2c/f779584f_d0cd_4ee7_9fe2_850f9a880b2c.yy",},},
     {"id":{"name":"gold","path":"sprites/gold/gold.yy",},},
     {"id":{"name":"hitbox_terrei_tun","path":"sprites/hitbox_terrei_tun/hitbox_terrei_tun.yy",},},
@@ -453,8 +454,8 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"r_menu_i","path":"rooms/r_menu_i/r_menu_i.yy",},},
     {"roomId":{"name":"r_hram","path":"rooms/r_hram/r_hram.yy",},},
-    {"roomId":{"name":"r_doroga","path":"rooms/r_doroga/r_doroga.yy",},},
     {"roomId":{"name":"r_hram_koridor","path":"rooms/r_hram_koridor/r_hram_koridor.yy",},},
+    {"roomId":{"name":"r_doroga","path":"rooms/r_doroga/r_doroga.yy",},},
     {"roomId":{"name":"r_doroga_2","path":"rooms/r_doroga_2/r_doroga_2.yy",},},
     {"roomId":{"name":"rm_tower_lobby","path":"rooms/rm_tower_lobby/rm_tower_lobby.yy",},},
     {"roomId":{"name":"rm_tower_floor_1","path":"rooms/rm_tower_floor_1/rm_tower_floor_1.yy",},},
