@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obosrish_golem",
+  "%Name":"obv_vzriv",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_beg_terrei","path":"objects/obj_beg_terrei/obj_beg_terrei.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obosrish_golem",
+  "name":"obv_vzriv",
   "overriddenProperties":[],
   "parent":{
     "name":"Vse_ot_Matvei",
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_golem",
-    "path":"sprites/spr_golem/spr_golem.yy",
+    "name":"vzriv_vremeni",
+    "path":"sprites/vzriv_vremeni/vzriv_vremeni.yy",
   },
   "spriteMaskId":null,
   "visible":true,
