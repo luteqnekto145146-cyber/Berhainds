@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"bred_payk_ya_neznay",
   "bboxMode":0,
-  "bbox_bottom":61,
+  "bbox_bottom":44,
   "bbox_left":23,
   "bbox_right":35,
   "bbox_top":0,
