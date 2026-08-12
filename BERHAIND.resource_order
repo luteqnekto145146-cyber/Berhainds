@@ -63,6 +63,7 @@
     {"name":"obj_boss_bomb","order":2,"path":"objects/obj_boss_bomb/obj_boss_bomb.yy",},
     {"name":"obj_boss_knife","order":53,"path":"objects/obj_boss_knife/obj_boss_knife.yy",},
     {"name":"obj_boss_knight","order":54,"path":"objects/obj_boss_knight/obj_boss_knight.yy",},
+    {"name":"obj_brown_surprien","order":33,"path":"objects/obj_brown_surprien/obj_brown_surprien.yy",},
     {"name":"obj_bullet","order":6,"path":"objects/obj_bullet/obj_bullet.yy",},
     {"name":"obj_button_save","order":8,"path":"objects/obj_button_save/obj_button_save.yy",},
     {"name":"obj_chunk_flat","order":26,"path":"objects/obj_chunk_flat/obj_chunk_flat.yy",},

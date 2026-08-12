@@ -112,6 +112,7 @@
     {"id":{"name":"obj_boss_knife","path":"objects/obj_boss_knife/obj_boss_knife.yy",},},
     {"id":{"name":"obj_boss_knight","path":"objects/obj_boss_knight/obj_boss_knight.yy",},},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},},
+    {"id":{"name":"obj_brown_surprien","path":"objects/obj_brown_surprien/obj_brown_surprien.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"obj_button_save","path":"objects/obj_button_save/obj_button_save.yy",},},
     {"id":{"name":"obj_chest","path":"objects/obj_chest/obj_chest.yy",},},
