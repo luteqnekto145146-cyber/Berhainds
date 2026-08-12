@@ -39,7 +39,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_terrei_idet_na_nas",
+    "path":"sprites/spr_terrei_idet_na_nas/spr_terrei_idet_na_nas.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

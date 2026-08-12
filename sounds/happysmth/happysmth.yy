@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"happysmth",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":15.856326,
+  "exportDir":"",
+  "name":"happysmth",
+  "parent":{
+    "name":"Vse_ot_Matvei",
+    "path":"folders/igra/cozidateli/Matvei/Vse_ot_Matvei.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"happysmth.mp3",
+  "volume":1.0,
+}
