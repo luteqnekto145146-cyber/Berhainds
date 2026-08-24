@@ -1,2 +1,2 @@
-hp_max = 1
+hp_max = 1000
 hp = hp_max
