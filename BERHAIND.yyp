@@ -79,7 +79,9 @@
     {"$GMFolder":"","%Name":"soobshenie","folderPath":"folders/obrashenie/soobshenie.yy","name":"soobshenie","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"переименновать!!!","folderPath":"folders/obrashenie/переименновать!!!.yy","name":"переименновать!!!","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.gmparticlepresets-1.0.0","name":"io.gamemaker.gmparticlepresets-1.0.0","path":"io.gamemaker.gmparticlepresets-1.0.0.yyp",},
+  ],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -194,6 +196,7 @@
     {"id":{"name":"settin","path":"objects/settin/settin.yy",},},
     {"id":{"name":"start","path":"objects/start/start.yy",},},
     {"id":{"name":"strleka","path":"objects/strleka/strleka.yy",},},
+    {"id":{"name":"ParticleSystem1","path":"particles/ParticleSystem1/ParticleSystem1.yy",},},
     {"id":{"name":"r_doroga_2","path":"rooms/r_doroga_2/r_doroga_2.yy",},},
     {"id":{"name":"r_doroga","path":"rooms/r_doroga/r_doroga.yy",},},
     {"id":{"name":"r_hram_koridor","path":"rooms/r_hram_koridor/r_hram_koridor.yy",},},

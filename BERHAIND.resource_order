@@ -125,6 +125,7 @@
     {"name":"obosrish_golem","order":4,"path":"objects/obosrish_golem/obosrish_golem.yy",},
     {"name":"obv_vzriv","order":12,"path":"objects/obv_vzriv/obv_vzriv.yy",},
     {"name":"perehod","order":1,"path":"objects/perehod/perehod.yy",},
+    {"name":"ParticleSystem1","order":34,"path":"particles/ParticleSystem1/ParticleSystem1.yy",},
     {"name":"r_doroga_2","order":9,"path":"rooms/r_doroga_2/r_doroga_2.yy",},
     {"name":"r_hram_koridor","order":1,"path":"rooms/r_hram_koridor/r_hram_koridor.yy",},
     {"name":"r_mnnogoatashka_atash_8","order":10,"path":"rooms/r_mnnogoatashka_atash_8/r_mnnogoatashka_atash_8.yy",},

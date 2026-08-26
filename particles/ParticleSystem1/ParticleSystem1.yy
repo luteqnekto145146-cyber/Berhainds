@@ -1,0 +1,25 @@
+{
+  "$GMParticleSystem":"",
+  "%Name":"ParticleSystem1",
+  "backdropHeight":768,
+  "backdropImageOpacity":0.5,
+  "backdropImagePath":"",
+  "backdropWidth":1366,
+  "backdropXOffset":0.0,
+  "backdropYOffset":0.0,
+  "drawOrder":0,
+  "emitters":[
+    {"$GMPSEmitter":"","%Name":"Emitter","additiveBlend":false,"directionIncrease":0.0,"directionMax":261.0,"directionMin":313.0,"directionWiggle":0.0,"distribution":0,"editorColour":1073742079,"editorDrawShape":true,"emitCount":90,"emitDelayMax":10.0,"emitDelayMin":10.0,"emitDelayUnits":1,"emitIntervalMax":0.0,"emitIntervalMin":0.0,"emitIntervalUnits":0,"enabled":true,"endColour":4294967295,"GMPresetName":null,"gravityDirection":304.0,"gravityForce":1.0,"headPosition":0.0,"lifetimeMax":80.0,"lifetimeMin":80.0,"linkedEmitter":null,"locked":false,"midColour":4294967295,"mode":1,"name":"Emitter","orientationIncrease":0.0,"orientationMax":0.0,"orientationMin":0.0,"orientationRelative":false,"orientationWiggle":0.0,"regionH":57.0,"regionW":57.0,"regionX":15.0,"regionY":14.0,"resourceType":"GMPSEmitter","resourceVersion":"2.0","scaleX":1.6,"scaleY":1.0,"shape":0,"sizeIncrease":0.0,"sizeMax":0.0,"sizeMin":1.0,"sizeWiggle":0.0,"spawnOnDeathCount":9,"spawnOnDeathGMPreset":null,"spawnOnDeathId":null,"spawnOnUpdateCount":9,"spawnOnUpdateGMPreset":null,"spawnOnUpdateId":null,"speedIncrease":0.0,"speedMax":5.0,"speedMin":5.0,"speedWiggle":0.0,"spriteAnimate":false,"spriteId":{"name":"spr_mr_brown_surprise","path":"sprites/spr_mr_brown_surprise/spr_mr_brown_surprise.yy",},"spriteRandom":false,"spriteStretch":true,"startColour":4294967295,"texture":-1,},
+  ],
+  "name":"ParticleSystem1",
+  "parent":{
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
+  },
+  "resourceType":"GMParticleSystem",
+  "resourceVersion":"2.0",
+  "showBackdrop":true,
+  "showBackdropImage":false,
+  "xorigin":0,
+  "yorigin":0,
+}
