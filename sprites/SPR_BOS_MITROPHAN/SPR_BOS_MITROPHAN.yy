@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"obrashenie",
-    "path":"folders/obrashenie.yy",
+    "name":"BERHAIND",
+    "path":"BERHAIND.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
