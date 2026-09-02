@@ -22,8 +22,8 @@
   ],
   "name":"ya_obosryalsa",
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"rooms",
+    "path":"folders/igra/menu/rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

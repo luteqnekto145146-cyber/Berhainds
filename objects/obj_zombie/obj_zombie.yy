@@ -33,7 +33,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"spr_idet_na_nas_zombie",
     "path":"sprites/spr_idet_na_nas_zombie/spr_idet_na_nas_zombie.yy",
