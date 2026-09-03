@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"laboratory","folderPath":"folders/laboratory.yy","name":"laboratory","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"igra","folderPath":"folders/igra.yy","name":"igra","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"cozidateli","folderPath":"folders/igra/cozidateli.yy","name":"cozidateli","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"levalazar","folderPath":"folders/igra/cozidateli/levalazar.yy","name":"levalazar","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -199,6 +200,7 @@
     {"id":{"name":"start","path":"objects/start/start.yy",},},
     {"id":{"name":"strleka","path":"objects/strleka/strleka.yy",},},
     {"id":{"name":"ParticleSystem1","path":"particles/ParticleSystem1/ParticleSystem1.yy",},},
+    {"id":{"name":"lab_room","path":"rooms/lab_room/lab_room.yy",},},
     {"id":{"name":"r_doroga_2","path":"rooms/r_doroga_2/r_doroga_2.yy",},},
     {"id":{"name":"r_doroga","path":"rooms/r_doroga/r_doroga.yy",},},
     {"id":{"name":"r_hram_koridor","path":"rooms/r_hram_koridor/r_hram_koridor.yy",},},
@@ -442,6 +444,7 @@
     {"id":{"name":"sproite","path":"sprites/sproite/sproite.yy",},},
     {"id":{"name":"tgungbreadugh","path":"sprites/tgungbreadugh/tgungbreadugh.yy",},},
     {"id":{"name":"vzriv_vremeni","path":"sprites/vzriv_vremeni/vzriv_vremeni.yy",},},
+    {"id":{"name":"labfloor","path":"tilesets/labfloor/labfloor.yy",},},
     {"id":{"name":"tileset_pol_mnogoatashka","path":"tilesets/tileset_pol_mnogoatashka/tileset_pol_mnogoatashka.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},},
@@ -474,6 +477,7 @@
     {"roomId":{"name":"r_Settings_Menu","path":"rooms/r_Settings_Menu/r_Settings_Menu.yy",},},
     {"roomId":{"name":"r_pictuerie","path":"rooms/r_pictuerie/r_pictuerie.yy",},},
     {"roomId":{"name":"r_muz","path":"rooms/r_muz/r_muz.yy",},},
+    {"roomId":{"name":"lab_room","path":"rooms/lab_room/lab_room.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

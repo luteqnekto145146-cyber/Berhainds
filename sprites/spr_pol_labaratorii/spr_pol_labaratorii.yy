@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"laboratory",
+    "path":"folders/laboratory.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
