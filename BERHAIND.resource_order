@@ -1,6 +1,5 @@
 {
   "FolderOrderSettings":[
-    {"name":"laboratory","order":38,"path":"folders/laboratory.yy",},
     {"name":"igra","order":1,"path":"folders/igra.yy",},
     {"name":"cozidateli","order":3,"path":"folders/igra/cozidateli.yy",},
     {"name":"levalazar","order":1,"path":"folders/igra/cozidateli/levalazar.yy",},
@@ -44,6 +43,7 @@
     {"name":"menu","order":2,"path":"folders/igra/menu.yy",},
     {"name":"muz","order":5,"path":"folders/igra/muz.yy",},
     {"name":"tielsets","order":4,"path":"folders/igra/tielsets.yy",},
+    {"name":"laboratory","order":38,"path":"folders/laboratory.yy",},
     {"name":"obrashenie","order":2,"path":"folders/obrashenie.yy",},
     {"name":"soobshenie","order":3,"path":"folders/obrashenie/soobshenie.yy",},
     {"name":"переименновать!!!","order":2,"path":"folders/obrashenie/переименновать!!!.yy",},
@@ -249,6 +249,7 @@
     {"name":"Sprite215","order":36,"path":"sprites/Sprite215/Sprite215.yy",},
     {"name":"Sprite216","order":27,"path":"sprites/Sprite216/Sprite216.yy",},
     {"name":"Sprite217","order":37,"path":"sprites/Sprite217/Sprite217.yy",},
+    {"name":"Sprite218","order":4,"path":"sprites/Sprite218/Sprite218.yy",},
     {"name":"Sprite29","order":1,"path":"sprites/Sprite29/Sprite29.yy",},
     {"name":"Sprite38","order":2,"path":"sprites/Sprite38/Sprite38.yy",},
     {"name":"Sprite52","order":3,"path":"sprites/Sprite52/Sprite52.yy",},

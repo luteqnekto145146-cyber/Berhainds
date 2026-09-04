@@ -10,7 +10,6 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"laboratory","folderPath":"folders/laboratory.yy","name":"laboratory","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"igra","folderPath":"folders/igra.yy","name":"igra","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"cozidateli","folderPath":"folders/igra/cozidateli.yy","name":"cozidateli","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"levalazar","folderPath":"folders/igra/cozidateli/levalazar.yy","name":"levalazar","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -76,6 +75,7 @@
     {"$GMFolder":"","%Name":"tielsets","folderPath":"folders/igra/tielsets.yy","name":"tielsets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/igra/tielsets/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"tielsetes","folderPath":"folders/igra/tielsets/tielsetes.yy","name":"tielsetes","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"laboratory","folderPath":"folders/laboratory.yy","name":"laboratory","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"obrashenie","folderPath":"folders/obrashenie.yy","name":"obrashenie","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"soobshenie","folderPath":"folders/obrashenie/soobshenie.yy","name":"soobshenie","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"переименновать!!!","folderPath":"folders/obrashenie/переименновать!!!.yy","name":"переименновать!!!","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -423,6 +423,7 @@
     {"id":{"name":"Sprite215","path":"sprites/Sprite215/Sprite215.yy",},},
     {"id":{"name":"Sprite216","path":"sprites/Sprite216/Sprite216.yy",},},
     {"id":{"name":"Sprite217","path":"sprites/Sprite217/Sprite217.yy",},},
+    {"id":{"name":"Sprite218","path":"sprites/Sprite218/Sprite218.yy",},},
     {"id":{"name":"Sprite29","path":"sprites/Sprite29/Sprite29.yy",},},
     {"id":{"name":"Sprite38","path":"sprites/Sprite38/Sprite38.yy",},},
     {"id":{"name":"Sprite52","path":"sprites/Sprite52/Sprite52.yy",},},
