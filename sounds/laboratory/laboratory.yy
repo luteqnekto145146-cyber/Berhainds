@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"laboratory",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":2,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":59.403854,
+  "exportDir":"",
+  "name":"laboratory",
+  "parent":{
+    "name":"laboratory",
+    "path":"folders/laboratory.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"laboratory.ogg",
+  "volume":1.0,
+}

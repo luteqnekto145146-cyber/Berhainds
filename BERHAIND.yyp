@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"MITROPHAN","folderPath":"folders/MITROPHAN.yy","name":"MITROPHAN","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"igra","folderPath":"folders/igra.yy","name":"igra","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"cozidateli","folderPath":"folders/igra/cozidateli.yy","name":"cozidateli","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"levalazar","folderPath":"folders/igra/cozidateli/levalazar.yy","name":"levalazar","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -103,6 +104,7 @@
     {"id":{"name":"Для Матвея","path":"notes/Для Матвея/Для Матвея.yy",},},
     {"id":{"name":"подрывник","path":"notes/подрывник/подрывник.yy",},},
     {"id":{"name":"САМАЯ ВАЖНАЯ INFO","path":"notes/САМАЯ ВАЖНАЯ INFO/САМАЯ ВАЖНАЯ INFO.yy",},},
+    {"id":{"name":"СРОЧНОЕ СООЮБЩЕНИЕ","path":"notes/СРОЧНОЕ СООЮБЩЕНИЕ/СРОЧНОЕ СООЮБЩЕНИЕ.yy",},},
     {"id":{"name":"То что нужно сделать","path":"notes/То что нужно сделать/То что нужно сделать.yy",},},
     {"id":{"name":"beg_terrei","path":"objects/beg_terrei/beg_terrei.yy",},},
     {"id":{"name":"cont","path":"objects/cont/cont.yy",},},
@@ -224,6 +226,7 @@
     {"id":{"name":"i_dunno","path":"sounds/i_dunno/i_dunno.yy",},},
     {"id":{"name":"idk","path":"sounds/idk/idk.yy",},},
     {"id":{"name":"idonteknowe","path":"sounds/idonteknowe/idonteknowe.yy",},},
+    {"id":{"name":"laboratory","path":"sounds/laboratory/laboratory.yy",},},
     {"id":{"name":"revolver_shot","path":"sounds/revolver_shot/revolver_shot.yy",},},
     {"id":{"name":"snd_angel_ttt_sahur","path":"sounds/snd_angel_ttt_sahur/snd_angel_ttt_sahur.yy",},},
     {"id":{"name":"ticking_bombahh","path":"sounds/ticking_bombahh/ticking_bombahh.yy",},},
