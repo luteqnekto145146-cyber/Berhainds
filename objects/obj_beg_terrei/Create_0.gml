@@ -61,3 +61,10 @@ if (instance_exists(obj_dialog_spawn)) {
 global.bank_gold = 145;
 global.bank_max_cap = 5000;
 
+is_dashing = false;
+dash_timer = 0;
+dash_duration = 12;
+dash_speed = 7;
+dash_cooldown = 0;
+dash_dir_x = 0;
+dash_dir_y = 0;

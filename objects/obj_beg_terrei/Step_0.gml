@@ -162,3 +162,6 @@ if (keyboard_check_pressed(vk_f4)) {
     }
     room_restart(); 
 }
+ var move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
+var move_y = keyboard_check(vk_down) - keyboard_check(vk_up);
+
