@@ -83,3 +83,18 @@ function get_total_shurikens() {
 if (!variable_global_exists("crazy_mode")) {
     global.crazy_mode = false;
 }
+var _has_card = false;
+var _len = array_length(inventory);
+for (var i = 0; i < _len; i++) {
+    var _slot = inventory[i];
+    if (_slot != undefined && _slot != noone) {
+        if (_slot.item.item_id == 99) {
+            _has_card = true;
+            break;
+        }
+    }
+}
+
+if (!_has_card) {
+    scr_items(global.db_items.credit_card, 1);
+}

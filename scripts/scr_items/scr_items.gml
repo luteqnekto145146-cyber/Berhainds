@@ -19,7 +19,8 @@ global.db_items = {
     bg_small: new GameItem(4, "Малый рюкзак", spr_bag_small, "Походная сумка.", "backpack", 0, 0, false, 0, 0, 10),
     bg_large: new GameItem(5, "Большой рюкзак", spr_bag_large, "Военный рюкзак.", "backpack", 0, 0, false, 0, 0, 20),
     coin:     new GameItem(6, "Монета", spr_coin, "Валюта для торговли.", "currency", 0, 0, true, 0, 0, 0),
-    suriken:  new GameItem(7, "Маленький сапфировый сюрикен", spr_small_sapfir_suriken, "Оружие, сделанное на заказ.", "ammo", 0, 25, true, 0, 0, 0)
+    suriken:  new GameItem(7, "Маленький сапфировый сюрикен", spr_small_sapfir_suriken, "Оружие, сделанное на заказ.", "ammo", 0, 25, true, 0, 0, 0),
+    credit_card: new GameItem(8, "Кредитная карта", spr_card, "Карта с твоими сбережениями.", "utility", 0, 0, false, 0, 0, 0)
 };
 
 function inventory_count_coins() {

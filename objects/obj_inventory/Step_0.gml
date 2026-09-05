@@ -96,7 +96,7 @@ if (show_inventory) {
     }
 }
 
-if (keyboard_check_pressed(ord("R")) && current_weapon == "revolver" && instance_exists(obj_beg_terrei)) {
+if (keyboard_check_pressed(ord("E")) && current_weapon == "revolver" && instance_exists(obj_beg_terrei)) {
     var current_bullets_in_gun = obj_beg_terrei.revolver_ammo; 
     if (current_bullets_in_gun < 6) {
         for (var i = 0; i < _total_slots; i++) {
@@ -117,7 +117,7 @@ if (keyboard_check_pressed(ord("R")) && current_weapon == "revolver" && instance
     }
 }
 
-if (keyboard_check_pressed(ord("Q")) && !show_inventory && instance_exists(obj_beg_terrei)) {
+if (keyboard_check_pressed(ord("E")) && !show_inventory && instance_exists(obj_beg_terrei)) {
     for (var i = 0; i < _total_slots; i++) {
         var slot = inventory[i];
         if (slot != undefined && slot != noone && is_struct(slot)) {
@@ -139,7 +139,7 @@ if (keyboard_check_pressed(ord("Q")) && !show_inventory && instance_exists(obj_b
     }
 }
 
-if (keyboard_check_pressed(ord("H")) && !show_inventory && instance_exists(obj_beg_terrei)) {
+if (keyboard_check_pressed(ord("E")) && !show_inventory && instance_exists(obj_beg_terrei)) {
     for (var i = 0; i < _total_slots; i++) {
         var slot = inventory[i];
         if (slot != undefined && slot != noone && is_struct(slot)) {

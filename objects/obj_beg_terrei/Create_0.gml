@@ -58,3 +58,6 @@ if (instance_exists(obj_dialog_spawn)) {
 
 
 
+global.bank_gold = 145;
+global.bank_max_cap = 5000;
+

@@ -3,8 +3,8 @@
   "%Name":"То что нужно сделать",
   "name":"То что нужно сделать",
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"obrashenie",
+    "path":"folders/obrashenie.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

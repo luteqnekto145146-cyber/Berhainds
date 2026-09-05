@@ -3,8 +3,8 @@
   "%Name":"СРОЧНОЕ СООЮБЩЕНИЕ",
   "name":"СРОЧНОЕ СООЮБЩЕНИЕ",
   "parent":{
-    "name":"BERHAIND",
-    "path":"BERHAIND.yyp",
+    "name":"obrashenie",
+    "path":"folders/obrashenie.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",
