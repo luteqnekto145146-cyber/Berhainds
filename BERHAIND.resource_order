@@ -1,6 +1,5 @@
 {
   "FolderOrderSettings":[
-    {"name":"MITROPHAN","order":39,"path":"folders/MITROPHAN.yy",},
     {"name":"igra","order":1,"path":"folders/igra.yy",},
     {"name":"cozidateli","order":3,"path":"folders/igra/cozidateli.yy",},
     {"name":"levalazar","order":1,"path":"folders/igra/cozidateli/levalazar.yy",},
@@ -45,6 +44,7 @@
     {"name":"muz","order":5,"path":"folders/igra/muz.yy",},
     {"name":"tielsets","order":4,"path":"folders/igra/tielsets.yy",},
     {"name":"laboratory","order":38,"path":"folders/laboratory.yy",},
+    {"name":"MITROPHAN","order":39,"path":"folders/MITROPHAN.yy",},
     {"name":"obrashenie","order":2,"path":"folders/obrashenie.yy",},
     {"name":"soobshenie","order":3,"path":"folders/obrashenie/soobshenie.yy",},
     {"name":"переименновать!!!","order":2,"path":"folders/obrashenie/переименновать!!!.yy",},
@@ -155,6 +155,7 @@
     {"name":"i_dunno","order":8,"path":"sounds/i_dunno/i_dunno.yy",},
     {"name":"idk","order":7,"path":"sounds/idk/idk.yy",},
     {"name":"idonteknowe","order":5,"path":"sounds/idonteknowe/idonteknowe.yy",},
+    {"name":"laboratory_abandoned","order":6,"path":"sounds/laboratory_abandoned/laboratory_abandoned.yy",},
     {"name":"laboratory","order":5,"path":"sounds/laboratory/laboratory.yy",},
     {"name":"revolver_shot","order":1,"path":"sounds/revolver_shot/revolver_shot.yy",},
     {"name":"snd_angel_ttt_sahur","order":4,"path":"sounds/snd_angel_ttt_sahur/snd_angel_ttt_sahur.yy",},

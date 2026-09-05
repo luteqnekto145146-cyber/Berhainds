@@ -10,7 +10,6 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"MITROPHAN","folderPath":"folders/MITROPHAN.yy","name":"MITROPHAN","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"igra","folderPath":"folders/igra.yy","name":"igra","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"cozidateli","folderPath":"folders/igra/cozidateli.yy","name":"cozidateli","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"levalazar","folderPath":"folders/igra/cozidateli/levalazar.yy","name":"levalazar","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -77,6 +76,7 @@
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/igra/tielsets/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"tielsetes","folderPath":"folders/igra/tielsets/tielsetes.yy","name":"tielsetes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"laboratory","folderPath":"folders/laboratory.yy","name":"laboratory","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"MITROPHAN","folderPath":"folders/MITROPHAN.yy","name":"MITROPHAN","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"obrashenie","folderPath":"folders/obrashenie.yy","name":"obrashenie","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"soobshenie","folderPath":"folders/obrashenie/soobshenie.yy","name":"soobshenie","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"переименновать!!!","folderPath":"folders/obrashenie/переименновать!!!.yy","name":"переименновать!!!","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -226,6 +226,7 @@
     {"id":{"name":"i_dunno","path":"sounds/i_dunno/i_dunno.yy",},},
     {"id":{"name":"idk","path":"sounds/idk/idk.yy",},},
     {"id":{"name":"idonteknowe","path":"sounds/idonteknowe/idonteknowe.yy",},},
+    {"id":{"name":"laboratory_abandoned","path":"sounds/laboratory_abandoned/laboratory_abandoned.yy",},},
     {"id":{"name":"laboratory","path":"sounds/laboratory/laboratory.yy",},},
     {"id":{"name":"revolver_shot","path":"sounds/revolver_shot/revolver_shot.yy",},},
     {"id":{"name":"snd_angel_ttt_sahur","path":"sounds/snd_angel_ttt_sahur/snd_angel_ttt_sahur.yy",},},
