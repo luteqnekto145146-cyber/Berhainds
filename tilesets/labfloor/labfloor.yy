@@ -1,16 +1,21 @@
 {
   "$GMTileSet":"v1",
   "%Name":"labfloor",
-  "autoTileSets":[],
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+      ],},
+  ],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":28,
+    "SerialiseWidth":21,
+    "TileCompressedData":[-522,0,3,1,2,1879048195,-63,0,],
+    "TileDataFormat":1,
   },
   "name":"labfloor",
-  "out_columns":8,
-  "out_tilehborder":2,
-  "out_tilevborder":2,
+  "out_columns":2,
+  "out_tilehborder":0,
+  "out_tilevborder":0,
   "parent":{
     "name":"laboratory",
     "path":"folders/laboratory.yy",
@@ -18,8 +23,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_pol_labaratorii",
-    "path":"sprites/spr_pol_labaratorii/spr_pol_labaratorii.yy",
+    "name":"spr_pol_labaratorii_1",
+    "path":"sprites/spr_pol_labaratorii_1/spr_pol_labaratorii_1.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -28,11 +33,11 @@
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,
-  "tileHeight":8,
+  "tileHeight":16,
   "tilehsep":0,
   "tilevsep":0,
-  "tileWidth":8,
+  "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":64,
+  "tile_count":4,
 }

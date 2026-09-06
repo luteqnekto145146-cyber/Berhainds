@@ -53,6 +53,9 @@
     "name":"spr_terrei_idet_na_nas",
     "path":"sprites/spr_terrei_idet_na_nas/spr_terrei_idet_na_nas.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_terrei_idet_na_nas",
+    "path":"sprites/spr_terrei_idet_na_nas/spr_terrei_idet_na_nas.yy",
+  },
   "visible":true,
 }
