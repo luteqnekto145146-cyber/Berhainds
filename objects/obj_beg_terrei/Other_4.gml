@@ -33,3 +33,22 @@ if (room == r_doroga) {
     // 4. Сжимаем холст пикселей строго для этого уровня
     surface_resize(application_surface, 640, 360);
 }
+if (room == lab_room) {
+    
+    view_enabled = true;
+    view_set_visible(0, true);
+
+    // 1. Устанавливаем размер камеры для этой комнаты
+    camera_set_view_size(view_camera, 640, 360);
+
+    // 2. Сжимаем порт, чтобы вернуть персонажу нормальный рост
+    view_set_wport(0, 640);
+    view_set_hport(0, 360);
+
+    // 3. Камера центрируется на герое
+    camera_set_view_target(view_camera, id);
+    camera_set_view_border(view_camera, 320, 180); 
+    
+    // 4. Сжимаем холст пикселей строго для этого уровня
+    surface_resize(application_surface, 640, 360);
+}
