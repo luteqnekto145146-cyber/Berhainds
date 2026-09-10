@@ -29,6 +29,7 @@
     {"name":"inst_4A424AC9","path":"rooms/r_doroga/r_doroga.yy",},
     {"name":"inst_6A103B6B","path":"rooms/r_doroga/r_doroga.yy",},
     {"name":"inst_7E81D2C4","path":"rooms/r_doroga/r_doroga.yy",},
+    {"name":"inst_453AF268","path":"rooms/r_doroga/r_doroga.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -56,6 +57,7 @@
         {"$GMRInstance":"v4","%Name":"inst_4A424AC9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4A424AC9","objectId":{"name":"Obj_loot_spawner","path":"objects/Obj_loot_spawner/Obj_loot_spawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":512.0,},
         {"$GMRInstance":"v4","%Name":"inst_6A103B6B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A103B6B","objectId":{"name":"Obj_loot_spawner","path":"objects/Obj_loot_spawner/Obj_loot_spawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":512.0,},
         {"$GMRInstance":"v4","%Name":"inst_7E81D2C4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7E81D2C4","objectId":{"name":"obj_atm","path":"objects/obj_atm/obj_atm.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":512.0,},
+        {"$GMRInstance":"v4","%Name":"inst_453AF268","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_453AF268","objectId":{"name":"obj_arkade_atm","path":"objects/obj_arkade_atm/obj_arkade_atm.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":512.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_2","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_194175FD","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_194175FD","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":7.0,"scaleY":7.0,"spriteId":{"name":"Sprite72","path":"sprites/Sprite72/Sprite72.yy",},"x":0.0,"y":32.0,},
