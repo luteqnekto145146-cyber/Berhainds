@@ -240,6 +240,7 @@
     {"name":"Spr_small_blood","order":16,"path":"sprites/Spr_small_blood/Spr_small_blood.yy",},
     {"name":"spr_small_sapfir_suriken","order":1,"path":"sprites/spr_small_sapfir_suriken/spr_small_sapfir_suriken.yy",},
     {"name":"spr_splach_atak","order":7,"path":"sprites/spr_splach_atak/spr_splach_atak.yy",},
+    {"name":"spr_starodum_v_praime","order":42,"path":"sprites/spr_starodum_v_praime/spr_starodum_v_praime.yy",},
     {"name":"spr_STOL_LAB_v2","order":13,"path":"sprites/spr_STOL_LAB_v2/spr_STOL_LAB_v2.yy",},
     {"name":"spr_strash_mosta_v_levo","order":50,"path":"sprites/spr_strash_mosta_v_levo/spr_strash_mosta_v_levo.yy",},
     {"name":"spr_strash_mosta_v_pravo","order":51,"path":"sprites/spr_strash_mosta_v_pravo/spr_strash_mosta_v_pravo.yy",},

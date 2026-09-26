@@ -379,6 +379,7 @@
     {"id":{"name":"Spr_small_blood","path":"sprites/Spr_small_blood/Spr_small_blood.yy",},},
     {"id":{"name":"spr_small_sapfir_suriken","path":"sprites/spr_small_sapfir_suriken/spr_small_sapfir_suriken.yy",},},
     {"id":{"name":"spr_splach_atak","path":"sprites/spr_splach_atak/spr_splach_atak.yy",},},
+    {"id":{"name":"spr_starodum_v_praime","path":"sprites/spr_starodum_v_praime/spr_starodum_v_praime.yy",},},
     {"id":{"name":"spr_STOL_LAB_v2","path":"sprites/spr_STOL_LAB_v2/spr_STOL_LAB_v2.yy",},},
     {"id":{"name":"spr_strash_mosta_v_levo","path":"sprites/spr_strash_mosta_v_levo/spr_strash_mosta_v_levo.yy",},},
     {"id":{"name":"spr_strash_mosta_v_pravo","path":"sprites/spr_strash_mosta_v_pravo/spr_strash_mosta_v_pravo.yy",},},
