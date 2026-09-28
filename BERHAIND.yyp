@@ -255,7 +255,11 @@
     {"id":{"name":"untitle2d","path":"sounds/untitle2d/untitle2d.yy",},},
     {"id":{"name":"_017LIK_palatKA_SVYATOI","path":"sprites/_017LIK_palatKA_SVYATOI/_017LIK_palatKA_SVYATOI.yy",},},
     {"id":{"name":"backeryn","path":"sprites/backeryn/backeryn.yy",},},
+<<<<<<< HEAD
+    {"id":{"name":"BAOBAB","path":"sprites/BAOBAB/BAOBAB.yy",},},
+=======
     {"id":{"name":"bean","path":"sprites/bean/bean.yy",},},
+>>>>>>> 7ac37981e63f4272b37d8dac0c3f1a65418ae384
     {"id":{"name":"bred_payk_ya_neznay","path":"sprites/bred_payk_ya_neznay/bred_payk_ya_neznay.yy",},},
     {"id":{"name":"bred_stol","path":"sprites/bred_stol/bred_stol.yy",},},
     {"id":{"name":"breid","path":"sprites/breid/breid.yy",},},
@@ -263,6 +267,7 @@
     {"id":{"name":"gold","path":"sprites/gold/gold.yy",},},
     {"id":{"name":"green_perdu","path":"sprites/green_perdu/green_perdu.yy",},},
     {"id":{"name":"hitbox_terrei_tun","path":"sprites/hitbox_terrei_tun/hitbox_terrei_tun.yy",},},
+    {"id":{"name":"IDKWTH","path":"sprites/IDKWTH/IDKWTH.yy",},},
     {"id":{"name":"lab_wall","path":"sprites/lab_wall/lab_wall.yy",},},
     {"id":{"name":"obosrish_truba","path":"sprites/obosrish_truba/obosrish_truba.yy",},},
     {"id":{"name":"OY_BLYAAAAAAAAAAAAAAAAAA","path":"sprites/OY_BLYAAAAAAAAAAAAAAAAAA/OY_BLYAAAAAAAAAAAAAAAAAA.yy",},},
@@ -465,7 +470,6 @@
     {"id":{"name":"Sprite214","path":"sprites/Sprite214/Sprite214.yy",},},
     {"id":{"name":"Sprite215","path":"sprites/Sprite215/Sprite215.yy",},},
     {"id":{"name":"Sprite216","path":"sprites/Sprite216/Sprite216.yy",},},
-    {"id":{"name":"Sprite217","path":"sprites/Sprite217/Sprite217.yy",},},
     {"id":{"name":"Sprite229","path":"sprites/Sprite229/Sprite229.yy",},},
     {"id":{"name":"Sprite230","path":"sprites/Sprite230/Sprite230.yy",},},
     {"id":{"name":"Sprite29","path":"sprites/Sprite29/Sprite29.yy",},},
